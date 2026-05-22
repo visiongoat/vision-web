@@ -22,6 +22,25 @@ Allow: /
 User-agent: Applebot
 Allow: /
 
+# Social-media preview crawlers (for OG/Twitter cards)
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: Slackbot
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
 # AI training crawlers — opt out
 User-agent: GPTBot
 Disallow: /
@@ -51,3 +70,9 @@ User-agent: meta-externalagent
 Disallow: /
 
 Sitemap: https://visiongo.at/sitemap.xml
+
+# Blog RSS feed
+# https://visiongo.at/blog/feed.xml
+
+# Security disclosure
+# https://visiongo.at/.well-known/security.txt

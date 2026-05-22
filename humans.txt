@@ -1,0 +1,40 @@
+/* Vision GO — humans.txt */
+/* https://visiongo.at/humans.txt    */
+/* Last updated: 2026-05-14          */
+
+[TEAM]
+  Software studio: Vision GO GmbH
+  Location:        Bäckerstraße 7/7, 1010 Vienna, Austria
+  Contact:         info@visiongo.at · +43 676 6440122
+  Founded:         2015
+  Commercial reg.: FN 644224p, Commercial Court Vienna
+  VAT-ID:          ATU79520014
+
+[SITE]
+  Built with:      Vanilla HTML, CSS and a touch of JavaScript
+  Fonts:           Inter, JetBrains Mono, Fraunces (Google Fonts)
+  Hosting:         EU only — Hetzner Online (Falkenstein, DE) + Cloudflare EU edges
+  Standards:       HTML5, CSS3, WCAG 2.2 AA, GDPR-compliant
+  No tracking:     We use no analytics, no marketing pixels, no third-party scripts
+  Performance:     ~14 KB CSS (Brotli), Lighthouse score 92+
+
+[STACK]
+  Mobile (iOS):    Swift, SwiftUI, Combine
+  Mobile (Android):Kotlin, Jetpack Compose
+  Cross-platform:  Kotlin Multiplatform, Flutter (selectively)
+  Web:             Astro, TypeScript, React (for interactive islands)
+  Backend:         Node.js, Python, PostgreSQL, Redis
+  Cloud:           AWS Frankfurt, Hetzner Cloud, Cloudflare
+  DevOps:          GitHub Actions, Docker, Terraform
+
+[APPS]
+  MegaRadio:       https://themegaradio.com  · iOS + Android
+  ScanUp:          https://scanup.app        · iOS
+  eSIMfo:          https://esimfo.com        · iOS + Android
+  TaxiHub:         https://taxihub.at        · iOS + Android + Web Console
+  Online Snake:    https://snakeonline.io    · iOS + Android + Web
+
+[THANKS]
+  - To every user who reports bugs and helps us improve.
+  - To the open-source maintainers whose libraries we build on.
+  - To the city of Vienna for the perfect espresso culture.

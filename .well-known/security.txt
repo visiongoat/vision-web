@@ -1,0 +1,14 @@
+# Vision GO — Security contact (RFC 9116)
+# https://visiongo.at/.well-known/security.txt
+
+Contact: mailto:info@visiongo.at
+Contact: tel:+43-676-6440122
+Expires: 2027-12-31T23:59:00.000Z
+Preferred-Languages: de, en
+Canonical: https://visiongo.at/.well-known/security.txt
+Policy: https://visiongo.at/datenschutz.html
+
+# Responsible disclosure:
+# Please report security vulnerabilities to info@visiongo.at.
+# We will acknowledge receipt within 48 hours during EU business days
+# and provide a status update within 7 days.
