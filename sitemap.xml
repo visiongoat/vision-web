@@ -456,6 +456,24 @@
     <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/kontakt.html" />
   </url>
 
+  <!-- English legal pages -->
+  <url>
+    <loc>https://visiongo.at/en/privacy.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visiongo.at/en/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/datenschutz.html" />
+  </url>
+  <url>
+    <loc>https://visiongo.at/en/terms.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visiongo.at/en/terms.html" />
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/agb.html" />
+  </url>
+
   <!-- Release notes / Changelogs -->
   <url>
     <loc>https://visiongo.at/releases/megaradio.html</loc>

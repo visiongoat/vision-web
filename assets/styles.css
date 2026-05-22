@@ -261,6 +261,10 @@ a.link::after { content: ' ›'; }
 }
 .nav__brand-mark { width: 22px; height: 22px; }
 .nav__brand-mark svg { width: 100%; height: 100%; }
+.nav__brand-vision { color: var(--link); font-weight: 600; }
+.nav__brand-go { color: var(--ink); font-weight: 600; }
+.nav--dark .nav__brand-go,
+.nav.nav--dark .nav__brand-go { color: #fff; }
 
 .nav__links { display: flex; gap: var(--space-7); align-items: center; }
 .nav__link {
@@ -974,7 +978,7 @@ a.link::after { content: ' ›'; }
 .footer__brand-mark { font-family: var(--font-display); font-size: 1.125rem; font-weight: 500; letter-spacing: -0.02em; }
 .footer__brand-desc { font-size: 0.8125rem; color: var(--ink-muted); line-height: 1.5; }
 .footer__brand-address { font-size: 12px; color: var(--ink-muted); line-height: 1.7; font-style: normal; margin-top: var(--space-3); }
-.footer__col h4 { font-size: 12px; font-weight: 600; color: var(--ink); letter-spacing: -0.005em; margin-bottom: var(--space-3); }
+.footer__col h3, .footer__col h4 { font-size: 12px; font-weight: 600; color: var(--ink); letter-spacing: -0.005em; margin-bottom: var(--space-3); }
 .footer__col ul { display: flex; flex-direction: column; gap: var(--space-2); }
 .footer__col a { color: var(--ink-muted); font-size: 12px; transition: color var(--dur-1) var(--ease); }
 .footer__col a:hover { color: var(--ink); }
@@ -1895,12 +1899,12 @@ html, body { overflow-x: hidden; max-width: 100%; }
 }
 @media (max-width: 880px) { .roadmap { grid-template-columns: 1fr; } }
 
-.roadmap-col h3 {
+.roadmap-col h3, .roadmap-col__title {
   font-size: 14px;
   font-weight: 600;
   color: var(--ink-soft);
   letter-spacing: -0.005em;
-  margin-bottom: 16px;
+  margin: 0 0 16px 0;
   padding-bottom: 12px;
   border-bottom: 1px solid var(--line);
   display: flex;
@@ -2084,7 +2088,7 @@ html, body { overflow-x: hidden; max-width: 100%; }
 .release__summary { color: var(--ink-mid); line-height: 1.6; }
 .release__lists { display: grid; gap: var(--space-4); margin-top: var(--space-2); }
 .release__list { display: grid; gap: 6px; }
-.release__list h4 {
+.release__list h3, .release__list h4 {
   font-size: 0.78rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;

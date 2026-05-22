@@ -134,7 +134,7 @@
 
 <header class="nav">
   <div class="container nav__inner">
-    <a href="/" class="nav__brand"><span class="nav__brand-mark"><img src="/assets/logo.svg" alt=""/></span><span>Vision&nbsp;GO</span></a>
+    <a href="/" class="nav__brand" aria-label="Vision GO — Startseite"><span class="nav__brand-vision">Vision</span>&nbsp;<span class="nav__brand-go">GO</span></a>
     <nav class="nav__links">
       <a class="nav__link" href="/">Studio</a>
       <a class="nav__link" href="/leistungen.html">Leistungen</a>
@@ -169,22 +169,20 @@
       <div class="changelog reveal">
         <article class="release">
           <header class="release__head">
-            <span class="release__version">v4.1.0</span>
+            <h2 class="release__version">v4.1.0</h2>
             <span class="release__tag release__tag--minor">Update</span>
             <time class="release__date" datetime="2026-04-18">2026-04-18</time>
           </header>
           <p class="release__summary">Live-ETA mit Verkehrsdaten und neuer Fahrer-Heatmap.</p>
           <div class="release__lists">
-            <div class="release__list">
-              <h4>Neu</h4>
+            <div class="release__list"><h3>Neu</h3>
               <ul>
               <li>ETA-Berechnung berücksichtigt Echtzeit-Verkehrsdaten (Wien Straße/U-Bahn)</li>
               <li>Heatmap für Fahrer: wo wird gerade am meisten bestellt</li>
               <li>Fahrgast-App: Karten-Stil 'Nacht' für späte Fahrten</li>
               </ul>
             </div>
-            <div class="release__list release__list--fix">
-              <h4>Korrigiert</h4>
+            <div class="release__list release__list--fix"><h3>Korrigiert</h3>
               <ul>
               <li>Tip-Eingabe sprang gelegentlich auf 0 zurück</li>
               </ul>
@@ -193,21 +191,19 @@
         </article>
         <article class="release">
           <header class="release__head">
-            <span class="release__version">v4.0.0</span>
+            <h2 class="release__version">v4.0.0</h2>
             <span class="release__tag release__tag--major">Major Release</span>
             <time class="release__date" datetime="2026-02-01">2026-02-01</time>
           </header>
           <p class="release__summary">Komplett neue Disponenten-Oberfläche und API v4.</p>
           <div class="release__lists">
-            <div class="release__list">
-              <h4>Neu</h4>
+            <div class="release__list"><h3>Neu</h3>
               <ul>
               <li>Disponenten-Konsole mit Drag-and-Drop für Auftrags-Zuweisung</li>
               <li>Webhooks für Buchhaltung (LexOffice, sevDesk, BMD)</li>
               </ul>
             </div>
-            <div class="release__list release__list--break">
-              <h4>Breaking Changes</h4>
+            <div class="release__list release__list--break"><h3>Breaking Changes</h3>
               <ul>
               <li>API v3 läuft am 1. Juli 2026 aus — Migrationsleitfaden in den Docs</li>
               </ul>
@@ -216,14 +212,13 @@
         </article>
         <article class="release">
           <header class="release__head">
-            <span class="release__version">v3.4.0</span>
+            <h2 class="release__version">v3.4.0</h2>
             <span class="release__tag release__tag--minor">Update</span>
             <time class="release__date" datetime="2025-11-20">2025-11-20</time>
           </header>
           <p class="release__summary">Stripe Connect-Integration für direkte Fahrer-Auszahlungen.</p>
           <div class="release__lists">
-            <div class="release__list">
-              <h4>Neu</h4>
+            <div class="release__list"><h3>Neu</h3>
               <ul>
               <li>Wöchentliche Auszahlungen direkt aufs Fahrer-Konto</li>
               <li>Tagesabschluss-PDF automatisch per E-Mail</li>
@@ -233,14 +228,13 @@
         </article>
         <article class="release">
           <header class="release__head">
-            <span class="release__version">v3.0.0</span>
+            <h2 class="release__version">v3.0.0</h2>
             <span class="release__tag release__tag--major">Major Release</span>
             <time class="release__date" datetime="2025-06-04">2025-06-04</time>
           </header>
           <p class="release__summary">Migration auf Kotlin Multiplatform für die Fahrer-App.</p>
           <div class="release__lists">
-            <div class="release__list">
-              <h4>Neu</h4>
+            <div class="release__list"><h3>Neu</h3>
               <ul>
               <li>Geteilte Geschäftslogik zwischen iOS und Android</li>
               <li>Offline-Modus: letzte 24 Stunden Aufträge bleiben verfügbar</li>
@@ -250,14 +244,13 @@
         </article>
         <article class="release">
           <header class="release__head">
-            <span class="release__version">v1.0.0</span>
+            <h2 class="release__version">v1.0.0</h2>
             <span class="release__tag release__tag--major">Major Release</span>
             <time class="release__date" datetime="2023-04-15">2023-04-15</time>
           </header>
           <p class="release__summary">Launch mit 8 Wiener Taxi-Unternehmen.</p>
           <div class="release__lists">
-            <div class="release__list">
-              <h4>Neu</h4>
+            <div class="release__list"><h3>Neu</h3>
               <ul>
               <li>Fahrer-App, Disponenten-Konsole, REST-API für Drittsysteme</li>
               </ul>
@@ -293,13 +286,13 @@
     <div class="footer__top">
       <div class="footer__grid">
         <div class="footer__brand">
-          <div class="footer__brand-mark">Vision GO</div>
+          <div class="footer__brand-mark"><span style="color:#0066CC">Vision</span> GO</div>
           <div class="footer__brand-desc">Ihr Partner für digitale Transformation und innovative IT-Lösungen.</div>
           <address class="footer__brand-address">Vision GO GmbH<br/>Bäckerstraße 7/7<br/>1010 Wien · Österreich<br/><br/>Tel: <a href="tel:+436766440122" style="color:var(--ink-soft)">+43 676 6440122</a><br/><a href="mailto:info@visiongo.at" style="color:var(--ink-soft)">info@visiongo.at</a></address>
         </div>
-        <div class="footer__col"><h4>Studio</h4><ul><li><a href="/leistungen.html">Leistungen</a></li><li><a href="/projekte.html">Arbeiten</a></li><li><a href="/ueber-uns.html">Über uns</a></li><li><a href="/karriere.html">Karriere</a></li><li><a href="/kontakt.html">Kontakt</a></li></ul></div>
-        <div class="footer__col"><h4>Apps</h4><ul><li><a href="/projekte/megaradio.html">MegaRadio</a></li><li><a href="/projekte/scanup.html">ScanUp</a></li><li><a href="/projekte/esimfo.html">eSIMfo</a></li><li><a href="/projekte/taxihub.html">TaxiHub</a></li><li><a href="/projekte/snake-online.html">Online Snake</a></li></ul></div>
-        <div class="footer__col"><h4>Releases</h4><ul><li><a href="/releases/megaradio.html">MegaRadio</a></li><li><a href="/releases/scanup.html">ScanUp</a></li><li><a href="/releases/esimfo.html">eSIMfo</a></li><li><a href="/releases/taxihub.html">TaxiHub</a></li><li><a href="/releases/snake-online.html">Online Snake</a></li></ul></div>
+        <div class="footer__col"><h3>Studio</h3><ul><li><a href="/leistungen.html">Leistungen</a></li><li><a href="/projekte.html">Arbeiten</a></li><li><a href="/ueber-uns.html">Über uns</a></li><li><a href="/karriere.html">Karriere</a></li><li><a href="/kontakt.html">Kontakt</a></li></ul></div>
+        <div class="footer__col"><h3>Apps</h3><ul><li><a href="/projekte/megaradio.html">MegaRadio</a></li><li><a href="/projekte/scanup.html">ScanUp</a></li><li><a href="/projekte/esimfo.html">eSIMfo</a></li><li><a href="/projekte/taxihub.html">TaxiHub</a></li><li><a href="/projekte/snake-online.html">Online Snake</a></li></ul></div>
+        <div class="footer__col"><h3>Releases</h3><ul><li><a href="/releases/megaradio.html">MegaRadio</a></li><li><a href="/releases/scanup.html">ScanUp</a></li><li><a href="/releases/esimfo.html">eSIMfo</a></li><li><a href="/releases/taxihub.html">TaxiHub</a></li><li><a href="/releases/snake-online.html">Online Snake</a></li></ul></div>
       </div>
     </div>
     <div class="footer__bottom">

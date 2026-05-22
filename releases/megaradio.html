@@ -134,7 +134,7 @@
 
 <header class="nav">
   <div class="container nav__inner">
-    <a href="/" class="nav__brand"><span class="nav__brand-mark"><img src="/assets/logo.svg" alt=""/></span><span>Vision&nbsp;GO</span></a>
+    <a href="/" class="nav__brand" aria-label="Vision GO — Startseite"><span class="nav__brand-vision">Vision</span>&nbsp;<span class="nav__brand-go">GO</span></a>
     <nav class="nav__links">
       <a class="nav__link" href="/">Studio</a>
       <a class="nav__link" href="/leistungen.html">Leistungen</a>
@@ -169,28 +169,25 @@
       <div class="changelog reveal">
         <article class="release">
           <header class="release__head">
-            <span class="release__version">v1.0.69</span>
+            <h2 class="release__version">v1.0.69</h2>
             <span class="release__tag release__tag--minor">Update</span>
             <time class="release__date" datetime="2026-04-22">2026-04-22</time>
           </header>
           <p class="release__summary">AirPlay 2-Verbesserungen und eine vollständig überarbeitete Suche.</p>
           <div class="release__lists">
-            <div class="release__list">
-              <h4>Neu</h4>
+            <div class="release__list"><h3>Neu</h3>
               <ul>
               <li>Neue Suche mit Sofort-Vorschau (Tippen → Stream startet ohne Klick auf 'Abspielen')</li>
               <li>Mehrsprachige Sender-Beschreibungen (DE, EN, TR, ES, FR)</li>
               <li>Sleep-Timer mit Auto-Fade über die letzten 30 Sekunden</li>
               </ul>
             </div>
-            <div class="release__list">
-              <h4>Geändert</h4>
+            <div class="release__list"><h3>Geändert</h3>
               <ul>
               <li>EQ-Presets reduziert auf 6 sinnvolle Profile statt 16</li>
               </ul>
             </div>
-            <div class="release__list release__list--fix">
-              <h4>Korrigiert</h4>
+            <div class="release__list release__list--fix"><h3>Korrigiert</h3>
               <ul>
               <li>AirPlay 2: Stream brach gelegentlich nach Stunden ab (Wakelock-Issue)</li>
               <li>Now-Playing-Widget zeigte falsches Cover nach Senderwechsel</li>
@@ -200,21 +197,19 @@
         </article>
         <article class="release">
           <header class="release__head">
-            <span class="release__version">v1.0.62</span>
+            <h2 class="release__version">v1.0.62</h2>
             <span class="release__tag release__tag--minor">Update</span>
             <time class="release__date" datetime="2026-02-08">2026-02-08</time>
           </header>
           <p class="release__summary">CarPlay-Modus und automatische Sender-Vorschläge.</p>
           <div class="release__lists">
-            <div class="release__list">
-              <h4>Neu</h4>
+            <div class="release__list"><h3>Neu</h3>
               <ul>
               <li>CarPlay: Eigene Lane mit Lieblings-Sendern, große Touch-Ziele</li>
               <li>Vorschläge auf Basis Ihres Hörverhaltens (nur lokal, kein Tracking)</li>
               </ul>
             </div>
-            <div class="release__list release__list--fix">
-              <h4>Korrigiert</h4>
+            <div class="release__list release__list--fix"><h3>Korrigiert</h3>
               <ul>
               <li>Bluetooth-Headset: Pause-Button löste manchmal Sender-Sprung aus</li>
               </ul>
@@ -223,28 +218,25 @@
         </article>
         <article class="release">
           <header class="release__head">
-            <span class="release__version">v1.0.51</span>
+            <h2 class="release__version">v1.0.51</h2>
             <span class="release__tag release__tag--major">Major Release</span>
             <time class="release__date" datetime="2025-12-04">2025-12-04</time>
           </header>
           <p class="release__summary">Komplett neue Engine — geringerer Akku-Verbrauch, schnellere Starts.</p>
           <div class="release__lists">
-            <div class="release__list">
-              <h4>Neu</h4>
+            <div class="release__list"><h3>Neu</h3>
               <ul>
               <li>Neue Audio-Engine auf AVAudioEngine-Basis (zuvor AVPlayer)</li>
               <li>Hintergrund-Wiedergabe mit signifikant niedrigerem CPU-Profil</li>
               <li>Offline-Cache für die zuletzt 20 abgespielten Sender</li>
               </ul>
             </div>
-            <div class="release__list release__list--fix">
-              <h4>Korrigiert</h4>
+            <div class="release__list release__list--fix"><h3>Korrigiert</h3>
               <ul>
               <li>Stations-Logos luden bei langsamen Verbindungen zu spät</li>
               </ul>
             </div>
-            <div class="release__list release__list--break">
-              <h4>Breaking Changes</h4>
+            <div class="release__list release__list--break"><h3>Breaking Changes</h3>
               <ul>
               <li>Mindestversion erhöht auf iOS 15.1 (zuvor iOS 14.0)</li>
               </ul>
@@ -253,21 +245,19 @@
         </article>
         <article class="release">
           <header class="release__head">
-            <span class="release__version">v1.0.42</span>
+            <h2 class="release__version">v1.0.42</h2>
             <span class="release__tag release__tag--minor">Update</span>
             <time class="release__date" datetime="2025-09-18">2025-09-18</time>
           </header>
           <p class="release__summary">Equalizer mit Echtzeit-Vorschau und neuer Sender-Katalog.</p>
           <div class="release__lists">
-            <div class="release__list">
-              <h4>Neu</h4>
+            <div class="release__list"><h3>Neu</h3>
               <ul>
               <li>10-Band-Equalizer mit benutzerdefinierten Profilen</li>
               <li>Sender-Katalog auf 110.000+ Stationen erweitert</li>
               </ul>
             </div>
-            <div class="release__list release__list--fix">
-              <h4>Korrigiert</h4>
+            <div class="release__list release__list--fix"><h3>Korrigiert</h3>
               <ul>
               <li>Listen-Scrolling stockte bei großen Favoriten-Listen (>500 Einträge)</li>
               </ul>
@@ -276,14 +266,13 @@
         </article>
         <article class="release">
           <header class="release__head">
-            <span class="release__version">v1.0.0</span>
+            <h2 class="release__version">v1.0.0</h2>
             <span class="release__tag release__tag--major">Major Release</span>
             <time class="release__date" datetime="2025-02-01">2025-02-01</time>
           </header>
           <p class="release__summary">Erstveröffentlichung im App Store und Google Play.</p>
           <div class="release__lists">
-            <div class="release__list">
-              <h4>Neu</h4>
+            <div class="release__list"><h3>Neu</h3>
               <ul>
               <li>Suchbares Verzeichnis von 100.000+ Internet-Radiostationen</li>
               <li>Favoriten, Verlauf, Sleep-Timer</li>
@@ -321,13 +310,13 @@
     <div class="footer__top">
       <div class="footer__grid">
         <div class="footer__brand">
-          <div class="footer__brand-mark">Vision GO</div>
+          <div class="footer__brand-mark"><span style="color:#0066CC">Vision</span> GO</div>
           <div class="footer__brand-desc">Ihr Partner für digitale Transformation und innovative IT-Lösungen.</div>
           <address class="footer__brand-address">Vision GO GmbH<br/>Bäckerstraße 7/7<br/>1010 Wien · Österreich<br/><br/>Tel: <a href="tel:+436766440122" style="color:var(--ink-soft)">+43 676 6440122</a><br/><a href="mailto:info@visiongo.at" style="color:var(--ink-soft)">info@visiongo.at</a></address>
         </div>
-        <div class="footer__col"><h4>Studio</h4><ul><li><a href="/leistungen.html">Leistungen</a></li><li><a href="/projekte.html">Arbeiten</a></li><li><a href="/ueber-uns.html">Über uns</a></li><li><a href="/karriere.html">Karriere</a></li><li><a href="/kontakt.html">Kontakt</a></li></ul></div>
-        <div class="footer__col"><h4>Apps</h4><ul><li><a href="/projekte/megaradio.html">MegaRadio</a></li><li><a href="/projekte/scanup.html">ScanUp</a></li><li><a href="/projekte/esimfo.html">eSIMfo</a></li><li><a href="/projekte/taxihub.html">TaxiHub</a></li><li><a href="/projekte/snake-online.html">Online Snake</a></li></ul></div>
-        <div class="footer__col"><h4>Releases</h4><ul><li><a href="/releases/megaradio.html">MegaRadio</a></li><li><a href="/releases/scanup.html">ScanUp</a></li><li><a href="/releases/esimfo.html">eSIMfo</a></li><li><a href="/releases/taxihub.html">TaxiHub</a></li><li><a href="/releases/snake-online.html">Online Snake</a></li></ul></div>
+        <div class="footer__col"><h3>Studio</h3><ul><li><a href="/leistungen.html">Leistungen</a></li><li><a href="/projekte.html">Arbeiten</a></li><li><a href="/ueber-uns.html">Über uns</a></li><li><a href="/karriere.html">Karriere</a></li><li><a href="/kontakt.html">Kontakt</a></li></ul></div>
+        <div class="footer__col"><h3>Apps</h3><ul><li><a href="/projekte/megaradio.html">MegaRadio</a></li><li><a href="/projekte/scanup.html">ScanUp</a></li><li><a href="/projekte/esimfo.html">eSIMfo</a></li><li><a href="/projekte/taxihub.html">TaxiHub</a></li><li><a href="/projekte/snake-online.html">Online Snake</a></li></ul></div>
+        <div class="footer__col"><h3>Releases</h3><ul><li><a href="/releases/megaradio.html">MegaRadio</a></li><li><a href="/releases/scanup.html">ScanUp</a></li><li><a href="/releases/esimfo.html">eSIMfo</a></li><li><a href="/releases/taxihub.html">TaxiHub</a></li><li><a href="/releases/snake-online.html">Online Snake</a></li></ul></div>
       </div>
     </div>
     <div class="footer__bottom">
