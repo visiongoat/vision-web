@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="de-AT">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>DSGVO-Protokollierung 2026 — Praxis aus 2 Audits · Vision GO</title>
+<meta name="description" content="DSGVO-konforme Audit-Logs in der Praxis: Vision GO teilt Erfahrungen aus zwei externen Datenschutz-Audits und konkrete Logging-Architekturen." />
+<meta name="keywords" content="DSGVO Audit Log, Compliance Logging, Datenschutzbeauftragter, Art. 30 DSGVO" />
+<meta name="author" content="Vision GO GmbH" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+<meta name="theme-color" content="#3F0808" />
+<link rel="canonical" href="https://visiongo.at/blog/dsgvo-protokollierung-best-practices-2026.html" />
+<link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/dsgvo-protokollierung-best-practices-2026.html" />
+<link rel="alternate" hreflang="x-default" href="https://visiongo.at/blog/dsgvo-protokollierung-best-practices-2026.html" />
+
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="de_AT" />
+<meta property="og:site_name" content="Vision GO Blog" />
+<meta property="og:url" content="https://visiongo.at/blog/dsgvo-protokollierung-best-practices-2026.html" />
+<meta property="og:title" content="DSGVO-Protokollierung 2026: Was wir aus zwei Audits gelernt haben" />
+<meta property="og:description" content="DSGVO-konforme Audit-Logs in der Praxis: Vision GO teilt Erfahrungen aus zwei externen Datenschutz-Audits und konkrete Logging-Architekturen." />
+<meta property="og:image" content="https://visiongo.at/assets/blog/post-dsgvo-protokollierung-best-practices-2026.svg" />
+<meta property="article:published_time" content="2026-05-13T09:00:00+02:00" />
+<meta property="article:modified_time" content="2026-05-13T09:00:00+02:00" />
+<meta property="article:section" content="IT-Sicherheit & Datenschutz" />
+<meta property="article:tag" content="DSGVO" />
+<meta property="article:tag" content="GDPR" />
+<meta property="article:tag" content="Audit" />
+<meta property="article:tag" content="Logging" />
+<meta property="article:tag" content="Compliance" />
+<meta property="article:author" content="Vision GO GmbH" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="DSGVO-Protokollierung 2026: Was wir aus zwei Audits gelernt haben" />
+<meta name="twitter:description" content="DSGVO-konforme Audit-Logs in der Praxis: Vision GO teilt Erfahrungen aus zwei externen Datenschutz-Audits und konkrete Logging-Architekturen." />
+<meta name="twitter:image" content="https://visiongo.at/assets/blog/post-dsgvo-protokollierung-best-practices-2026.svg" />
+
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+<link rel="alternate" type="application/rss+xml" title="Vision GO Blog" href="/blog/feed.xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Fraunces:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/assets/styles.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://visiongo.at/#organization",
+  "name": "Vision GO GmbH",
+  "url": "https://visiongo.at/",
+  "logo": "https://visiongo.at/assets/logo.svg",
+  "address": { "@type": "PostalAddress", "streetAddress": "Bäckerstraße 7/7", "addressLocality": "Wien", "postalCode": "1010", "addressCountry": "AT" },
+  "employee": [ { "@type": "Person", "name": "Muhammed Fatih Geyik", "jobTitle": "Head of IT" } ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://visiongo.at/blog/dsgvo-protokollierung-best-practices-2026.html#article",
+  "headline": "DSGVO-Protokollierung 2026: Was wir aus zwei Audits gelernt haben",
+  "alternativeHeadline": "Die meisten Apps protokollieren zu wenig — oder das Falsche. Hier sind die acht Felder, die jedes Logging-System haben muss.",
+  "description": "DSGVO-konforme Audit-Logs in der Praxis: Vision GO teilt Erfahrungen aus zwei externen Datenschutz-Audits und konkrete Logging-Architekturen.",
+  "datePublished": "2026-05-13",
+  "dateModified": "2026-05-13",
+  "author": {
+    "@id": "https://visiongo.at/#organization"
+  },
+  "publisher": {
+    "@id": "https://visiongo.at/#organization"
+  },
+  "mainEntityOfPage": "https://visiongo.at/blog/dsgvo-protokollierung-best-practices-2026.html",
+  "image": "https://visiongo.at/assets/blog/post-dsgvo-protokollierung-best-practices-2026.svg",
+  "inLanguage": "de-AT",
+  "articleSection": "IT-Sicherheit & Datenschutz",
+  "keywords": "DSGVO, GDPR, Audit, Logging, Compliance",
+  "wordCount": 276,
+  "timeRequired": "PT6M",
+  "url": "https://visiongo.at/blog/dsgvo-protokollierung-best-practices-2026.html"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Studio",
+      "item": "https://visiongo.at/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://visiongo.at/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "IT-Sicherheit & Datenschutz",
+      "item": "https://visiongo.at/blog/kategorie/it-sicherheit.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "DSGVO-Protokollierung 2026: Was wir aus zwei Audits gelernt haben",
+      "item": "https://visiongo.at/blog/dsgvo-protokollierung-best-practices-2026.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Reichen ELK / Loki Standard-Logs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nein. Sie müssen einen separaten, strukturierten Audit-Stream führen, der nach den DSGVO-Anforderungen (Art. 30) auswertbar ist."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie lange müssen Audit-Logs aufbewahrt werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hängt vom Sektor ab: 3 Jahre Standard, 7-10 Jahre in Finanz, je nach Behandlungspflicht in Gesundheit. Mit Rechtsabteilung klären."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Sollen IP-Adressen in Klartext gespeichert werden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nur kurzfristig (90 Tage). Danach anonymisieren (letztes Oktett bei IPv4, letzte 64 Bit bei IPv6 entfernen)."
+      }
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+
+<a href="#main" class="skip-link">Zum Inhalt springen</a>
+
+
+<header class="nav">
+  <div class="container nav__inner">
+    <a href="/" class="nav__brand"><span class="nav__brand-mark"><img src="/assets/logo.svg" alt=""/></span><span>Vision&nbsp;GO</span></a>
+    <nav class="nav__links">
+      <a class="nav__link" href="/">Studio</a>
+      <a class="nav__link" href="/leistungen.html">Leistungen</a>
+      <a class="nav__link" href="/projekte.html">Arbeiten</a>
+      <a class="nav__link" href="/ueber-uns.html">Über</a>
+      <a class="nav__link" href="/karriere.html">Karriere</a>
+      <a class="nav__link" href="/kontakt.html">Kontakt</a>
+    </nav>
+    <a href="/kontakt.html" class="nav__cta"><span class="nav__cta-dot"></span>Projekt starten</a>
+    <button class="nav__toggle" aria-label="Menü"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main" role="main">
+
+  <section class="article-hero">
+    <div class="container container--tight">
+      <p class="breadcrumb"><a href="/">Studio</a><span class="breadcrumb__sep">/</span><a href="/blog/">Blog</a><span class="breadcrumb__sep">/</span><a href="/blog/kategorie/it-sicherheit.html">IT-Sicherheit & Datenschutz</a></p>
+      <div class="article-hero__meta">
+        <span class="article-hero__cat">IT-Sicherheit & Datenschutz</span>
+        <span>·</span>
+        <time datetime="2026-05-13">13. Mai 2026</time>
+        <span>·</span>
+        <span>6 Min Lesezeit</span>
+      </div>
+      <h1 class="article-hero__title">DSGVO-Protokollierung 2026: Was wir aus zwei Audits gelernt haben</h1>
+      <p class="article-hero__sub">Die meisten Apps protokollieren zu wenig — oder das Falsche. Hier sind die acht Felder, die jedes Logging-System haben muss.</p>
+    </div>
+    <div class="container container--tight">
+      <div class="article-cover">
+        <img src="/assets/blog/post-dsgvo-protokollierung-best-practices-2026.svg" alt="DSGVO-Protokollierung 2026: Was wir aus zwei Audits gelernt haben"/>
+      </div>
+    </div>
+  </section>
+
+  <article class="article-body">
+        <h2>Warum Standard-Logs nicht reichen</h2>
+        <p>Nginx-Access-Logs und Application-Logs sind keine DSGVO-Logs. Sie sind technische Logs, gemischt mit PII, ohne klaren Aufbewahrungs-Lifecycle, und im Falle einer Datenschutz-Anfrage praktisch unbrauchbar.</p>
+        <p>Wir haben in zwei externen Audits diese Lektion teuer bezahlt — einmal bei einer Klinik-App, einmal bei einer Fintech-Plattform. Was funktioniert, ist ein separater Audit-Log-Strom, der strukturiert geschrieben wird, getrennt aufbewahrt wird und einer eigenen Retention-Policy folgt.</p>
+        <h2>Die acht Felder, die jedes DSGVO-Log haben muss</h2>
+        <ol>
+          <li><strong>timestamp</strong> in ISO-8601 mit Millisekunden und UTC-Offset. Klingt trivial, ist es nicht.</li>
+          <li><strong>actor</strong> (User-ID oder System-Actor) — keine Klartext-E-Mails.</li>
+          <li><strong>action</strong> als enum-Wert (CREATE, READ, UPDATE, DELETE, EXPORT, LOGIN).</li>
+          <li><strong>resource_type</strong> und <strong>resource_id</strong> separat.</li>
+          <li><strong>legal_basis</strong> nach DSGVO Art. 6 (Vertrag, Einwilligung, berechtigtes Interesse, …).</li>
+          <li><strong>data_categories</strong> als Liste (z. B. [„health_data”, „identity”]).</li>
+          <li><strong>ip_address</strong> separat protokolliert, nach 90 Tagen anonymisiert.</li>
+          <li><strong>request_id</strong> für Korrelation mit Application-Logs.</li>
+        </ol>
+        <h2>Was wir aus den Audits gelernt haben</h2>
+        <p><strong>Audit 1 — Klinikgruppe.</strong> Der Datenschutzbeauftragte hat uns gebeten, alle Zugriffe auf Patienten-Akten der letzten 6 Monate für einen einzelnen Patienten zu liefern. Mit unserem strukturierten Log: 12 Sekunden, ein SQL-Query. Ohne wäre es ein Wochenende Tika-Recherche gewesen.</p>
+        <p><strong>Audit 2 — Fintech.</strong> Hier ging es um Detektion von ungewöhnlichen Zugriffsmustern. Unser Log war zu fein granular — der Prüfer wollte eine Aggregations-Schicht sehen, die auffällige Pattern flagt. Das haben wir nachgebaut, mit Apache Flink-Streaming.</p>
+        <h2>Aufbewahrung &amp; Löschung</h2>
+        <p>Die meisten Auftraggeber haben keine klare Vorstellung, wie lange Audit-Logs aufbewahrt werden müssen. Die Antwort: kommt drauf an. Allgemeine DSGVO-Logs in der Regel 3 Jahre nach Ende der Verarbeitung, in der Finanzbranche auch 7-10 Jahre, in der Medizin abhängig von der Behandlungsdokumentations-Pflicht.</p>
+        <p>Wir legen sie immer separat ab — eigenes Schema, eigene Datenbank, eigene Replikation, eigene Backup-Strategie. Mischen mit Application-DB führt früher oder später zum Vorfall.</p>
+
+    <div class="author-card">
+      <div class="author-card__avatar">CD</div>
+      <div>
+        <div class="author-card__name">Compliance Desk</div>
+        <div class="author-card__role">Data-Protection-Team · DSGVO seit 2018</div>
+      </div>
+    </div>
+  </article>
+
+  <section class="faq-list">
+    <div class="article-body" style="padding-top:0; padding-bottom:0;">
+      <h3>Häufig gefragt</h3>
+      <details>
+        <summary>Reichen ELK / Loki Standard-Logs?</summary>
+        <p>Nein. Sie müssen einen separaten, strukturierten Audit-Stream führen, der nach den DSGVO-Anforderungen (Art. 30) auswertbar ist.</p>
+      </details>
+      <details>
+        <summary>Wie lange müssen Audit-Logs aufbewahrt werden?</summary>
+        <p>Hängt vom Sektor ab: 3 Jahre Standard, 7-10 Jahre in Finanz, je nach Behandlungspflicht in Gesundheit. Mit Rechtsabteilung klären.</p>
+      </details>
+      <details>
+        <summary>Sollen IP-Adressen in Klartext gespeichert werden?</summary>
+        <p>Nur kurzfristig (90 Tage). Danach anonymisieren (letztes Oktett bei IPv4, letzte 64 Bit bei IPv6 entfernen).</p>
+      </details>
+    </div>
+  </section>
+
+  <div class="article-footer">
+    <div class="article-tags"><span class="tag">DSGVO</span><span class="tag">GDPR</span><span class="tag">Audit</span><span class="tag">Logging</span><span class="tag">Compliance</span></div>
+    <div class="article-share">
+      <span>Teilen:</span>
+      <a href="https://twitter.com/intent/tweet?url=https://visiongo.at/blog/dsgvo-protokollierung-best-practices-2026.html&amp;text=DSGVO-Protokollierung 2026: Was wir aus zwei Audits gelernt haben" target="_blank" rel="noopener">X</a>
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://visiongo.at/blog/dsgvo-protokollierung-best-practices-2026.html" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:?subject=DSGVO-Protokollierung 2026: Was wir aus zwei Audits gelernt haben&amp;body=https://visiongo.at/blog/dsgvo-protokollierung-best-practices-2026.html">E-Mail</a>
+    </div>
+  </div>
+
+  <section class="related-posts">
+    <div class="container container--tight">
+      <header class="section-head" style="margin-bottom:var(--space-6);">
+        <h2 class="section-head__title">Auch <span class="accent">interessant</span>.</h2>
+        <a href="/blog/" class="section-head__link">Alle Artikel</a>
+      </header>
+      <div class="blog-grid">
+        <a class="post-card" href="/blog/claude-sonnet-46-im-produktiven-einsatz.html">
+          <div class="post-card__cover"><img src="/assets/blog/post-claude-sonnet-46-im-produktiven-einsatz.svg" alt="Claude Sonnet 4.6 im produktiven Einsatz: Was sich gegenüber 4.5 wirklich geändert hat" loading="lazy"/></div>
+          <div class="post-card__meta">
+            <span class="post-card__cat">KI & Machine Learning</span>
+            <span>·</span>
+            <span>7 Min</span>
+          </div>
+          <h3 class="post-card__title">Claude Sonnet 4.6 im produktiven Einsatz: Was sich gegenüber 4.5 wirklich geändert hat</h3>
+        </a>
+        <a class="post-card" href="/blog/swiftui-vs-jetpack-compose-2026.html">
+          <div class="post-card__cover"><img src="/assets/blog/post-swiftui-vs-jetpack-compose-2026.svg" alt="SwiftUI vs. Jetpack Compose 2026: Was wir nach 12 produktiven Apps gelernt haben" loading="lazy"/></div>
+          <div class="post-card__meta">
+            <span class="post-card__cat">App-Entwicklung</span>
+            <span>·</span>
+            <span>9 Min</span>
+          </div>
+          <h3 class="post-card__title">SwiftUI vs. Jetpack Compose 2026: Was wir nach 12 produktiven Apps gelernt haben</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__brand-mark">Vision GO</div>
+          <div class="footer__brand-desc">Ihr Partner für digitale Transformation und innovative IT-Lösungen.</div>
+          <address class="footer__brand-address">Vision GO GmbH<br/>Bäckerstraße 7/7<br/>1010 Wien · Österreich<br/><br/>Tel: <a href="tel:+436766440122" style="color:var(--ink-soft)">+43 676 6440122</a><br/><a href="mailto:info@visiongo.at" style="color:var(--ink-soft)">info@visiongo.at</a></address>
+        </div>
+        <div class="footer__col"><h4>Studio</h4><ul><li><a href="/leistungen.html">Leistungen</a></li><li><a href="/projekte.html">Arbeiten</a></li><li><a href="/ueber-uns.html">Über uns</a></li><li><a href="/karriere.html">Karriere</a></li><li><a href="/kontakt.html">Kontakt</a></li></ul></div>
+        <div class="footer__col"><h4>Apps</h4><ul><li><a href="/projekte/megaradio.html">MegaRadio</a></li><li><a href="/projekte/scanup.html">ScanUp</a></li><li><a href="/projekte/esimfo.html">eSIMfo</a></li><li><a href="/projekte/taxihub.html">TaxiHub</a></li><li><a href="/projekte/snake-online.html">Online Snake</a></li></ul></div>
+        <div class="footer__col"><h4>Lesen</h4><ul><li><a href="/blog/">Blog</a></li><li><a href="/blog/feed.xml">RSS</a></li></ul></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span data-year>2026</span> Vision GO GmbH · FN 644224p · Handelsgericht Wien</span>
+      <nav class="footer__legal"><a href="/impressum.html">Impressum</a><a href="/datenschutz.html">Datenschutz</a><a href="/sitemap.xml">Sitemap</a></nav>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/script.js" defer></script>
+
+<div class="consent" role="dialog" aria-label="Cookie-Hinweis">
+  <div class="consent__title">Wir verzichten auf Tracking.</div>
+  <p class="consent__body">Diese Seite setzt keine Marketing- oder Analyse-Cookies. Wir speichern ausschließlich eine kleine Einstellung lokal in Ihrem Browser, damit dieser Hinweis nicht erneut erscheint. Mehr in unserer <a href="/datenschutz.html" style="color:var(--link);">Datenschutzerklärung</a>.</p>
+  <div class="consent__actions">
+    <button class="consent__btn consent__btn--primary" data-consent="all" type="button">Verstanden</button>
+    <button class="consent__btn consent__btn--ghost" data-consent="essential" type="button">Nur notwendige</button>
+  </div>
+</div>
+
+<nav class="mobile-cta-bar" aria-label="Schnellaktionen">
+  <a href="/kontakt.html" class="primary">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+    <span>Projekt starten</span>
+  </a>
+  <a href="tel:+436766440122" class="secondary" aria-label="Anrufen">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    <span>Anrufen</span>
+  </a>
+</nav>
+
+</body>
+</html>

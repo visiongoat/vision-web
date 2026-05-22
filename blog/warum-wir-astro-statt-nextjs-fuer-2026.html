@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="de-AT">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Warum wir 2026 vermehrt Astro statt Next.js wählen · Vision GO Blog</title>
+<meta name="description" content="Vision GO vergleicht Astro 5 mit Next.js 15 in der Praxis. Ergebnisse aus drei Migrationen: Build-Zeit, Lighthouse-Scores, Developer Experience." />
+<meta name="keywords" content="Astro vs Next.js, Static Site Generator Wien, Vercel Alternative, Web Performance" />
+<meta name="author" content="Vision GO GmbH" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+<meta name="theme-color" content="#0A1F4E" />
+<link rel="canonical" href="https://visiongo.at/blog/warum-wir-astro-statt-nextjs-fuer-2026.html" />
+<link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/warum-wir-astro-statt-nextjs-fuer-2026.html" />
+<link rel="alternate" hreflang="x-default" href="https://visiongo.at/blog/warum-wir-astro-statt-nextjs-fuer-2026.html" />
+
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="de_AT" />
+<meta property="og:site_name" content="Vision GO Blog" />
+<meta property="og:url" content="https://visiongo.at/blog/warum-wir-astro-statt-nextjs-fuer-2026.html" />
+<meta property="og:title" content="Warum wir 2026 vermehrt Astro statt Next.js wählen" />
+<meta property="og:description" content="Vision GO vergleicht Astro 5 mit Next.js 15 in der Praxis. Ergebnisse aus drei Migrationen: Build-Zeit, Lighthouse-Scores, Developer Experience." />
+<meta property="og:image" content="https://visiongo.at/assets/blog/post-warum-wir-astro-statt-nextjs-fuer-2026.svg" />
+<meta property="article:published_time" content="2026-05-13T09:00:00+02:00" />
+<meta property="article:modified_time" content="2026-05-13T09:00:00+02:00" />
+<meta property="article:section" content="Web-Entwicklung" />
+<meta property="article:tag" content="Astro" />
+<meta property="article:tag" content="Next.js" />
+<meta property="article:tag" content="Performance" />
+<meta property="article:tag" content="SSG" />
+<meta property="article:tag" content="Web" />
+<meta property="article:author" content="Vision GO GmbH" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Warum wir 2026 vermehrt Astro statt Next.js wählen" />
+<meta name="twitter:description" content="Vision GO vergleicht Astro 5 mit Next.js 15 in der Praxis. Ergebnisse aus drei Migrationen: Build-Zeit, Lighthouse-Scores, Developer Experience." />
+<meta name="twitter:image" content="https://visiongo.at/assets/blog/post-warum-wir-astro-statt-nextjs-fuer-2026.svg" />
+
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+<link rel="alternate" type="application/rss+xml" title="Vision GO Blog" href="/blog/feed.xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Fraunces:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/assets/styles.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://visiongo.at/#organization",
+  "name": "Vision GO GmbH",
+  "url": "https://visiongo.at/",
+  "logo": "https://visiongo.at/assets/logo.svg",
+  "address": { "@type": "PostalAddress", "streetAddress": "Bäckerstraße 7/7", "addressLocality": "Wien", "postalCode": "1010", "addressCountry": "AT" },
+  "employee": [ { "@type": "Person", "name": "Muhammed Fatih Geyik", "jobTitle": "Head of IT" } ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://visiongo.at/blog/warum-wir-astro-statt-nextjs-fuer-2026.html#article",
+  "headline": "Warum wir 2026 vermehrt Astro statt Next.js wählen",
+  "alternativeHeadline": "Wir haben drei Marketing-Sites von Next.js zu Astro migriert. Performance, DX, Build-Times — und wo Astro noch ein Problem hat.",
+  "description": "Vision GO vergleicht Astro 5 mit Next.js 15 in der Praxis. Ergebnisse aus drei Migrationen: Build-Zeit, Lighthouse-Scores, Developer Experience.",
+  "datePublished": "2026-05-13",
+  "dateModified": "2026-05-13",
+  "author": {
+    "@id": "https://visiongo.at/#organization"
+  },
+  "publisher": {
+    "@id": "https://visiongo.at/#organization"
+  },
+  "mainEntityOfPage": "https://visiongo.at/blog/warum-wir-astro-statt-nextjs-fuer-2026.html",
+  "image": "https://visiongo.at/assets/blog/post-warum-wir-astro-statt-nextjs-fuer-2026.svg",
+  "inLanguage": "de-AT",
+  "articleSection": "Web-Entwicklung",
+  "keywords": "Astro, Next.js, Performance, SSG, Web",
+  "wordCount": 295,
+  "timeRequired": "PT8M",
+  "url": "https://visiongo.at/blog/warum-wir-astro-statt-nextjs-fuer-2026.html"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Studio",
+      "item": "https://visiongo.at/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://visiongo.at/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Web-Entwicklung",
+      "item": "https://visiongo.at/blog/kategorie/web-entwicklung.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Warum wir 2026 vermehrt Astro statt Next.js wählen",
+      "item": "https://visiongo.at/blog/warum-wir-astro-statt-nextjs-fuer-2026.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Ist Astro für SEO besser als Next.js?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Tendenziell ja, weil weniger JavaScript ausgeliefert wird und Lighthouse-Scores höher sind. Aber: Beide Frameworks generieren sauberes HTML — der Unterschied entsteht durch Bundle-Größe und LCP."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Kann ich Astro mit React-Komponenten benutzen?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Astro Islands lassen React, Vue, Svelte und Solid parallel laufen. Wir kombinieren Vanilla-HTML-Astro für statische Bereiche mit React-Inseln für interaktive UI."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Was ist mit SEO-Server-Rendering?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Astro generiert standardmäßig statisches HTML zur Build-Zeit. Für dynamische Inhalte gibt es SSR-Adapter (Vercel, Netlify, Node)."
+      }
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+
+<a href="#main" class="skip-link">Zum Inhalt springen</a>
+
+
+<header class="nav">
+  <div class="container nav__inner">
+    <a href="/" class="nav__brand"><span class="nav__brand-mark"><img src="/assets/logo.svg" alt=""/></span><span>Vision&nbsp;GO</span></a>
+    <nav class="nav__links">
+      <a class="nav__link" href="/">Studio</a>
+      <a class="nav__link" href="/leistungen.html">Leistungen</a>
+      <a class="nav__link" href="/projekte.html">Arbeiten</a>
+      <a class="nav__link" href="/ueber-uns.html">Über</a>
+      <a class="nav__link" href="/karriere.html">Karriere</a>
+      <a class="nav__link" href="/kontakt.html">Kontakt</a>
+    </nav>
+    <a href="/kontakt.html" class="nav__cta"><span class="nav__cta-dot"></span>Projekt starten</a>
+    <button class="nav__toggle" aria-label="Menü"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main" role="main">
+
+  <section class="article-hero">
+    <div class="container container--tight">
+      <p class="breadcrumb"><a href="/">Studio</a><span class="breadcrumb__sep">/</span><a href="/blog/">Blog</a><span class="breadcrumb__sep">/</span><a href="/blog/kategorie/web-entwicklung.html">Web-Entwicklung</a></p>
+      <div class="article-hero__meta">
+        <span class="article-hero__cat">Web-Entwicklung</span>
+        <span>·</span>
+        <time datetime="2026-05-13">13. Mai 2026</time>
+        <span>·</span>
+        <span>8 Min Lesezeit</span>
+      </div>
+      <h1 class="article-hero__title">Warum wir 2026 vermehrt Astro statt Next.js wählen</h1>
+      <p class="article-hero__sub">Wir haben drei Marketing-Sites von Next.js zu Astro migriert. Performance, DX, Build-Times — und wo Astro noch ein Problem hat.</p>
+    </div>
+    <div class="container container--tight">
+      <div class="article-cover">
+        <img src="/assets/blog/post-warum-wir-astro-statt-nextjs-fuer-2026.svg" alt="Warum wir 2026 vermehrt Astro statt Next.js wählen"/>
+      </div>
+    </div>
+  </section>
+
+  <article class="article-body">
+        <h2>Was Next.js gut macht — und wo es zu viel ist</h2>
+        <p>Next.js 15 ist ein hervorragendes Framework, wenn die Antwort auf jede Frage „mehr Interaktivität” heißt. Server Components, Streaming, partial Hydration — das funktioniert, ist aber ein Werkzeug für Anwendungen, nicht für Websites.</p>
+        <p>Wir haben Anfang 2026 entschieden, alle reinen Marketing- und Content-Sites in Astro neu aufzusetzen. Der Auslöser: ein Marketing-Team-Lead bei einem Kunden klagte, dass eine Editierung des Headers auf staging 4 Minuten Build-Zeit kostete. Bei Astro: 1,3 s.</p>
+        <h2>Drei Migrationen, drei messbare Ergebnisse</h2>
+        <ul>
+          <li><strong>Kunde A (B2B SaaS Landing).</strong> Build-Zeit Next.js: 220 s. Astro: 14 s. Lighthouse-Performance auf identischer Hardware: 87 → 100.</li>
+          <li><strong>Kunde B (Online-Magazin, 400+ Artikel).</strong> Next.js mit dynamischen Routen brauchte 6 min für vollen Rebuild. Astro mit Content Collections: 22 s. Bundle-Size: 89 KB → 11 KB pro Seite.</li>
+          <li><strong>Kunde C (Dokumentations-Portal).</strong> Next.js mit MDX hatte Streaming-Probleme bei langen Seiten. Astro liefert pure HTML — keine Hydration, keine Layout-Shifts.</li>
+        </ul>
+        <h2>Wo Astro wehtut</h2>
+        <p><strong>Forms und Auth.</strong> Astro hat Server-Aktionen, aber sie fühlen sich unfertig an im Vergleich zu Next.js Form Actions. Wir haben uns angewöhnt, jedes Formular auf <code>/api/*</code> als separate API-Route zu legen — funktioniert, aber ist mehr Boilerplate.</p>
+        <p><strong>Image-Optimierung.</strong> Astro Image ist gut, aber Next.js Image ist besser dokumentiert und hat Loader für mehr CDNs. Bei multimedialen Projekten merken wir das.</p>
+        <p><strong>Plugin-Ökosystem.</strong> Was Next.js an Auth-Bibliotheken, Stripe-Integrationen und Headless-CMS-Plugins hat, ist bei Astro noch dünn. Wer auf <code>@auth/astro</code> wartet, kennt das Problem.</p>
+        <h2>Unsere Faustregel für 2026</h2>
+        <blockquote>„Wenn die Seite mehr als 30 % statischen Inhalt hat und keinen Echtzeit-State zwischen Routen teilen muss — Astro. Sonst Next.js.”</blockquote>
+        <p>Diese Regel hat in unseren letzten 12 Projekten 11 richtig vorhergesagt. Der eine Fall, bei dem wir Astro gewählt haben und es bereut haben, war ein Dashboard mit komplexer Client-State-Synchronisation. Das hätten wir wissen müssen.</p>
+
+    <div class="author-card">
+      <div class="author-card__avatar">WS</div>
+      <div>
+        <div class="author-card__name">Web Studio</div>
+        <div class="author-card__role">Web-Team · Statisches Rendering bevorzugt</div>
+      </div>
+    </div>
+  </article>
+
+  <section class="faq-list">
+    <div class="article-body" style="padding-top:0; padding-bottom:0;">
+      <h3>Häufig gefragt</h3>
+      <details>
+        <summary>Ist Astro für SEO besser als Next.js?</summary>
+        <p>Tendenziell ja, weil weniger JavaScript ausgeliefert wird und Lighthouse-Scores höher sind. Aber: Beide Frameworks generieren sauberes HTML — der Unterschied entsteht durch Bundle-Größe und LCP.</p>
+      </details>
+      <details>
+        <summary>Kann ich Astro mit React-Komponenten benutzen?</summary>
+        <p>Ja, Astro Islands lassen React, Vue, Svelte und Solid parallel laufen. Wir kombinieren Vanilla-HTML-Astro für statische Bereiche mit React-Inseln für interaktive UI.</p>
+      </details>
+      <details>
+        <summary>Was ist mit SEO-Server-Rendering?</summary>
+        <p>Astro generiert standardmäßig statisches HTML zur Build-Zeit. Für dynamische Inhalte gibt es SSR-Adapter (Vercel, Netlify, Node).</p>
+      </details>
+    </div>
+  </section>
+
+  <div class="article-footer">
+    <div class="article-tags"><span class="tag">Astro</span><span class="tag">Next.js</span><span class="tag">Performance</span><span class="tag">SSG</span><span class="tag">Web</span></div>
+    <div class="article-share">
+      <span>Teilen:</span>
+      <a href="https://twitter.com/intent/tweet?url=https://visiongo.at/blog/warum-wir-astro-statt-nextjs-fuer-2026.html&amp;text=Warum wir 2026 vermehrt Astro statt Next.js wählen" target="_blank" rel="noopener">X</a>
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://visiongo.at/blog/warum-wir-astro-statt-nextjs-fuer-2026.html" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:?subject=Warum wir 2026 vermehrt Astro statt Next.js wählen&amp;body=https://visiongo.at/blog/warum-wir-astro-statt-nextjs-fuer-2026.html">E-Mail</a>
+    </div>
+  </div>
+
+  <section class="related-posts">
+    <div class="container container--tight">
+      <header class="section-head" style="margin-bottom:var(--space-6);">
+        <h2 class="section-head__title">Auch <span class="accent">interessant</span>.</h2>
+        <a href="/blog/" class="section-head__link">Alle Artikel</a>
+      </header>
+      <div class="blog-grid">
+        <a class="post-card" href="/blog/claude-sonnet-46-im-produktiven-einsatz.html">
+          <div class="post-card__cover"><img src="/assets/blog/post-claude-sonnet-46-im-produktiven-einsatz.svg" alt="Claude Sonnet 4.6 im produktiven Einsatz: Was sich gegenüber 4.5 wirklich geändert hat" loading="lazy"/></div>
+          <div class="post-card__meta">
+            <span class="post-card__cat">KI & Machine Learning</span>
+            <span>·</span>
+            <span>7 Min</span>
+          </div>
+          <h3 class="post-card__title">Claude Sonnet 4.6 im produktiven Einsatz: Was sich gegenüber 4.5 wirklich geändert hat</h3>
+        </a>
+        <a class="post-card" href="/blog/swiftui-vs-jetpack-compose-2026.html">
+          <div class="post-card__cover"><img src="/assets/blog/post-swiftui-vs-jetpack-compose-2026.svg" alt="SwiftUI vs. Jetpack Compose 2026: Was wir nach 12 produktiven Apps gelernt haben" loading="lazy"/></div>
+          <div class="post-card__meta">
+            <span class="post-card__cat">App-Entwicklung</span>
+            <span>·</span>
+            <span>9 Min</span>
+          </div>
+          <h3 class="post-card__title">SwiftUI vs. Jetpack Compose 2026: Was wir nach 12 produktiven Apps gelernt haben</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__brand-mark">Vision GO</div>
+          <div class="footer__brand-desc">Ihr Partner für digitale Transformation und innovative IT-Lösungen.</div>
+          <address class="footer__brand-address">Vision GO GmbH<br/>Bäckerstraße 7/7<br/>1010 Wien · Österreich<br/><br/>Tel: <a href="tel:+436766440122" style="color:var(--ink-soft)">+43 676 6440122</a><br/><a href="mailto:info@visiongo.at" style="color:var(--ink-soft)">info@visiongo.at</a></address>
+        </div>
+        <div class="footer__col"><h4>Studio</h4><ul><li><a href="/leistungen.html">Leistungen</a></li><li><a href="/projekte.html">Arbeiten</a></li><li><a href="/ueber-uns.html">Über uns</a></li><li><a href="/karriere.html">Karriere</a></li><li><a href="/kontakt.html">Kontakt</a></li></ul></div>
+        <div class="footer__col"><h4>Apps</h4><ul><li><a href="/projekte/megaradio.html">MegaRadio</a></li><li><a href="/projekte/scanup.html">ScanUp</a></li><li><a href="/projekte/esimfo.html">eSIMfo</a></li><li><a href="/projekte/taxihub.html">TaxiHub</a></li><li><a href="/projekte/snake-online.html">Online Snake</a></li></ul></div>
+        <div class="footer__col"><h4>Lesen</h4><ul><li><a href="/blog/">Blog</a></li><li><a href="/blog/feed.xml">RSS</a></li></ul></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span data-year>2026</span> Vision GO GmbH · FN 644224p · Handelsgericht Wien</span>
+      <nav class="footer__legal"><a href="/impressum.html">Impressum</a><a href="/datenschutz.html">Datenschutz</a><a href="/sitemap.xml">Sitemap</a></nav>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/script.js" defer></script>
+
+<div class="consent" role="dialog" aria-label="Cookie-Hinweis">
+  <div class="consent__title">Wir verzichten auf Tracking.</div>
+  <p class="consent__body">Diese Seite setzt keine Marketing- oder Analyse-Cookies. Wir speichern ausschließlich eine kleine Einstellung lokal in Ihrem Browser, damit dieser Hinweis nicht erneut erscheint. Mehr in unserer <a href="/datenschutz.html" style="color:var(--link);">Datenschutzerklärung</a>.</p>
+  <div class="consent__actions">
+    <button class="consent__btn consent__btn--primary" data-consent="all" type="button">Verstanden</button>
+    <button class="consent__btn consent__btn--ghost" data-consent="essential" type="button">Nur notwendige</button>
+  </div>
+</div>
+
+<nav class="mobile-cta-bar" aria-label="Schnellaktionen">
+  <a href="/kontakt.html" class="primary">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+    <span>Projekt starten</span>
+  </a>
+  <a href="tel:+436766440122" class="secondary" aria-label="Anrufen">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    <span>Anrufen</span>
+  </a>
+</nav>
+
+</body>
+</html>

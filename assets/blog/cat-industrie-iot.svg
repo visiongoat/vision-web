@@ -1,0 +1,23 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1C0F08"/>
+      <stop offset="1" stop-color="#7C2D12"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.7" cy="0.3" r="0.6">
+      <stop offset="0" stop-color="#FDBA74" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#FDBA74" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <text x="80" y="86" font-family="Inter" font-size="14" fill="#FDBA74" letter-spacing="3" font-weight="600">VISION GO · BLOG</text>
+  <text x="80" y="260" font-family="Inter" font-size="84" font-weight="600" fill="#fff" letter-spacing="-2.5">Industrie &amp; IoT</text>
+  <text x="80" y="310" font-family="Inter" font-size="22" fill="rgba(255,255,255,0.75)" letter-spacing="-0.3">Edge Computing, OPC UA, Predictive Maintenance. Software für Maschinen, die nich</text>
+  <g transform="translate(900, 380)" opacity="0.4">
+    <circle r="120" stroke="#FDBA74" stroke-width="2" fill="none"/>
+    <circle r="80" stroke="#FDBA74" stroke-width="1.5" fill="none"/>
+    <circle r="40" fill="#FDBA74" opacity="0.3"/>
+  </g>
+  <text x="80" y="565" font-family="JetBrains Mono" font-size="13" fill="rgba(255,255,255,0.5)" letter-spacing="2">VISIONGO.AT/BLOG/KATEGORIE/INDUSTRIE-IOT</text>
+</svg>

@@ -1,0 +1,43 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#001F3F"/>
+      <stop offset="0.5" stop-color="#003580"/>
+      <stop offset="1" stop-color="#0071E3"/>
+    </linearGradient>
+    <radialGradient id="globe" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#5BA8FF"/>
+      <stop offset="0.6" stop-color="#0066CC"/>
+      <stop offset="1" stop-color="#001F3F"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <text x="80" y="90" font-family="-apple-system, Inter" font-size="18" font-weight="500" fill="#88B7FF" letter-spacing="3">ESIMFO · BY VISION GO</text>
+  <text x="80" y="240" font-family="-apple-system, Inter" font-size="88" font-weight="600" fill="#fff" letter-spacing="-3">Daten. Überall.</text>
+  <text x="80" y="340" font-family="-apple-system, Inter" font-size="88" font-weight="600" fill="#fff" letter-spacing="-3">In 2 Minuten.</text>
+  <text x="80" y="420" font-family="-apple-system, Inter" font-size="24" fill="rgba(255,255,255,0.75)" letter-spacing="-0.3">Travel-eSIM für 202+ Länder</text>
+  <text x="80" y="455" font-family="-apple-system, Inter" font-size="24" fill="rgba(255,255,255,0.75)" letter-spacing="-0.3">Kein Plastik · Kein Versand · Kein Roaming</text>
+
+  <g transform="translate(1050, 70)">
+    <path d="M0 0 L10 18 L14 11" stroke="#fff" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M28 0 L18 18 L14 11" stroke="#88B7FF" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+  <text x="1095" y="80" font-family="-apple-system" font-size="14" fill="rgba(255,255,255,0.7)">Vision GO</text>
+
+  <!-- Globe -->
+  <g transform="translate(950, 340)">
+    <circle r="135" fill="url(#globe)"/>
+    <ellipse cx="0" cy="0" rx="135" ry="35" stroke="rgba(255,255,255,0.2)" fill="none"/>
+    <ellipse cx="0" cy="0" rx="135" ry="70" stroke="rgba(255,255,255,0.15)" fill="none"/>
+    <ellipse cx="0" cy="0" rx="135" ry="105" stroke="rgba(255,255,255,0.1)" fill="none"/>
+    <ellipse cx="0" cy="0" rx="35" ry="135" stroke="rgba(255,255,255,0.15)" fill="none"/>
+    <ellipse cx="0" cy="0" rx="70" ry="135" stroke="rgba(255,255,255,0.12)" fill="none"/>
+    <circle cx="-40" cy="-30" r="5" fill="#FF6B5C"/>
+    <circle cx="50" cy="-15" r="5" fill="#34C759"/>
+    <circle cx="-20" cy="50" r="5" fill="#FFD60A"/>
+    <circle cx="60" cy="40" r="5" fill="#fff"/>
+  </g>
+
+  <text x="80" y="565" font-family="JetBrains Mono, monospace" font-size="13" fill="rgba(255,255,255,0.5)" letter-spacing="2">VISIONGO.AT/PROJEKTE/ESIMFO</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE066"/>
+      <stop offset="1" stop-color="#FFD60A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <text x="80" y="90" font-family="-apple-system, Inter" font-size="18" font-weight="500" fill="#5A3D00" letter-spacing="3">TAXIHUB · BY VISION GO</text>
+  <text x="80" y="240" font-family="-apple-system, Inter" font-size="88" font-weight="600" fill="#0A0A0F" letter-spacing="-3">Taxi Wien.</text>
+  <text x="80" y="340" font-family="-apple-system, Inter" font-size="88" font-weight="600" fill="#0A0A0F" letter-spacing="-3">Neu gedacht.</text>
+  <text x="80" y="420" font-family="-apple-system, Inter" font-size="24" fill="#3A2D00" letter-spacing="-0.3">Festpreis · Bargeldlos · Funkzentralen-Anbindung</text>
+  <text x="80" y="455" font-family="-apple-system, Inter" font-size="24" fill="#3A2D00" letter-spacing="-0.3">Innenstadt → Flughafen Wien VIE ab € 42</text>
+
+  <g transform="translate(1050, 70)">
+    <path d="M0 0 L10 18 L14 11" stroke="#0A0A0F" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M28 0 L18 18 L14 11" stroke="#0A0A0F" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+  <text x="1095" y="80" font-family="-apple-system" font-size="14" fill="rgba(10,10,15,0.7)">Vision GO</text>
+
+  <!-- Map decoration -->
+  <g transform="translate(850, 200)" opacity="0.95">
+    <rect width="280" height="280" rx="20" fill="#FFF5C9"/>
+    <path d="M20 100 Q70 80 120 110 T260 90" stroke="#0A0A0F" stroke-width="3" fill="none" opacity="0.5"/>
+    <path d="M40 60 L40 240" stroke="#0A0A0F" stroke-width="2" opacity="0.3"/>
+    <path d="M120 30 L120 250" stroke="#0A0A0F" stroke-width="2" opacity="0.3"/>
+    <path d="M200 40 L200 260" stroke="#0A0A0F" stroke-width="2" opacity="0.3"/>
+    <circle cx="80" cy="180" r="12" fill="#0A0A0F"/>
+    <circle cx="80" cy="180" r="6" fill="#FFD60A"/>
+    <path d="M210 100 c0,-13 -10,-23 -20,-23 c-11,0 -20,10 -20,23 c0,15 20,40 20,40 s20,-25 20,-40 z" fill="#0A0A0F"/>
+    <circle cx="190" cy="100" r="7" fill="#FFD60A"/>
+    <path d="M80,180 C 120,170 150,140 190,120" stroke="#0A0A0F" stroke-width="4" fill="none" stroke-dasharray="6,3" opacity="0.7"/>
+  </g>
+
+  <text x="80" y="565" font-family="JetBrains Mono, monospace" font-size="13" fill="rgba(10,10,15,0.5)" letter-spacing="2">VISIONGO.AT/PROJEKTE/TAXIHUB</text>
+</svg>

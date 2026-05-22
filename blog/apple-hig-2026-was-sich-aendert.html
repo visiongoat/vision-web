@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="de-AT">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Apple HIG 2026: Was sich für iOS-Apps geändert hat · Vision GO Blog</title>
+<meta name="description" content="Apple Human Interface Guidelines 2026: Vision GO analysiert die Änderungen und zeigt, wie SwiftUI-Apps wie ScanUp und MegaRadio angepasst wurden." />
+<meta name="keywords" content="Apple HIG 2026, iOS Design Guidelines, SwiftUI Tipps, Liquid Glass" />
+<meta name="author" content="Vision GO GmbH" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+<meta name="theme-color" content="#280B33" />
+<link rel="canonical" href="https://visiongo.at/blog/apple-hig-2026-was-sich-aendert.html" />
+<link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/apple-hig-2026-was-sich-aendert.html" />
+<link rel="alternate" hreflang="x-default" href="https://visiongo.at/blog/apple-hig-2026-was-sich-aendert.html" />
+
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="de_AT" />
+<meta property="og:site_name" content="Vision GO Blog" />
+<meta property="og:url" content="https://visiongo.at/blog/apple-hig-2026-was-sich-aendert.html" />
+<meta property="og:title" content="Apple HIG 2026: Was sich für iOS-Apps wirklich geändert hat" />
+<meta property="og:description" content="Apple Human Interface Guidelines 2026: Vision GO analysiert die Änderungen und zeigt, wie SwiftUI-Apps wie ScanUp und MegaRadio angepasst wurden." />
+<meta property="og:image" content="https://visiongo.at/assets/blog/post-apple-hig-2026-was-sich-aendert.svg" />
+<meta property="article:published_time" content="2026-05-13T09:00:00+02:00" />
+<meta property="article:modified_time" content="2026-05-13T09:00:00+02:00" />
+<meta property="article:section" content="Design & UX" />
+<meta property="article:tag" content="Apple HIG" />
+<meta property="article:tag" content="Design" />
+<meta property="article:tag" content="iOS" />
+<meta property="article:tag" content="UX" />
+<meta property="article:author" content="Vision GO GmbH" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Apple HIG 2026: Was sich für iOS-Apps wirklich geändert hat" />
+<meta name="twitter:description" content="Apple Human Interface Guidelines 2026: Vision GO analysiert die Änderungen und zeigt, wie SwiftUI-Apps wie ScanUp und MegaRadio angepasst wurden." />
+<meta name="twitter:image" content="https://visiongo.at/assets/blog/post-apple-hig-2026-was-sich-aendert.svg" />
+
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+<link rel="alternate" type="application/rss+xml" title="Vision GO Blog" href="/blog/feed.xml" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Fraunces:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/assets/styles.css" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://visiongo.at/#organization",
+  "name": "Vision GO GmbH",
+  "url": "https://visiongo.at/",
+  "logo": "https://visiongo.at/assets/logo.svg",
+  "address": { "@type": "PostalAddress", "streetAddress": "Bäckerstraße 7/7", "addressLocality": "Wien", "postalCode": "1010", "addressCountry": "AT" },
+  "employee": [ { "@type": "Person", "name": "Muhammed Fatih Geyik", "jobTitle": "Head of IT" } ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://visiongo.at/blog/apple-hig-2026-was-sich-aendert.html#article",
+  "headline": "Apple HIG 2026: Was sich für iOS-Apps wirklich geändert hat",
+  "alternativeHeadline": "Wir haben unsere Apps gegen die neuen Human Interface Guidelines geprüft. Hier sind die fünf Stellen, an denen wir nachbessern mussten — und zwei, an denen wir Apple nicht folgen.",
+  "description": "Apple Human Interface Guidelines 2026: Vision GO analysiert die Änderungen und zeigt, wie SwiftUI-Apps wie ScanUp und MegaRadio angepasst wurden.",
+  "datePublished": "2026-05-13",
+  "dateModified": "2026-05-13",
+  "author": {
+    "@id": "https://visiongo.at/#organization"
+  },
+  "publisher": {
+    "@id": "https://visiongo.at/#organization"
+  },
+  "mainEntityOfPage": "https://visiongo.at/blog/apple-hig-2026-was-sich-aendert.html",
+  "image": "https://visiongo.at/assets/blog/post-apple-hig-2026-was-sich-aendert.svg",
+  "inLanguage": "de-AT",
+  "articleSection": "Design & UX",
+  "keywords": "Apple HIG, Design, iOS, UX",
+  "wordCount": 325,
+  "timeRequired": "PT6M",
+  "url": "https://visiongo.at/blog/apple-hig-2026-was-sich-aendert.html"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Studio",
+      "item": "https://visiongo.at/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://visiongo.at/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Design & UX",
+      "item": "https://visiongo.at/blog/kategorie/design-ux.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Apple HIG 2026: Was sich für iOS-Apps wirklich geändert hat",
+      "item": "https://visiongo.at/blog/apple-hig-2026-was-sich-aendert.html"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Muss ich Liquid Glass für meine App anwenden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wenn Sie SwiftUI-Standard-Modals nutzen, geschieht es automatisch. Custom-Modals sollten Sie überprüfen, damit sie konsistent wirken."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wirkt sich die HIG auf App-Store-Reviews aus?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Indirekt ja. Apple-Reviewer prüfen visuelle Konsistenz mit System-Konventionen. Grobe HIG-Verstöße können Reviews verzögern."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wo finde ich die aktuelle HIG?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Apple's Developer-Site: developer.apple.com/design/human-interface-guidelines — laufend aktualisiert nach jeder WWDC."
+      }
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+
+<a href="#main" class="skip-link">Zum Inhalt springen</a>
+
+
+<header class="nav">
+  <div class="container nav__inner">
+    <a href="/" class="nav__brand"><span class="nav__brand-mark"><img src="/assets/logo.svg" alt=""/></span><span>Vision&nbsp;GO</span></a>
+    <nav class="nav__links">
+      <a class="nav__link" href="/">Studio</a>
+      <a class="nav__link" href="/leistungen.html">Leistungen</a>
+      <a class="nav__link" href="/projekte.html">Arbeiten</a>
+      <a class="nav__link" href="/ueber-uns.html">Über</a>
+      <a class="nav__link" href="/karriere.html">Karriere</a>
+      <a class="nav__link" href="/kontakt.html">Kontakt</a>
+    </nav>
+    <a href="/kontakt.html" class="nav__cta"><span class="nav__cta-dot"></span>Projekt starten</a>
+    <button class="nav__toggle" aria-label="Menü"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="main" role="main">
+
+  <section class="article-hero">
+    <div class="container container--tight">
+      <p class="breadcrumb"><a href="/">Studio</a><span class="breadcrumb__sep">/</span><a href="/blog/">Blog</a><span class="breadcrumb__sep">/</span><a href="/blog/kategorie/design-ux.html">Design & UX</a></p>
+      <div class="article-hero__meta">
+        <span class="article-hero__cat">Design & UX</span>
+        <span>·</span>
+        <time datetime="2026-05-13">13. Mai 2026</time>
+        <span>·</span>
+        <span>6 Min Lesezeit</span>
+      </div>
+      <h1 class="article-hero__title">Apple HIG 2026: Was sich für iOS-Apps wirklich geändert hat</h1>
+      <p class="article-hero__sub">Wir haben unsere Apps gegen die neuen Human Interface Guidelines geprüft. Hier sind die fünf Stellen, an denen wir nachbessern mussten — und zwei, an denen wir Apple nicht folgen.</p>
+    </div>
+    <div class="container container--tight">
+      <div class="article-cover">
+        <img src="/assets/blog/post-apple-hig-2026-was-sich-aendert.svg" alt="Apple HIG 2026: Was sich für iOS-Apps wirklich geändert hat"/>
+      </div>
+    </div>
+  </section>
+
+  <article class="article-body">
+        <h2>Liquid Glass — mehr als Optik</h2>
+        <p>Die augenfälligste Änderung der HIG 2026 ist Liquid Glass: System-Sheets, Toolbars und Modals erhalten eine dynamische Glas-Optik mit Background-Blur und farb-adaptive Tönung. Was Apple selbst auf der WWDC nicht so deutlich gesagt hat: das Verhalten der Sheet-Komponente hat sich ebenfalls verändert. Sheets-mit-Detents sind jetzt der Standard, nicht mehr die Ausnahme.</p>
+        <p>Bei ScanUp haben wir das umgesetzt, indem wir alle Modal-Dialoge auf <code>.presentationDetents([.medium, .large])</code> umgestellt haben. Das hat zwei Tage gedauert — und drei Crash-Reports von Beta-Testern ausgelöst, die wir mit korrektem <code>.presentationDragIndicator(.visible)</code> beheben konnten.</p>
+        <h2>Toolbar-Items neu denken</h2>
+        <p>Die HIG empfiehlt jetzt explizit, Toolbar-Items <em>nach Bedeutung</em> zu gruppieren statt nach Häufigkeit. <code>ToolbarItemGroup(placement: .topBarTrailing)</code> mit semantischen Gruppen statt Einzel-Buttons.</p>
+        <p>Praktisches Beispiel aus MegaRadio: Wir hatten einen einzelnen „Edit”-Button neben „Sort”. 2026er HIG: Beide gehören in dieselbe Gruppe „Liste verwalten” — Apple gestaltet die visuelle Trennung dann automatisch.</p>
+        <h2>Wo wir Apple nicht gefolgt sind</h2>
+        <p><strong>1. Empfohlene Tab-Bar-Höhe.</strong> Apple's neuer Standard hat 56pt minimum. Bei MegaRadio waren wir bei 49pt — bewusst, weil die Album-Cover-Cards in der Liste sonst weniger Platz hätten. Unsere Test-Nutzer:innen haben den Unterschied nicht bemerkt.</p>
+        <p><strong>2. Vorgeschlagene Default-Farben.</strong> Apple empfiehlt für 2026 weicher gesättigte Akzentfarben. Unsere Brand-Farben sind dafür zu spezifisch — wir bleiben bei unserer Palette und stellen sicher, dass Dark-Mode-Kontraste WCAG AA erfüllen.</p>
+        <h2>Was viele Studios übersehen</h2>
+        <ul>
+          <li><strong>Vision OS-Anpassung.</strong> Apps, die auch auf Vision Pro laufen sollen, müssen die Tab-Bar-Position respektieren (oben statt unten).</li>
+          <li><strong>Dynamic Type bei Vision OS.</strong> Größere Default-Sizes — Apps mit fixen Font-Sizes wirken klein.</li>
+          <li><strong>Privacy-Indicators in Toolbars.</strong> Bei Apps mit Kamera-Zugriff (ScanUp) sind jetzt persistente Hinweise empfohlen — wir haben das übernommen, weil es Vertrauen schafft.</li>
+          <li><strong>StoreKit 2 Receipts.</strong> Apple hat die Receipt-Validation-Empfehlungen 2026 deutlich überarbeitet — In-App-Käufe sollten ausschließlich serverseitig validiert werden.</li>
+        </ul>
+        <h2>Empfehlung</h2>
+        <p>Lesen Sie die HIG 2026 als Gespräch, nicht als Vorgabe. Apple weiß viel über Bedienbarkeit, aber Ihre Nutzer:innen sind nicht Apple-Designer:innen. Wir folgen 80 % der HIG, weichen bewusst bei 20 % ab — immer mit dokumentierten Gründen im Design-System unseres Auftraggebers.</p>
+
+    <div class="author-card">
+      <div class="author-card__avatar">iS</div>
+      <div>
+        <div class="author-card__name">iOS Studio</div>
+        <div class="author-card__role">iOS-Team · SwiftUI seit Beta 1</div>
+      </div>
+    </div>
+  </article>
+
+  <section class="faq-list">
+    <div class="article-body" style="padding-top:0; padding-bottom:0;">
+      <h3>Häufig gefragt</h3>
+      <details>
+        <summary>Muss ich Liquid Glass für meine App anwenden?</summary>
+        <p>Wenn Sie SwiftUI-Standard-Modals nutzen, geschieht es automatisch. Custom-Modals sollten Sie überprüfen, damit sie konsistent wirken.</p>
+      </details>
+      <details>
+        <summary>Wirkt sich die HIG auf App-Store-Reviews aus?</summary>
+        <p>Indirekt ja. Apple-Reviewer prüfen visuelle Konsistenz mit System-Konventionen. Grobe HIG-Verstöße können Reviews verzögern.</p>
+      </details>
+      <details>
+        <summary>Wo finde ich die aktuelle HIG?</summary>
+        <p>Apple's Developer-Site: developer.apple.com/design/human-interface-guidelines — laufend aktualisiert nach jeder WWDC.</p>
+      </details>
+    </div>
+  </section>
+
+  <div class="article-footer">
+    <div class="article-tags"><span class="tag">Apple HIG</span><span class="tag">Design</span><span class="tag">iOS</span><span class="tag">UX</span></div>
+    <div class="article-share">
+      <span>Teilen:</span>
+      <a href="https://twitter.com/intent/tweet?url=https://visiongo.at/blog/apple-hig-2026-was-sich-aendert.html&amp;text=Apple HIG 2026: Was sich für iOS-Apps wirklich geändert hat" target="_blank" rel="noopener">X</a>
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://visiongo.at/blog/apple-hig-2026-was-sich-aendert.html" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="mailto:?subject=Apple HIG 2026: Was sich für iOS-Apps wirklich geändert hat&amp;body=https://visiongo.at/blog/apple-hig-2026-was-sich-aendert.html">E-Mail</a>
+    </div>
+  </div>
+
+  <section class="related-posts">
+    <div class="container container--tight">
+      <header class="section-head" style="margin-bottom:var(--space-6);">
+        <h2 class="section-head__title">Auch <span class="accent">interessant</span>.</h2>
+        <a href="/blog/" class="section-head__link">Alle Artikel</a>
+      </header>
+      <div class="blog-grid">
+        <a class="post-card" href="/blog/claude-sonnet-46-im-produktiven-einsatz.html">
+          <div class="post-card__cover"><img src="/assets/blog/post-claude-sonnet-46-im-produktiven-einsatz.svg" alt="Claude Sonnet 4.6 im produktiven Einsatz: Was sich gegenüber 4.5 wirklich geändert hat" loading="lazy"/></div>
+          <div class="post-card__meta">
+            <span class="post-card__cat">KI & Machine Learning</span>
+            <span>·</span>
+            <span>7 Min</span>
+          </div>
+          <h3 class="post-card__title">Claude Sonnet 4.6 im produktiven Einsatz: Was sich gegenüber 4.5 wirklich geändert hat</h3>
+        </a>
+        <a class="post-card" href="/blog/swiftui-vs-jetpack-compose-2026.html">
+          <div class="post-card__cover"><img src="/assets/blog/post-swiftui-vs-jetpack-compose-2026.svg" alt="SwiftUI vs. Jetpack Compose 2026: Was wir nach 12 produktiven Apps gelernt haben" loading="lazy"/></div>
+          <div class="post-card__meta">
+            <span class="post-card__cat">App-Entwicklung</span>
+            <span>·</span>
+            <span>9 Min</span>
+          </div>
+          <h3 class="post-card__title">SwiftUI vs. Jetpack Compose 2026: Was wir nach 12 produktiven Apps gelernt haben</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__top">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__brand-mark">Vision GO</div>
+          <div class="footer__brand-desc">Ihr Partner für digitale Transformation und innovative IT-Lösungen.</div>
+          <address class="footer__brand-address">Vision GO GmbH<br/>Bäckerstraße 7/7<br/>1010 Wien · Österreich<br/><br/>Tel: <a href="tel:+436766440122" style="color:var(--ink-soft)">+43 676 6440122</a><br/><a href="mailto:info@visiongo.at" style="color:var(--ink-soft)">info@visiongo.at</a></address>
+        </div>
+        <div class="footer__col"><h4>Studio</h4><ul><li><a href="/leistungen.html">Leistungen</a></li><li><a href="/projekte.html">Arbeiten</a></li><li><a href="/ueber-uns.html">Über uns</a></li><li><a href="/karriere.html">Karriere</a></li><li><a href="/kontakt.html">Kontakt</a></li></ul></div>
+        <div class="footer__col"><h4>Apps</h4><ul><li><a href="/projekte/megaradio.html">MegaRadio</a></li><li><a href="/projekte/scanup.html">ScanUp</a></li><li><a href="/projekte/esimfo.html">eSIMfo</a></li><li><a href="/projekte/taxihub.html">TaxiHub</a></li><li><a href="/projekte/snake-online.html">Online Snake</a></li></ul></div>
+        <div class="footer__col"><h4>Lesen</h4><ul><li><a href="/blog/">Blog</a></li><li><a href="/blog/feed.xml">RSS</a></li></ul></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span data-year>2026</span> Vision GO GmbH · FN 644224p · Handelsgericht Wien</span>
+      <nav class="footer__legal"><a href="/impressum.html">Impressum</a><a href="/datenschutz.html">Datenschutz</a><a href="/sitemap.xml">Sitemap</a></nav>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/script.js" defer></script>
+
+<div class="consent" role="dialog" aria-label="Cookie-Hinweis">
+  <div class="consent__title">Wir verzichten auf Tracking.</div>
+  <p class="consent__body">Diese Seite setzt keine Marketing- oder Analyse-Cookies. Wir speichern ausschließlich eine kleine Einstellung lokal in Ihrem Browser, damit dieser Hinweis nicht erneut erscheint. Mehr in unserer <a href="/datenschutz.html" style="color:var(--link);">Datenschutzerklärung</a>.</p>
+  <div class="consent__actions">
+    <button class="consent__btn consent__btn--primary" data-consent="all" type="button">Verstanden</button>
+    <button class="consent__btn consent__btn--ghost" data-consent="essential" type="button">Nur notwendige</button>
+  </div>
+</div>
+
+<nav class="mobile-cta-bar" aria-label="Schnellaktionen">
+  <a href="/kontakt.html" class="primary">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+    <span>Projekt starten</span>
+  </a>
+  <a href="tel:+436766440122" class="secondary" aria-label="Anrufen">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    <span>Anrufen</span>
+  </a>
+</nav>
+
+</body>
+</html>

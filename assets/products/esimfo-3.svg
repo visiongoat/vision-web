@@ -1,0 +1,116 @@
+<svg viewBox="0 0 280 560" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="280" height="560" rx="36" fill="#001F3F"/>
+
+  <text x="22" y="32" fill="#fff" font-family="-apple-system" font-size="12" font-weight="600">9:41</text>
+  <rect x="248" y="24" width="14" height="8" rx="2" fill="#fff" opacity="0.8"/>
+
+  <text x="140" y="74" fill="#88B7FF" font-family="-apple-system" font-size="10" letter-spacing="2" font-weight="600" text-anchor="middle">SCHRITT 2 / 3</text>
+  <text x="140" y="100" fill="#fff" font-family="-apple-system" font-size="20" font-weight="700" text-anchor="middle">QR-Code scannen</text>
+  <text x="140" y="120" fill="rgba(255,255,255,0.65)" font-family="-apple-system" font-size="11" text-anchor="middle">Einstellungen → Mobile Daten → eSIM</text>
+
+  <!-- Big QR code rendering -->
+  <rect x="50" y="146" width="180" height="180" rx="14" fill="#fff"/>
+  <g transform="translate(70, 166)" fill="#001F3F">
+    <!-- QR corners -->
+    <rect x="0" y="0" width="32" height="32"/>
+    <rect x="4" y="4" width="24" height="24" fill="#fff"/>
+    <rect x="10" y="10" width="12" height="12"/>
+    <rect x="108" y="0" width="32" height="32"/>
+    <rect x="112" y="4" width="24" height="24" fill="#fff"/>
+    <rect x="118" y="10" width="12" height="12"/>
+    <rect x="0" y="108" width="32" height="32"/>
+    <rect x="4" y="112" width="24" height="24" fill="#fff"/>
+    <rect x="10" y="118" width="12" height="12"/>
+
+    <!-- Data dots (synthetic) -->
+    <rect x="40" y="0" width="6" height="6"/>
+    <rect x="52" y="0" width="6" height="6"/>
+    <rect x="64" y="6" width="6" height="6"/>
+    <rect x="40" y="12" width="6" height="6"/>
+    <rect x="58" y="18" width="6" height="6"/>
+    <rect x="72" y="0" width="12" height="6"/>
+    <rect x="92" y="6" width="6" height="6"/>
+    <rect x="78" y="12" width="6" height="6"/>
+    <rect x="44" y="24" width="6" height="6"/>
+    <rect x="60" y="30" width="6" height="6"/>
+    <rect x="80" y="24" width="12" height="6"/>
+    <rect x="0" y="40" width="6" height="6"/>
+    <rect x="12" y="40" width="6" height="6"/>
+    <rect x="24" y="46" width="6" height="6"/>
+    <rect x="0" y="52" width="6" height="6"/>
+    <rect x="18" y="58" width="6" height="6"/>
+    <rect x="30" y="40" width="6" height="6"/>
+    <rect x="42" y="40" width="6" height="6"/>
+    <rect x="54" y="46" width="6" height="6"/>
+    <rect x="36" y="52" width="6" height="6"/>
+    <rect x="48" y="58" width="6" height="6"/>
+    <rect x="60" y="40" width="12" height="6"/>
+    <rect x="78" y="40" width="6" height="6"/>
+    <rect x="90" y="46" width="12" height="6"/>
+    <rect x="84" y="58" width="6" height="6"/>
+    <rect x="96" y="58" width="6" height="6"/>
+    <rect x="108" y="40" width="6" height="6"/>
+    <rect x="120" y="46" width="6" height="6"/>
+    <rect x="132" y="40" width="6" height="6"/>
+    <rect x="114" y="52" width="6" height="6"/>
+    <rect x="126" y="58" width="6" height="6"/>
+    <rect x="0" y="72" width="6" height="6"/>
+    <rect x="24" y="72" width="6" height="6"/>
+    <rect x="40" y="72" width="6" height="6"/>
+    <rect x="58" y="72" width="6" height="6"/>
+    <rect x="72" y="72" width="6" height="6"/>
+    <rect x="84" y="78" width="6" height="6"/>
+    <rect x="96" y="72" width="6" height="6"/>
+    <rect x="108" y="78" width="6" height="6"/>
+    <rect x="120" y="72" width="6" height="6"/>
+    <rect x="132" y="78" width="6" height="6"/>
+    <rect x="6" y="84" width="6" height="6"/>
+    <rect x="20" y="90" width="6" height="6"/>
+    <rect x="36" y="84" width="6" height="6"/>
+    <rect x="50" y="90" width="6" height="6"/>
+    <rect x="64" y="84" width="6" height="6"/>
+    <rect x="78" y="90" width="6" height="6"/>
+    <rect x="92" y="84" width="6" height="6"/>
+    <rect x="106" y="90" width="6" height="6"/>
+    <rect x="120" y="84" width="6" height="6"/>
+    <rect x="132" y="90" width="6" height="6"/>
+    <rect x="40" y="108" width="6" height="6"/>
+    <rect x="56" y="114" width="6" height="6"/>
+    <rect x="68" y="108" width="6" height="6"/>
+    <rect x="84" y="114" width="6" height="6"/>
+    <rect x="100" y="108" width="6" height="6"/>
+    <rect x="116" y="114" width="6" height="6"/>
+    <rect x="132" y="108" width="6" height="6"/>
+    <rect x="44" y="126" width="6" height="6"/>
+    <rect x="60" y="132" width="6" height="6"/>
+    <rect x="76" y="126" width="6" height="6"/>
+    <rect x="92" y="132" width="6" height="6"/>
+    <rect x="108" y="126" width="6" height="6"/>
+    <rect x="120" y="132" width="6" height="6"/>
+  </g>
+
+  <text x="140" y="354" fill="#fff" font-size="13" font-weight="600" text-anchor="middle">United States · 5GB · 14 Tage</text>
+  <text x="140" y="372" fill="rgba(255,255,255,0.6)" font-size="11" text-anchor="middle">T-Mobile · Verizon · AT&amp;T Roaming</text>
+
+  <!-- Steps below -->
+  <g transform="translate(20, 400)">
+    <circle cx="14" cy="14" r="14" fill="#34C759"/>
+    <path d="M9 14 L13 18 L19 10" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <text x="40" y="11" fill="rgba(255,255,255,0.5)" font-size="9" letter-spacing="1">SCHRITT 1</text>
+    <text x="40" y="24" fill="#fff" font-size="12" font-weight="600">Plan ausgewählt</text>
+  </g>
+
+  <g transform="translate(20, 440)">
+    <circle cx="14" cy="14" r="14" fill="#0071E3"/>
+    <text x="14" y="19" fill="#fff" font-size="11" font-weight="800" text-anchor="middle">2</text>
+    <text x="40" y="11" fill="#88B7FF" font-size="9" letter-spacing="1">JETZT</text>
+    <text x="40" y="24" fill="#fff" font-size="12" font-weight="600">QR-Code scannen</text>
+  </g>
+
+  <g transform="translate(20, 480)">
+    <circle cx="14" cy="14" r="14" fill="rgba(255,255,255,0.15)"/>
+    <text x="14" y="19" fill="rgba(255,255,255,0.6)" font-size="11" font-weight="800" text-anchor="middle">3</text>
+    <text x="40" y="11" fill="rgba(255,255,255,0.4)" font-size="9" letter-spacing="1">GLEICH</text>
+    <text x="40" y="24" fill="rgba(255,255,255,0.6)" font-size="12">Online sein</text>
+  </g>
+</svg>

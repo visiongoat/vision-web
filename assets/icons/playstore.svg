@@ -1,0 +1,24 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="ps1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#005EE0"/>
+    </linearGradient>
+    <linearGradient id="ps2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFD400"/>
+      <stop offset="1" stop-color="#FF7A00"/>
+    </linearGradient>
+    <linearGradient id="ps3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF3D45"/>
+      <stop offset="1" stop-color="#D00C16"/>
+    </linearGradient>
+    <linearGradient id="ps4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0DCC4C"/>
+      <stop offset="1" stop-color="#08A53C"/>
+    </linearGradient>
+  </defs>
+  <path d="M3.5 2.3v19.4c0 .4.3.6.5.6.1 0 .3 0 .4-.1L14.5 12 4.4 1.8a.6.6 0 0 0-.4-.1c-.3 0-.5.2-.5.6Z" fill="url(#ps1)"/>
+  <path d="M14.5 12l3-3-9.6-5.6 -.4-.2 7 8.8Z" fill="url(#ps2)"/>
+  <path d="M14.5 12l-7 8.8.4-.2 9.6-5.6-3-3Z" fill="url(#ps3)"/>
+  <path d="M21.4 11.4 17.5 9l-3 3 3 3 3.9-2.4c.7-.5.7-1.7 0-2.2Z" fill="url(#ps4)"/>
+</svg>

@@ -1,0 +1,41 @@
+<svg viewBox="0 0 280 560" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect width="280" height="560" rx="36" fill="#000"/>
+
+  <text x="22" y="32" fill="#fff" font-family="-apple-system" font-size="12" font-weight="600">9:41</text>
+  <rect x="248" y="24" width="14" height="8" rx="2" fill="#fff" opacity="0.8"/>
+
+  <!-- CarPlay simulated UI -->
+  <text x="140" y="68" fill="#FF6B5C" font-family="-apple-system" font-size="10" letter-spacing="2.5" font-weight="700" text-anchor="middle">CARPLAY · ANDROID AUTO</text>
+  <text x="140" y="92" fill="#fff" font-family="-apple-system" font-size="18" font-weight="700" text-anchor="middle">Im Auto wie zu Hause.</text>
+
+  <!-- Big album art -->
+  <rect x="60" y="120" width="160" height="160" rx="14" fill="#5B0A12"/>
+  <circle cx="140" cy="200" r="48" fill="rgba(255,255,255,0.18)"/>
+  <circle cx="140" cy="200" r="36" fill="rgba(255,255,255,0.12)"/>
+  <circle cx="140" cy="200" r="22" fill="#fff"/>
+  <circle cx="140" cy="200" r="6" fill="#9B0A18"/>
+
+  <text x="140" y="310" fill="#fff" font-family="-apple-system" font-size="16" font-weight="700" text-anchor="middle">BBC Radio 6 Music</text>
+  <text x="140" y="328" fill="#A8898E" font-family="-apple-system" font-size="11" text-anchor="middle">Lauren Laverne · London · Live</text>
+
+  <!-- Big control buttons -->
+  <circle cx="60" cy="400" r="32" fill="rgba(255,255,255,0.10)"/>
+  <path d="M52 392 L52 408 M68 392 L68 408 M52 392 L68 400 L52 408" stroke="#fff" stroke-width="2" fill="#fff"/>
+  <path d="M58 388 L52 400 L58 412 M68 388 L62 400 L68 412" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <circle cx="140" cy="400" r="42" fill="#E11D2A"/>
+  <rect x="132" y="388" width="5" height="24" rx="1" fill="#fff"/>
+  <rect x="143" y="388" width="5" height="24" rx="1" fill="#fff"/>
+
+  <circle cx="220" cy="400" r="32" fill="rgba(255,255,255,0.10)"/>
+  <path d="M212 388 L228 400 L212 412 M222 388 L228 388 L228 412 L222 412" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Steering wheel hint -->
+  <g transform="translate(20, 470)" opacity="0.7">
+    <rect width="240" height="56" rx="14" fill="rgba(255,255,255,0.06)"/>
+    <text x="20" y="22" fill="rgba(255,255,255,0.55)" font-family="-apple-system" font-size="9" letter-spacing="1.5" font-weight="600">STEUERUNG</text>
+    <text x="20" y="42" fill="#fff" font-family="-apple-system" font-size="12">Sprache · Lenkrad · Touchscreen</text>
+    <circle cx="218" cy="28" r="14" stroke="#FF6B5C" stroke-width="2" fill="none"/>
+    <text x="218" y="33" fill="#FF6B5C" font-size="14" font-weight="800" text-anchor="middle">⌘</text>
+  </g>
+</svg>

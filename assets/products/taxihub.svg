@@ -1,0 +1,81 @@
+<svg viewBox="0 0 280 560" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="th-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFD60A"/>
+      <stop offset="0.6" stop-color="#FFC107"/>
+      <stop offset="1" stop-color="#E6A800"/>
+    </linearGradient>
+    <linearGradient id="th-map" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFEFA8"/>
+      <stop offset="1" stop-color="#FFD60A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="280" height="560" rx="36" fill="url(#th-bg)"/>
+
+  <text x="22" y="32" fill="#0A0A0F" font-family="-apple-system" font-size="12" font-weight="700">9:41</text>
+  <rect x="248" y="24" width="14" height="8" rx="2" fill="#0A0A0F" opacity="0.8"/>
+
+  <!-- Map area -->
+  <g transform="translate(20, 50)">
+    <rect width="240" height="280" rx="22" fill="url(#th-map)"/>
+
+    <!-- Road network -->
+    <path d="M20 100 Q70 80 120 110 T220 90" stroke="#0A0A0F" stroke-width="3" fill="none" opacity="0.6"/>
+    <path d="M40 60 L40 240" stroke="#0A0A0F" stroke-width="2" fill="none" opacity="0.4"/>
+    <path d="M100 30 L100 250" stroke="#0A0A0F" stroke-width="2" fill="none" opacity="0.4"/>
+    <path d="M180 40 L180 260" stroke="#0A0A0F" stroke-width="2" fill="none" opacity="0.4"/>
+    <path d="M10 180 L220 180" stroke="#0A0A0F" stroke-width="2" fill="none" opacity="0.4"/>
+    <path d="M0 220 L240 220" stroke="#0A0A0F" stroke-width="2" fill="none" opacity="0.4"/>
+    <path d="M50 30 Q130 50 200 40" stroke="#0A0A0F" stroke-width="2" fill="none" opacity="0.3"/>
+
+    <!-- Building blocks -->
+    <rect x="20" y="40" width="14" height="14" rx="2" fill="#0A0A0F" opacity="0.15"/>
+    <rect x="50" y="40" width="22" height="14" rx="2" fill="#0A0A0F" opacity="0.15"/>
+    <rect x="80" y="40" width="14" height="14" rx="2" fill="#0A0A0F" opacity="0.15"/>
+    <rect x="110" y="50" width="60" height="40" rx="3" fill="#0A0A0F" opacity="0.15"/>
+    <rect x="185" y="40" width="40" height="14" rx="2" fill="#0A0A0F" opacity="0.15"/>
+    <rect x="20" y="190" width="14" height="22" rx="2" fill="#0A0A0F" opacity="0.15"/>
+    <rect x="50" y="190" width="34" height="22" rx="2" fill="#0A0A0F" opacity="0.15"/>
+    <rect x="110" y="120" width="60" height="40" rx="3" fill="#0A0A0F" opacity="0.15"/>
+    <rect x="190" y="190" width="34" height="22" rx="2" fill="#0A0A0F" opacity="0.15"/>
+
+    <!-- Pickup pin -->
+    <circle cx="60" cy="190" r="10" fill="#0A0A0F"/>
+    <circle cx="60" cy="190" r="4" fill="#FFD60A"/>
+
+    <!-- Destination pin -->
+    <path d="M200 110 c0,-10 -8,-18 -16,-18 c-8,0 -16,8 -16,18 c0,12 16,32 16,32 s16,-20 16,-32 z" fill="#0A0A0F"/>
+    <circle cx="184" cy="110" r="6" fill="#FFD60A"/>
+
+    <!-- Route -->
+    <path d="M60,190 C 100,180 130,150 184,130" stroke="#0A0A0F" stroke-width="4" fill="none" stroke-linecap="round" stroke-dasharray="6,3"/>
+
+    <!-- Taxi icon -->
+    <g transform="translate(118, 168)">
+      <rect x="-14" y="-7" width="28" height="14" rx="3" fill="#0A0A0F"/>
+      <rect x="-12" y="-5" width="24" height="6" rx="1" fill="#FFD60A"/>
+      <circle cx="-10" cy="8" r="3" fill="#0A0A0F"/>
+      <circle cx="10" cy="8" r="3" fill="#0A0A0F"/>
+    </g>
+  </g>
+
+  <!-- Bottom sheet -->
+  <rect x="0" y="345" width="280" height="215" rx="0" fill="#0A0A0F"/>
+  <rect x="120" y="356" width="40" height="4" rx="2" fill="rgba(255,255,255,0.4)"/>
+
+  <text x="22" y="386" fill="rgba(255,255,255,0.55)" font-family="-apple-system" font-size="9" letter-spacing="2" font-weight="600">FAHRT BUCHEN · WIEN</text>
+
+  <rect x="22" y="396" width="236" height="50" rx="14" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="40" cy="421" r="6" fill="#34C759"/>
+  <text x="58" y="416" fill="rgba(255,255,255,0.55)" font-family="-apple-system" font-size="9" letter-spacing="1">PICKUP</text>
+  <text x="58" y="430" fill="#fff" font-family="-apple-system" font-size="13" font-weight="600">Bäckerstraße 7, 1010</text>
+
+  <rect x="22" y="450" width="236" height="50" rx="14" fill="rgba(255,255,255,0.08)"/>
+  <rect x="36" y="471" width="8" height="8" rx="2" fill="#FFD60A"/>
+  <text x="58" y="470" fill="rgba(255,255,255,0.55)" font-family="-apple-system" font-size="9" letter-spacing="1">DESTINATION</text>
+  <text x="58" y="484" fill="#fff" font-family="-apple-system" font-size="13" font-weight="600">Flughafen Wien · VIE</text>
+
+  <rect x="22" y="514" width="236" height="34" rx="17" fill="#FFD60A"/>
+  <text x="140" y="535" fill="#0A0A0F" font-family="-apple-system" font-size="13" font-weight="700" text-anchor="middle">Taxi rufen · ab €&#8201;42</text>
+</svg>

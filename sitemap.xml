@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Main pages -->
+  <url>
+    <loc>https://visiongo.at/</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/" />
+  </url>
+  <url>
+    <loc>https://visiongo.at/leistungen.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/leistungen.html" />
+  </url>
+  <url>
+    <loc>https://visiongo.at/projekte.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/projekte.html" />
+  </url>
+  <url>
+    <loc>https://visiongo.at/ueber-uns.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/ueber-uns.html" />
+  </url>
+  <url>
+    <loc>https://visiongo.at/karriere.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/karriere.html" />
+  </url>
+  <url>
+    <loc>https://visiongo.at/kontakt.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/kontakt.html" />
+  </url>
+  <url>
+    <loc>https://visiongo.at/blog/</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/" />
+  </url>
+
+  <!-- Products -->
+  <url>
+    <loc>https://visiongo.at/projekte/megaradio.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/projekte/megaradio.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/og/megaradio.svg</image:loc>
+      <image:title>Vision GO Megaradio</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/projekte/scanup.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/projekte/scanup.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/og/scanup.svg</image:loc>
+      <image:title>Vision GO Scanup</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/projekte/esimfo.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/projekte/esimfo.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/og/esimfo.svg</image:loc>
+      <image:title>Vision GO Esimfo</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/projekte/taxihub.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/projekte/taxihub.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/og/taxihub.svg</image:loc>
+      <image:title>Vision GO Taxihub</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/projekte/snake-online.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/projekte/snake-online.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/og/snake.svg</image:loc>
+      <image:title>Vision GO Snake</image:title>
+    </image:image>
+  </url>
+
+  <!-- Service anchors -->
+  <url>
+    <loc>https://visiongo.at/leistungen.html#mobile</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/leistungen.html#mobile" />
+  </url>
+  <url>
+    <loc>https://visiongo.at/leistungen.html#softwareentwicklung</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/leistungen.html#softwareentwicklung" />
+  </url>
+  <url>
+    <loc>https://visiongo.at/leistungen.html#cloud</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/leistungen.html#cloud" />
+  </url>
+  <url>
+    <loc>https://visiongo.at/leistungen.html#ki</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/leistungen.html#ki" />
+  </url>
+  <url>
+    <loc>https://visiongo.at/leistungen.html#sicherheit</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/leistungen.html#sicherheit" />
+  </url>
+  <url>
+    <loc>https://visiongo.at/leistungen.html#produkt</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/leistungen.html#produkt" />
+  </url>
+
+  <!-- Blog posts -->
+  <url>
+    <loc>https://visiongo.at/blog/apple-hig-2026-was-sich-aendert.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/apple-hig-2026-was-sich-aendert.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/blog/post-apple-hig-2026-was-sich-aendert.svg</image:loc>
+      <image:title>Apple Hig 2026 Was Sich Aendert</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/blog/claude-sonnet-46-im-produktiven-einsatz.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/claude-sonnet-46-im-produktiven-einsatz.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/blog/post-claude-sonnet-46-im-produktiven-einsatz.svg</image:loc>
+      <image:title>Claude Sonnet 46 Im Produktiven Einsatz</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/blog/dsgvo-protokollierung-best-practices-2026.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/dsgvo-protokollierung-best-practices-2026.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/blog/post-dsgvo-protokollierung-best-practices-2026.svg</image:loc>
+      <image:title>Dsgvo Protokollierung Best Practices 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/blog/eu-cloud-hetzner-vs-aws-frankfurt.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/eu-cloud-hetzner-vs-aws-frankfurt.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/blog/post-eu-cloud-hetzner-vs-aws-frankfurt.svg</image:loc>
+      <image:title>Eu Cloud Hetzner Vs Aws Frankfurt</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/blog/mica-stablecoin-regulierung-2026.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/mica-stablecoin-regulierung-2026.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/blog/post-mica-stablecoin-regulierung-2026.svg</image:loc>
+      <image:title>Mica Stablecoin Regulierung 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/blog/opc-ua-edge-gateway-fuer-alte-maschinen.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/opc-ua-edge-gateway-fuer-alte-maschinen.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/blog/post-opc-ua-edge-gateway-fuer-alte-maschinen.svg</image:loc>
+      <image:title>Opc Ua Edge Gateway Fuer Alte Maschinen</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/blog/saas-mvp-acht-wochen-realitaet.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/saas-mvp-acht-wochen-realitaet.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/blog/post-saas-mvp-acht-wochen-realitaet.svg</image:loc>
+      <image:title>Saas Mvp Acht Wochen Realitaet</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/blog/swiftui-vs-jetpack-compose-2026.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/swiftui-vs-jetpack-compose-2026.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/blog/post-swiftui-vs-jetpack-compose-2026.svg</image:loc>
+      <image:title>Swiftui Vs Jetpack Compose 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/blog/warum-wir-astro-statt-nextjs-fuer-2026.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/warum-wir-astro-statt-nextjs-fuer-2026.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/blog/post-warum-wir-astro-statt-nextjs-fuer-2026.svg</image:loc>
+      <image:title>Warum Wir Astro Statt Nextjs Fuer 2026</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/blog/warum-wir-htmx-statt-react-fuer-interne-tools.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/warum-wir-htmx-statt-react-fuer-interne-tools.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/blog/post-warum-wir-htmx-statt-react-fuer-interne-tools.svg</image:loc>
+      <image:title>Warum Wir Htmx Statt React Fuer Interne Tools</image:title>
+    </image:image>
+  </url>
+
+  <!-- Blog categories -->
+  <url>
+    <loc>https://visiongo.at/blog/kategorie/app-entwicklung.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/kategorie/app-entwicklung.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/blog/cat-app-entwicklung.svg</image:loc>
+      <image:title>Kategorie app-entwicklung</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/blog/kategorie/cloud-devops.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/kategorie/cloud-devops.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/blog/cat-cloud-devops.svg</image:loc>
+      <image:title>Kategorie cloud-devops</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/blog/kategorie/design-ux.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/kategorie/design-ux.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/blog/cat-design-ux.svg</image:loc>
+      <image:title>Kategorie design-ux</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/blog/kategorie/fintech-krypto.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/kategorie/fintech-krypto.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/blog/cat-fintech-krypto.svg</image:loc>
+      <image:title>Kategorie fintech-krypto</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/blog/kategorie/industrie-iot.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/kategorie/industrie-iot.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/blog/cat-industrie-iot.svg</image:loc>
+      <image:title>Kategorie industrie-iot</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/blog/kategorie/it-sicherheit.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/kategorie/it-sicherheit.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/blog/cat-it-sicherheit.svg</image:loc>
+      <image:title>Kategorie it-sicherheit</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/blog/kategorie/ki-machine-learning.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/kategorie/ki-machine-learning.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/blog/cat-ki-machine-learning.svg</image:loc>
+      <image:title>Kategorie ki-machine-learning</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/blog/kategorie/open-source.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/kategorie/open-source.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/blog/cat-open-source.svg</image:loc>
+      <image:title>Kategorie open-source</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/blog/kategorie/startup-produkt.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/kategorie/startup-produkt.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/blog/cat-startup-produkt.svg</image:loc>
+      <image:title>Kategorie startup-produkt</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://visiongo.at/blog/kategorie/web-entwicklung.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/blog/kategorie/web-entwicklung.html" />
+    <image:image>
+      <image:loc>https://visiongo.at/assets/blog/cat-web-entwicklung.svg</image:loc>
+      <image:title>Kategorie web-entwicklung</image:title>
+    </image:image>
+  </url>
+
+  <!-- Legal -->
+  <url>
+    <loc>https://visiongo.at/impressum.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/impressum.html" />
+  </url>
+  <url>
+    <loc>https://visiongo.at/datenschutz.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/datenschutz.html" />
+  </url>
+
+  <!-- Legal extension -->
+  <url>
+    <loc>https://visiongo.at/agb.html</loc>
+    <lastmod>2026-05-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/agb.html" />
+  </url>
+
+  <!-- Public roadmap -->
+  <url>
+    <loc>https://visiongo.at/roadmap.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/roadmap.html" />
+  </url>
+
+  <!-- English version -->
+  <url>
+    <loc>https://visiongo.at/en/</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visiongo.at/en/" />
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://visiongo.at/" />
+  </url>
+  <url>
+    <loc>https://visiongo.at/en/services.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visiongo.at/en/services.html" />
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/leistungen.html" />
+  </url>
+  <url>
+    <loc>https://visiongo.at/en/work.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visiongo.at/en/work.html" />
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/projekte.html" />
+  </url>
+  <url>
+    <loc>https://visiongo.at/en/about.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visiongo.at/en/about.html" />
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/ueber-uns.html" />
+  </url>
+  <url>
+    <loc>https://visiongo.at/en/contact.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://visiongo.at/en/contact.html" />
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/kontakt.html" />
+  </url>
+
+  <!-- Release notes / Changelogs -->
+  <url>
+    <loc>https://visiongo.at/releases/megaradio.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/releases/megaradio.html" />
+  </url>
+  <url>
+    <loc>https://visiongo.at/releases/scanup.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/releases/scanup.html" />
+  </url>
+  <url>
+    <loc>https://visiongo.at/releases/esimfo.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/releases/esimfo.html" />
+  </url>
+  <url>
+    <loc>https://visiongo.at/releases/taxihub.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/releases/taxihub.html" />
+  </url>
+  <url>
+    <loc>https://visiongo.at/releases/snake-online.html</loc>
+    <lastmod>2026-05-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://visiongo.at/releases/snake-online.html" />
+  </url>
+
+</urlset>

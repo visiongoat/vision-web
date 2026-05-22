@@ -1,0 +1,22 @@
+{
+  "name": "Vision GO — Software-Studio Wien",
+  "short_name": "Vision GO",
+  "description": "Software-Studio aus Wien. Apps und Plattformen für iOS, Android und das Web.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "lang": "de-AT",
+  "categories": ["business", "developer", "productivity"],
+  "icons": [
+    { "src": "/assets/favicon.svg", "type": "image/svg+xml", "sizes": "any", "purpose": "any" },
+    { "src": "/assets/favicon.svg", "type": "image/svg+xml", "sizes": "any", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Arbeiten", "url": "/projekte.html", "description": "Apps und Studio-Arbeiten" },
+    { "name": "Blog", "url": "/blog/", "description": "Tech-Artikel" },
+    { "name": "Kontakt", "url": "/kontakt.html", "description": "Projekt starten" }
+  ]
+}

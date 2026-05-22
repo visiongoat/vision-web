@@ -1,0 +1,77 @@
+<svg viewBox="0 0 280 560" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="su-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0E0E10"/>
+      <stop offset="1" stop-color="#1F1F23"/>
+    </linearGradient>
+    <linearGradient id="su-paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E8E8EC"/>
+    </linearGradient>
+    <linearGradient id="su-corner" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#34C759"/>
+      <stop offset="1" stop-color="#0AAB47"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="280" height="560" rx="36" fill="url(#su-bg)"/>
+
+  <text x="22" y="32" fill="#fff" font-family="-apple-system" font-size="12" font-weight="600">9:41</text>
+  <rect x="248" y="24" width="14" height="8" rx="2" fill="#fff" opacity="0.8"/>
+
+  <text x="22" y="74" fill="#fff" font-family="-apple-system" font-size="22" font-weight="700" letter-spacing="-0.5">Scan</text>
+  <circle cx="240" cy="68" r="14" fill="rgba(255,255,255,0.08)"/>
+  <path d="M236 64 L240 70 L244 64" stroke="#fff" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Document preview with detected corners -->
+  <g transform="translate(40, 110)">
+    <!-- Outer detect frame -->
+    <path d="M5 5 L195 5 L195 320 L5 320 Z" stroke="#34C759" stroke-width="2" fill="none" stroke-dasharray="0" opacity="0.6"/>
+
+    <!-- Detected corners -->
+    <path d="M0 0 L24 0 M0 0 L0 24" stroke="url(#su-corner)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M200 0 L176 0 M200 0 L200 24" stroke="url(#su-corner)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M0 325 L24 325 M0 325 L0 301" stroke="url(#su-corner)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M200 325 L176 325 M200 325 L200 301" stroke="url(#su-corner)" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Document content (faux paper) -->
+    <rect x="14" y="14" width="172" height="297" rx="3" fill="url(#su-paper)" opacity="0.95"/>
+
+    <!-- Document text lines -->
+    <rect x="30" y="34" width="120" height="6" rx="2" fill="#0A0A0A" opacity="0.8"/>
+    <rect x="30" y="46" width="80" height="3" rx="1.5" fill="#86868B"/>
+
+    <line x1="30" y1="68" x2="156" y2="68" stroke="#D2D2D7" stroke-width="0.5"/>
+
+    <rect x="30" y="80" width="126" height="3" rx="1.5" fill="#3A3A3C"/>
+    <rect x="30" y="90" width="120" height="3" rx="1.5" fill="#3A3A3C"/>
+    <rect x="30" y="100" width="116" height="3" rx="1.5" fill="#3A3A3C"/>
+    <rect x="30" y="110" width="90" height="3" rx="1.5" fill="#3A3A3C"/>
+
+    <rect x="30" y="130" width="80" height="3" rx="1.5" fill="#3A3A3C"/>
+    <rect x="30" y="140" width="100" height="3" rx="1.5" fill="#3A3A3C"/>
+
+    <rect x="30" y="160" width="126" height="3" rx="1.5" fill="#3A3A3C"/>
+    <rect x="30" y="170" width="118" height="3" rx="1.5" fill="#3A3A3C"/>
+    <rect x="30" y="180" width="60" height="3" rx="1.5" fill="#3A3A3C"/>
+
+    <!-- Signature stroke -->
+    <path d="M30 215 Q40 205 50 215 T70 213 Q80 207 90 218 T112 215 Q120 210 130 220" stroke="#0066CC" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <text x="30" y="234" fill="#86868B" font-family="-apple-system" font-size="6">Signature</text>
+
+    <!-- Footer -->
+    <rect x="30" y="270" width="60" height="3" rx="1.5" fill="#86868B"/>
+    <rect x="30" y="280" width="80" height="3" rx="1.5" fill="#86868B"/>
+  </g>
+
+  <!-- Scan controls -->
+  <rect x="40" y="450" width="200" height="60" rx="20" fill="rgba(255,255,255,0.06)"/>
+  <circle cx="80" cy="480" r="14" fill="rgba(255,255,255,0.10)"/>
+  <path d="M74 480 L80 474 L86 480 L80 486 Z" stroke="#fff" stroke-width="1.5" fill="none"/>
+
+  <circle cx="140" cy="480" r="22" fill="#fff"/>
+  <circle cx="140" cy="480" r="17" stroke="#0A0A0A" stroke-width="2" fill="none"/>
+
+  <circle cx="200" cy="480" r="14" fill="rgba(255,255,255,0.10)"/>
+  <path d="M194 480 L206 480 M200 474 L200 486" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

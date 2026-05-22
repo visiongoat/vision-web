@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vision GO Blog</title>
+    <link>https://visiongo.at/blog/</link>
+    <atom:link href="https://visiongo.at/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Tech-Artikel aus dem Wiener Software-Studio Vision GO — KI, App-Entwicklung, Cloud, DSGVO, Open Source.</description>
+    <language>de-AT</language>
+    <lastBuildDate>Wed, 13 May 2026 09:00:00 +0200</lastBuildDate>
+    <copyright>© 2026 Vision GO GmbH</copyright>
+    <ttl>1440</ttl>
+    <item>
+      <title>Claude Sonnet 4.6 im produktiven Einsatz: Was sich gegenüber 4.5 wirklich geändert hat</title>
+      <link>https://visiongo.at/blog/claude-sonnet-46-im-produktiven-einsatz.html</link>
+      <guid isPermaLink="true">https://visiongo.at/blog/claude-sonnet-46-im-produktiven-einsatz.html</guid>
+      <pubDate>Wed, 13 May 2026 09:00:00 +0200</pubDate>
+      <category>KI &amp; Machine Learning</category>
+      <description><![CDATA[Wir haben die neue Version drei Wochen lang in unseren RAG-Pipelines getestet. Hier sind die Ergebnisse — ohne Marketing-Lack.]]></description>
+      <author>noreply@visiongo.at (Vision GO Engineering)</author>
+    </item>
+    <item>
+      <title>SwiftUI vs. Jetpack Compose 2026: Was wir nach 12 produktiven Apps gelernt haben</title>
+      <link>https://visiongo.at/blog/swiftui-vs-jetpack-compose-2026.html</link>
+      <guid isPermaLink="true">https://visiongo.at/blog/swiftui-vs-jetpack-compose-2026.html</guid>
+      <pubDate>Wed, 13 May 2026 09:00:00 +0200</pubDate>
+      <category>App-Entwicklung</category>
+      <description><![CDATA[Beide Frameworks sind erwachsen geworden. Hier ist, was sie immer noch schlecht können — und warum wir trotzdem fast nie React Native empfehlen.]]></description>
+      <author>noreply@visiongo.at (Vision GO Engineering)</author>
+    </item>
+    <item>
+      <title>Warum wir 2026 vermehrt Astro statt Next.js wählen</title>
+      <link>https://visiongo.at/blog/warum-wir-astro-statt-nextjs-fuer-2026.html</link>
+      <guid isPermaLink="true">https://visiongo.at/blog/warum-wir-astro-statt-nextjs-fuer-2026.html</guid>
+      <pubDate>Wed, 13 May 2026 09:00:00 +0200</pubDate>
+      <category>Web-Entwicklung</category>
+      <description><![CDATA[Wir haben drei Marketing-Sites von Next.js zu Astro migriert. Performance, DX, Build-Times — und wo Astro noch ein Problem hat.]]></description>
+      <author>noreply@visiongo.at (Vision GO Engineering)</author>
+    </item>
+    <item>
+      <title>EU-Cloud in der Praxis: Hetzner vs. AWS Frankfurt für unsere Apps</title>
+      <link>https://visiongo.at/blog/eu-cloud-hetzner-vs-aws-frankfurt.html</link>
+      <guid isPermaLink="true">https://visiongo.at/blog/eu-cloud-hetzner-vs-aws-frankfurt.html</guid>
+      <pubDate>Wed, 13 May 2026 09:00:00 +0200</pubDate>
+      <category>Cloud &amp; DevOps</category>
+      <description><![CDATA[Wir betreiben Produktiv-Workloads auf beiden Plattformen. Hier ist die ehrliche Kostenrechnung — und wo Hetzner uns noch nicht reicht.]]></description>
+      <author>noreply@visiongo.at (Vision GO Engineering)</author>
+    </item>
+    <item>
+      <title>DSGVO-Protokollierung 2026: Was wir aus zwei Audits gelernt haben</title>
+      <link>https://visiongo.at/blog/dsgvo-protokollierung-best-practices-2026.html</link>
+      <guid isPermaLink="true">https://visiongo.at/blog/dsgvo-protokollierung-best-practices-2026.html</guid>
+      <pubDate>Wed, 13 May 2026 09:00:00 +0200</pubDate>
+      <category>IT-Sicherheit &amp; Datenschutz</category>
+      <description><![CDATA[Die meisten Apps protokollieren zu wenig — oder das Falsche. Hier sind die acht Felder, die jedes Logging-System haben muss.]]></description>
+      <author>noreply@visiongo.at (Vision GO Engineering)</author>
+    </item>
+    <item>
+      <title>Warum wir HTMX statt React für interne Tools verwenden</title>
+      <link>https://visiongo.at/blog/warum-wir-htmx-statt-react-fuer-interne-tools.html</link>
+      <guid isPermaLink="true">https://visiongo.at/blog/warum-wir-htmx-statt-react-fuer-interne-tools.html</guid>
+      <pubDate>Wed, 13 May 2026 09:00:00 +0200</pubDate>
+      <category>Open Source</category>
+      <description><![CDATA[Drei interne Tools letztes Jahr, kein einziges Webpack-Update, kein einziges Bundle größer als 30 KB. Hier ist, warum HTMX in der Werkstatt funktioniert.]]></description>
+      <author>noreply@visiongo.at (Vision GO Engineering)</author>
+    </item>
+    <item>
+      <title>SaaS-MVP in 8 Wochen: Was die Pitches verschweigen</title>
+      <link>https://visiongo.at/blog/saas-mvp-acht-wochen-realitaet.html</link>
+      <guid isPermaLink="true">https://visiongo.at/blog/saas-mvp-acht-wochen-realitaet.html</guid>
+      <pubDate>Wed, 13 May 2026 09:00:00 +0200</pubDate>
+      <category>Startup &amp; Produkt</category>
+      <description><![CDATA[Wir haben 2025 vier MVPs für Gründer:innen gebaut. Die Wahrheit über Discovery-Schmerzen, Auth-Setup und warum „Logo + Login + Landing” nie das eigentliche MVP ist.]]></description>
+      <author>noreply@visiongo.at (Vision GO Engineering)</author>
+    </item>
+    <item>
+      <title>OPC UA Edge Gateway für alte Maschinen: Praxisbericht aus drei Werken</title>
+      <link>https://visiongo.at/blog/opc-ua-edge-gateway-fuer-alte-maschinen.html</link>
+      <guid isPermaLink="true">https://visiongo.at/blog/opc-ua-edge-gateway-fuer-alte-maschinen.html</guid>
+      <pubDate>Wed, 13 May 2026 09:00:00 +0200</pubDate>
+      <category>Industrie &amp; IoT</category>
+      <description><![CDATA[Wir verbinden 30 Jahre alte Drehmaschinen mit modernen MES-Systemen. Hier ist die Hardware, das Protokoll und der häufigste Fehler.]]></description>
+      <author>noreply@visiongo.at (Vision GO Engineering)</author>
+    </item>
+    <item>
+      <title>MiCA-Stablecoins 2026: Was deutsche und österreichische Fintechs jetzt entscheiden müssen</title>
+      <link>https://visiongo.at/blog/mica-stablecoin-regulierung-2026.html</link>
+      <guid isPermaLink="true">https://visiongo.at/blog/mica-stablecoin-regulierung-2026.html</guid>
+      <pubDate>Wed, 13 May 2026 09:00:00 +0200</pubDate>
+      <category>Fintech &amp; Krypto</category>
+      <description><![CDATA[Die MiCA-Verordnung ist seit Mitte 2024 in Kraft. Hier ist, was wir aus zwei Stablecoin-Projekten gelernt haben — und welche Fragen die Compliance-Abteilung jetzt stellen muss.]]></description>
+      <author>noreply@visiongo.at (Vision GO Engineering)</author>
+    </item>
+    <item>
+      <title>Apple HIG 2026: Was sich für iOS-Apps wirklich geändert hat</title>
+      <link>https://visiongo.at/blog/apple-hig-2026-was-sich-aendert.html</link>
+      <guid isPermaLink="true">https://visiongo.at/blog/apple-hig-2026-was-sich-aendert.html</guid>
+      <pubDate>Wed, 13 May 2026 09:00:00 +0200</pubDate>
+      <category>Design &amp; UX</category>
+      <description><![CDATA[Wir haben unsere Apps gegen die neuen Human Interface Guidelines geprüft. Hier sind die fünf Stellen, an denen wir nachbessern mussten — und zwei, an denen wir Apple nicht folgen.]]></description>
+      <author>noreply@visiongo.at (Vision GO Engineering)</author>
+    </item>
+  </channel>
+</rss>
