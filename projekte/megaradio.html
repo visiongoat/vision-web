@@ -50,7 +50,21 @@
   "logo": "https://visiongo.at/assets/logo.svg",
   "address": { "@type": "PostalAddress", "streetAddress": "Bäckerstraße 7/7", "addressLocality": "Wien", "postalCode": "1010", "addressCountry": "AT" },
   "foundingDate": "2015",
-  "employee": [ { "@type": "Person", "name": "Muhammed Fatih Geyik", "jobTitle": "Head of IT" } ]
+  "employee": [
+    {
+      "@type": "Person",
+      "@id": "https://visiongo.at/#mfg-person",
+      "name": "Muhammed Fatih Geyik",
+      "givenName": "Muhammed Fatih",
+      "familyName": "Geyik",
+      "jobTitle": "Founder, Head of IT & Lead Developer",
+      "description": "Founder, Head of IT and lead software architect at Vision GO. Designs and builds the products MegaRadio, ScanUp, eSIMfo, TaxiHub and Online Snake.",
+      "worksFor": { "@id": "https://visiongo.at/#organization" },
+      "knowsAbout": ["iOS", "Android", "Swift", "Kotlin", "TypeScript", "Cloud Architecture", "GDPR", "Mobile App Development", "Software Engineering"],
+      "knowsLanguage": ["de", "en", "tr"],
+      "nationality": { "@type": "Country", "name": "AT" }
+    }
+  ]
 }
 </script>
 
@@ -72,8 +86,9 @@
   "inLanguage": ["de","en"],
   "contentRating": "4+",
   "publisher": { "@id": "https://visiongo.at/#organization" },
-  "author": { "@id": "https://visiongo.at/#organization" },
-  "creator": { "@id": "https://visiongo.at/#organization" },
+  "developer": { "@id": "https://visiongo.at/#mfg-person" },
+  "author": [ { "@id": "https://visiongo.at/#mfg-person" }, { "@id": "https://visiongo.at/#organization" } ],
+  "creator": { "@id": "https://visiongo.at/#mfg-person" },
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
   "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "ratingCount": "3", "bestRating": "5" },
   "screenshot": "https://visiongo.at/assets/products/megaradio/screen-2.png",
@@ -110,7 +125,7 @@
   "description": "FM, AM und Internet-Radio aus über 200 Ländern. Entwickelt von Vision GO.",
   "datePublished": "2025-02-01",
   "dateModified": "2026-04-22",
-  "author": { "@id": "https://visiongo.at/#organization" },
+  "author": [ { "@id": "https://visiongo.at/#mfg-person" }, { "@id": "https://visiongo.at/#organization" } ],
   "publisher": { "@id": "https://visiongo.at/#organization" },
   "mainEntityOfPage": "https://visiongo.at/projekte/megaradio.html",
   "image": "https://visiongo.at/assets/og-image.svg",

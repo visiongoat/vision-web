@@ -1,112 +1,201 @@
 #!/usr/bin/env python3
-import pathlib, datetime
+"""
+build_sitemap.py — Professional sitemap.xml generator for Vision GO.
+
+- Auto-discovers all *.html under the repo root.
+- Excludes 404.html (noindex).
+- Reads <lastmod> from git log timestamps where available, else file mtime.
+- Sets sensible default priority/changefreq per section.
+- Wires bidirectional hreflang between DE and EN equivalents.
+- Adds <image:image> for product/blog covers.
+- Validates the resulting XML.
+
+Run:
+    python3 tools/build_sitemap.py
+
+Output:
+    sitemap.xml (overwritten)
+"""
+from __future__ import annotations
+import subprocess
+import sys
+import xml.etree.ElementTree as ET
+from pathlib import Path
+from datetime import datetime, timezone
+from typing import Optional
 
 SITE = "https://visiongo.at"
-TODAY = "2026-05-13"
-ROOT = pathlib.Path("/Users/mumiix/visiongo-new")
+ROOT = Path(__file__).resolve().parent.parent
+OUT = ROOT / "sitemap.xml"
 
-# Static main pages
-main_urls = [
-    ("/", 1.0, "weekly"),
-    ("/leistungen.html", 0.9, "monthly"),
-    ("/projekte.html", 0.95, "weekly"),
-    ("/ueber-uns.html", 0.8, "monthly"),
-    ("/karriere.html", 0.75, "weekly"),
-    ("/kontakt.html", 0.85, "monthly"),
-    ("/blog/", 0.95, "daily"),
-]
+# Section priority/changefreq defaults (prefix match, longest wins)
+SECTION_DEFAULTS = {
+    "/index.html":          (1.0,  "weekly"),
+    "/leistungen.html":     (0.9,  "monthly"),
+    "/projekte.html":       (0.95, "weekly"),
+    "/ueber-uns.html":      (0.8,  "monthly"),
+    "/karriere.html":       (0.75, "weekly"),
+    "/kontakt.html":        (0.85, "monthly"),
+    "/roadmap.html":        (0.7,  "weekly"),
+    "/agb.html":            (0.4,  "yearly"),
+    "/datenschutz.html":    (0.4,  "yearly"),
+    "/impressum.html":      (0.4,  "yearly"),
+    "/projekte/":           (0.9,  "monthly"),
+    "/releases/":           (0.7,  "monthly"),
+    "/blog/index.html":     (0.95, "daily"),
+    "/blog/kategorie/":     (0.7,  "weekly"),
+    "/blog/":               (0.8,  "monthly"),
+    "/en/index.html":       (0.85, "weekly"),
+    "/en/":                 (0.75, "monthly"),
+}
 
-# Product pages
-product_urls = [
-    ("/projekte/megaradio.html", 0.9, "monthly", "megaradio"),
-    ("/projekte/scanup.html", 0.9, "monthly", "scanup"),
-    ("/projekte/esimfo.html", 0.9, "monthly", "esimfo"),
-    ("/projekte/taxihub.html", 0.9, "monthly", "taxihub"),
-    ("/projekte/snake-online.html", 0.9, "monthly", "snake"),
-]
+# Bidirectional hreflang map: canonical loc → (en_url, de_url)
+HREFLANG_PAIRS = {
+    "/":                    ("/en/",              "/"),
+    "/leistungen.html":     ("/en/services.html", "/leistungen.html"),
+    "/projekte.html":       ("/en/work.html",     "/projekte.html"),
+    "/ueber-uns.html":      ("/en/about.html",    "/ueber-uns.html"),
+    "/kontakt.html":        ("/en/contact.html",  "/kontakt.html"),
+    "/datenschutz.html":    ("/en/privacy.html",  "/datenschutz.html"),
+    "/agb.html":            ("/en/terms.html",    "/agb.html"),
+    "/en/":                 ("/en/",              "/"),
+    "/en/services.html":    ("/en/services.html", "/leistungen.html"),
+    "/en/work.html":        ("/en/work.html",     "/projekte.html"),
+    "/en/about.html":       ("/en/about.html",    "/ueber-uns.html"),
+    "/en/contact.html":     ("/en/contact.html",  "/kontakt.html"),
+    "/en/privacy.html":     ("/en/privacy.html",  "/datenschutz.html"),
+    "/en/terms.html":       ("/en/terms.html",    "/agb.html"),
+}
 
-# Service anchors
-anchors = ["mobile", "softwareentwicklung", "cloud", "ki", "sicherheit", "produkt"]
+# Pages mapped to an image asset
+IMAGE_MAP = {
+    "/projekte/megaradio.html":    ("/assets/og/megaradio.svg",  "MegaRadio — Live Radio"),
+    "/projekte/scanup.html":       ("/assets/og/scanup.svg",     "ScanUp — Document Scanner"),
+    "/projekte/esimfo.html":       ("/assets/og/esimfo.svg",     "eSIMfo — Travel eSIM"),
+    "/projekte/taxihub.html":      ("/assets/og/taxihub.svg",    "TaxiHub — Taxi Platform Vienna"),
+    "/projekte/snake-online.html": ("/assets/og/snake.svg",      "Online Snake — Multiplayer Game"),
+}
 
-# Legal
-legal = [
-    ("/impressum.html", 0.3, "yearly"),
-    ("/datenschutz.html", 0.3, "yearly"),
-]
 
-# Blog posts (auto-discover)
-blog_files = sorted((ROOT / "blog").glob("*.html"))
-blog_post_urls = [f"/blog/{f.name}" for f in blog_files if f.name != "index.html"]
+def git_lastmod(rel_path: Path) -> Optional[str]:
+    try:
+        out = subprocess.check_output(
+            ["git", "log", "-1", "--format=%aI", "--", str(rel_path)],
+            cwd=ROOT, stderr=subprocess.DEVNULL, text=True
+        ).strip()
+        if out:
+            return out[:10]
+    except Exception:
+        pass
+    return None
 
-# Categories
-cat_files = sorted((ROOT / "blog" / "kategorie").glob("*.html"))
-cat_urls = [f"/blog/kategorie/{f.name}" for f in cat_files]
 
-lines = ['<?xml version="1.0" encoding="UTF-8"?>',
-         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
-         '        xmlns:xhtml="http://www.w3.org/1999/xhtml"',
-         '        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">',
-         '']
+def file_lastmod(p: Path) -> str:
+    git = git_lastmod(p.relative_to(ROOT))
+    if git:
+        return git
+    ts = datetime.fromtimestamp(p.stat().st_mtime, tz=timezone.utc)
+    return ts.strftime("%Y-%m-%d")
 
-def url(loc, lastmod, priority, changefreq, image_loc=None, image_title=None):
-    out = [f'  <url>',
-           f'    <loc>{SITE}{loc}</loc>',
-           f'    <lastmod>{lastmod}</lastmod>',
-           f'    <changefreq>{changefreq}</changefreq>',
-           f'    <priority>{priority}</priority>',
-           f'    <xhtml:link rel="alternate" hreflang="de-AT" href="{SITE}{loc}" />']
-    if image_loc:
-        out.append('    <image:image>')
-        out.append(f'      <image:loc>{SITE}{image_loc}</image:loc>')
-        if image_title:
-            out.append(f'      <image:title>{image_title}</image:title>')
-        out.append('    </image:image>')
-    out.append('  </url>')
-    return '\n'.join(out)
 
-# Main
-lines.append('  <!-- Main pages -->')
-for loc, prio, cf in main_urls:
-    lines.append(url(loc, TODAY, prio, cf))
+def section_defaults(loc: str) -> tuple[float, str]:
+    # Try exact match first (with /index.html for root paths)
+    candidates = [loc]
+    if loc.endswith("/"):
+        candidates.append(loc + "index.html")
+    for c in candidates:
+        if c in SECTION_DEFAULTS:
+            return SECTION_DEFAULTS[c]
+    # Then prefix match — longest wins
+    best, best_len = (0.5, "monthly"), -1
+    for prefix, val in SECTION_DEFAULTS.items():
+        if prefix.endswith("/") and loc.startswith(prefix) and len(prefix) > best_len:
+            best, best_len = val, len(prefix)
+    return best
 
-# Products
-lines.append('')
-lines.append('  <!-- Products -->')
-for loc, prio, cf, slug in product_urls:
-    lines.append(url(loc, TODAY, prio, cf, f"/assets/og/{slug}.svg", f"Vision GO {slug.capitalize()}"))
 
-# Service anchors
-lines.append('')
-lines.append('  <!-- Service anchors -->')
-for a in anchors:
-    lines.append(url(f"/leistungen.html#{a}", TODAY, 0.6, "monthly"))
+def url_for(rel_path: Path) -> str:
+    rel = rel_path.relative_to(ROOT).as_posix()
+    if rel.endswith("/index.html"):
+        rel = rel[:-len("index.html")]
+    return "/" + rel if not rel.startswith("/") else rel
 
-# Blog posts
-lines.append('')
-lines.append('  <!-- Blog posts -->')
-for f in blog_files:
-    if f.name == "index.html":
-        continue
-    slug = f.stem
-    img_loc = f"/assets/blog/post-{slug}.svg"
-    lines.append(url(f"/blog/{f.name}", TODAY, 0.85, "weekly", img_loc, slug.replace('-', ' ').title()))
 
-# Categories
-lines.append('')
-lines.append('  <!-- Blog categories -->')
-for f in cat_files:
-    slug = f.stem
-    img_loc = f"/assets/blog/cat-{slug}.svg"
-    lines.append(url(f"/blog/kategorie/{f.name}", TODAY, 0.7, "weekly", img_loc, f"Kategorie {slug}"))
+def discover_pages():
+    skip = {"404.html"}
+    pages = []
+    for p in sorted(ROOT.glob("**/*.html")):
+        if any(part.startswith(".") for part in p.relative_to(ROOT).parts):
+            continue
+        if p.name in skip:
+            continue
+        pages.append(p)
+    return pages
 
-# Legal
-lines.append('')
-lines.append('  <!-- Legal -->')
-for loc, prio, cf in legal:
-    lines.append(url(loc, TODAY, prio, cf))
 
-lines.append('')
-lines.append('</urlset>')
+def build():
+    NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
+    XHTML = "http://www.w3.org/1999/xhtml"
+    IMG = "http://www.google.com/schemas/sitemap-image/1.1"
 
-(ROOT / "sitemap.xml").write_text('\n'.join(lines), encoding="utf-8")
-print(f"✓ Sitemap with {len(main_urls) + len(product_urls) + len(anchors) + len(blog_post_urls) + len(cat_urls) + len(legal)} URLs")
+    # Build XML manually to control namespace prefixes (cleaner output)
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        f'<urlset xmlns="{NS}"',
+        f'        xmlns:xhtml="{XHTML}"',
+        f'        xmlns:image="{IMG}">',
+        ''
+    ]
+
+    total = 0
+    for p in discover_pages():
+        loc = url_for(p)
+        full_loc = SITE + loc
+        prio, freq = section_defaults(loc)
+        lastmod = file_lastmod(p)
+
+        lines.append('  <url>')
+        lines.append(f'    <loc>{full_loc}</loc>')
+        lines.append(f'    <lastmod>{lastmod}</lastmod>')
+        lines.append(f'    <changefreq>{freq}</changefreq>')
+        lines.append(f'    <priority>{prio:.2f}</priority>')
+
+        # hreflang
+        if loc in HREFLANG_PAIRS:
+            en, de = HREFLANG_PAIRS[loc]
+            lines.append(f'    <xhtml:link rel="alternate" hreflang="de-AT" href="{SITE}{de}" />')
+            lines.append(f'    <xhtml:link rel="alternate" hreflang="en" href="{SITE}{en}" />')
+            lines.append(f'    <xhtml:link rel="alternate" hreflang="x-default" href="{SITE}{de}" />')
+        else:
+            lang = "en" if loc.startswith("/en/") else "de-AT"
+            lines.append(f'    <xhtml:link rel="alternate" hreflang="{lang}" href="{full_loc}" />')
+
+        # Image (for product pages)
+        if loc in IMAGE_MAP:
+            img_path, img_title = IMAGE_MAP[loc]
+            lines.append('    <image:image>')
+            lines.append(f'      <image:loc>{SITE}{img_path}</image:loc>')
+            lines.append(f'      <image:title>{img_title}</image:title>')
+            lines.append('    </image:image>')
+
+        lines.append('  </url>')
+        total += 1
+
+    lines.append('')
+    lines.append('</urlset>')
+    OUT.write_text("\n".join(lines), encoding="utf-8")
+
+    # Validate
+    try:
+        ET.parse(OUT)
+        print("✓ Valid XML")
+    except Exception as e:
+        print(f"× INVALID XML: {e}", file=sys.stderr)
+        sys.exit(1)
+
+    print(f"✓ Wrote {OUT.relative_to(ROOT)} with {total} URLs")
+    return total
+
+
+if __name__ == "__main__":
+    build()

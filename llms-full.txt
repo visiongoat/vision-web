@@ -1,0 +1,3839 @@
+# Vision GO — Complete site content
+
+> Concatenated markdown extraction of all primary pages of visiongo.at.
+> Follows the llms-full.txt convention (https://llmstxt.org).
+
+> Vision GO is a software studio in Vienna, Austria. Founded 2015. We build apps and platforms for iOS, Android and the web. This file gives LLM agents the full readable text of the site so they can answer questions accurately without having to crawl individual pages.
+
+> Note: AI training is opted out via robots.txt — this file is intended for **inference-time retrieval** by LLM assistants answering user questions about Vision GO, not for model training.
+
+---
+
+# Studio (Homepage)
+
+Source: https://visiongo.at/index.html
+
+— Software-Studio · Wien · Seit 2015
+
+
+# Apps, die Menschen benutzen.
+
+
+Wir entwerfen, bauen und betreiben Produkte für iOS, Android und das Web. Eigene Apps. Studio-Arbeiten. Strenge Handwerksstandards.
+
+
+ [Arbeiten ansehen](/projekte.html)
+ [Projekt besprechen](/kontakt.html)
+
+
+ [Wir nehmen 2 weitere Projekte für Q3 / 2026 an](/kontakt.html)
+
+
+
+
+
+
+
+
+ [Travelers' Choice · eSIMfo · App Store
+
+
+ ★★★★★
+ 5.0 · MegaRadio · App Store
+
+
+ ★★★★★
+ 4.9 · Online Snake · 12 Reviews
+
+
+
+ Mitglied WKO Wien
+
+
+
+ DSGVO-konform · EU-Hosting
+
+
+
+
+
+
+
+
+
+
+
+
+
+ MegaRadio
+
+
+## Die ganze Welt im Radio.
+
+ 100.000+ Live-Radiostationen aus über 200 Ländern. FM, AM und Internet — in einer App.
+
+
+ Mehr erfahren
+ Im App Store ›](https://apps.apple.com/tr/app/esimfo-travel-esim-for-iphone/id6755661891)
+
+
+
+
+
+ [ScanUp
+
+
+## Dokumente. Privat. Endlich digital.
+
+
+Scannen, signieren, OCR. Mit Passwort­schutz und sicherem Cloud-Sync.
+
+
+ Mehr erfahren](/projekte/scanup.html)
+
+ [eSIMfo
+
+
+## Daten. Überall. In 2 Minuten.
+
+
+Travel-eSIM für 202+ Länder. Kein Plastik, kein Versand, keine Roaming-Sorgen.
+
+
+ Mehr erfahren](/projekte/esimfo.html)
+
+
+
+
+
+
+ [TaxiHub
+
+
+## Taxi Wien. Neu gedacht.
+
+
+Buchen, bezahlen, ankommen. Die Plattform für Wiener Taxis.
+
+
+ Mehr erfahren](/projekte/taxihub.html)
+
+ [Online Snake
+
+
+## Snake. Aber mit Echtgeld.
+
+
+Multiplayer-Snake mit Play-to-Earn — verdienen Sie MXR Token bei jedem Spiel.
+
+
+ Mehr erfahren](/projekte/snake-online.html)
+
+
+
+
+
+
+
+
+
+
+ Im Markt seit2015
+ Eigene Apps5 in den Stores
+ PlattformeniOS · Android · Web · CarPlay
+ HostingEU · DSGVO · Frankfurt & Wien
+ Reviews iOS4,9 / 5,0 ★
+ Studio-Arbeiten74 ausgeliefert
+
+
+
+
+
+
+
+ Swift
+ Kotlin
+ TypeScript
+ React Native
+ SwiftUI
+ Jetpack Compose
+ Next.js
+ Astro
+ PostgreSQL
+ Kubernetes
+ Terraform
+ Anthropic Claude
+ OpenAI
+ Solana
+ Swift
+ Kotlin
+ TypeScript
+ React Native
+ SwiftUI
+ Jetpack Compose
+ Next.js
+ Astro
+ PostgreSQL
+ Kubernetes
+ Terraform
+ Anthropic Claude
+ OpenAI
+ Solana
+
+
+
+
+
+
+
+— Studio
+
+
+Wir bauen Software wie gutes Mobiliar — mit Geduld, mit Materialverständnis, gemacht für die nächsten zehn Jahre.
+
+
+Vision GO ist ein Software-Studio in der Wiener Innenstadt. Wir entwickeln eigene Apps und arbeiten mit Auftraggebern aus Fintech, Health, Mobility und Industrie. Was wir liefern, sollte auch in fünf Jahren noch funktionieren — und idealerweise schöner sein als am Tag des Launches.
+
+
+
+
+
+
+
+
+
+
+## Was wir tatsächlich tun.
+
+ [Alle Leistungen](/leistungen.html)
+
+
+
+ [### iOS & Android Apps
+
+
+Native und Cross-Platform. Swift, Kotlin, React Native. Wir veröffentlichen seit 2015 in beiden Stores.
+
+ Erfahren](/leistungen.html#mobile)
+
+ [### Web & SaaS
+
+ Plattformen, APIs, interne Tools. TypeScript, PostgreSQL, sauberer Stack — keine Modeerscheinungen.
+
+ Erfahren](/leistungen.html#softwareentwicklung)
+
+ [### Cloud & DevOps
+
+ EU-Hosting, Kubernetes, IaC. Wir migrieren, betreiben und optimieren — mit vorhersagbaren Kosten.
+
+ Erfahren](/leistungen.html#cloud)
+
+ [### KI & Machine Learning
+
+ RAG, Computer Vision, Fine-Tuning. Pragmatisch eingesetzt — dort, wo es ein echtes Problem löst.
+
+ Erfahren](/leistungen.html#ki)
+
+ [### Sicherheit & DSGVO
+
+ ISO 27001, PCI-DSS, Anwaltsgeheimnis-konform. Compliance vom ersten Sketch — nicht als Pflaster.
+
+ Erfahren](/leistungen.html#sicherheit)
+
+ [### Produkt & UX
+
+ Discovery, Prototyping, Design-Systeme. Bevor wir bauen, denken wir — manchmal raten wir ab.
+
+ Erfahren](/leistungen.html#produkt)
+
+
+
+
+
+
+
+
+
+
+## Wie ein Projekt bei uns läuft.
+
+ [Mehr zur Methode](/leistungen.html)
+
+
+
+
+ — 01
+
+
+### Discovery
+
+
+Wir reden mit Stakeholdern, lesen Verträge, schauen in Datenbanken. Am Ende steht ein Strategie-Dokument.
+
+ 5–10 Tage
+
+
+ — 02
+
+
+### Architektur
+
+
+Stack, Schnittstellen, Sicherheit, Kosten — alles, was später teuer wird, entscheiden wir hier.
+
+ 2–4 Wochen
+
+
+ — 03
+
+
+### Bau
+
+
+Zwei-Wochen-Sprints, festes Team, wöchentliches Demo. Wir liefern Code, nicht Mockups.
+
+ 8–32 Wochen
+
+
+ — 04
+
+
+### Betrieb
+
+
+SLAs, Monitoring, On-Call. Optional, aber meistens bleiben wir als Engineering-Partner.
+
+ Unbegrenzt
+
+
+
+
+
+
+
+
+
+
+
+## Was Nutzer:innen tatsächlich sagen.
+
+
+Aus dem App Store, Google Play und persönlichen Auftraggeber-Gesprächen.
+
+
+
+
+
+ [★★★★★
+
+Beste Travel-eSIM, die ich getestet habe. Aktivierung in unter 90 Sekunden, in Spanien sofort online — und der Support antwortet in der App in Minuten.
+
+
+ MB
+
+ Markus B.
+ eSIMfo · App Store · 5★
+
+
+
+
+
+ ★★★★★
+
+Mit MegaRadio höre ich Ö1, BBC und meinen alten Lieblings-Sender aus Istanbul in einer App. Die CarPlay-Integration ist überraschend gut.
+
+
+ AK
+
+ Anna K.
+ MegaRadio · App Store · 5★
+
+
+
+
+
+ ★★★★★
+
+Endlich ein Scanner ohne Watermark und ohne fragwürdige Datenrechte. AES-256-Verschlüsselung lokal — genau was ich für Mandanten-Akten brauche.
+
+
+ SF
+
+ Sarah F.
+ ScanUp · App Store · 5★
+
+
+
+
+
+ ★★★★★
+
+Die ehrlichsten Techniker, mit denen ich gearbeitet habe. Sie haben uns ein Feature aus der Roadmap gestrichen, weil es uns selbst nicht überzeugte. Selten.
+
+
+ DH
+
+ Dr. Anna H.
+ Klinik-CTO · Auftraggeber 2024
+
+
+
+
+
+ ★★★★★
+
+Fixpreis und der Fahrer wartet, wenn der Flug Verspätung hat. Das beste an einer Wiener Taxi-App: keine versteckten Zuschläge mehr.
+
+
+ JG
+
+ Jakob G.
+ TaxiHub · Wien · Geschäftsreisender
+
+
+
+
+
+ ★★★★★
+
+Beste Snake-App auf dem Markt. Echtzeit-Multiplayer funktioniert wirklich gut, MXR-Token-Auszahlung war einfacher als gedacht.
+
+
+ LR
+
+ Lukas R.
+ Online Snake · App Store · 5★
+
+
+
+
+
+
+
+
+
+
+
+
+— Monatlich, kein Spam
+
+
+
+## Was wir in der Werkstatt lernen.
+
+
+Einmal im Monat: Studio-Updates, technische Funde, neue App-Versionen. Direkt aus der Bäckerstraße.
+
+
+ E-Mail-Adresse
+
+ Abonnieren
+
+
+Mit der Anmeldung stimmen Sie unserer Datenschutzerklärung zu. Abmeldung jederzeit per Klick.
+
+
+
+
+
+
+
+
+— Sprechen wir
+
+
+
+## Sie haben ein Projekt. Wir haben 30 Minuten.
+
+
+Kein Pitch, kein Verkaufstrichter. Ein Gespräch über das, was Sie bauen wollen — und ob wir die Richtigen dafür sind.
+
+
+ Erstgespräch buchen](/kontakt.html)
+ [info@visiongo.at ›](mailto:info@visiongo.at)
+
+---
+
+# Services
+
+Source: https://visiongo.at/leistungen.html
+
+Studio/Leistungen
+
+
+— Was wir bauen
+
+
+
+# Sechs Disziplinen. Ein Studio.
+
+
+Wir sind generalistisch genug, um ein Produkt vom ersten Sketch bis zum Auslieferungs­betrieb zu führen — und spezialisiert genug, um in jedem Bereich eigene Meinungen zu haben.
+
+
+
+
+
+
+
+ [— 01 / iOS & Android
+
+
+
+## Apps, die offline noch funktionieren.
+
+
+Native iOS (Swift, SwiftUI) und Android (Kotlin, Compose) sowie Cross-Platform mit React Native. Wir veröffentlichen seit 2015 in beiden Stores und kennen jeden Schritt des Review-Prozesses.
+
+
+ Swift
+ SwiftUI
+ Kotlin
+ Jetpack Compose
+ React Native
+ Offline-First
+ CarPlay
+ Android Auto
+
+
+
+
+
+
+
+
+
+
+
+## 02 · Web & SaaS, die Sie auch in Jahr 5 noch verstehen.
+
+
+
+
+
+— SAAS-PLATTFORMEN
+
+
+
+### Multi-Tenant. Sauber.
+
+
+Mandantentrennung, RBAC, Billing-Integration. Wir kennen die Fallen, weil wir selbst sechs solche Plattformen gebaut haben.
+
+ TypeScriptNext.jsPostgreSQLStripe
+
+
+
+— INTERNE TOOLS
+
+
+
+### Excel ablösen. Ohne Aufstand.
+
+
+Das Excel-File, das die halbe Firma am Laufen hält, wird zum Werkzeug für 30 Personen gleichzeitig — ohne dass sich jemand auf die Zehen tritt.
+
+ ReacttRPCPrismaSSO
+
+
+
+
+
+
+
+
+
+
+— 03 / CLOUD & DEVOPS
+
+
+
+## EU-Hosting. Vorhersagbare Kosten.
+
+
+Wir migrieren, betreiben und optimieren — mit Kubernetes, Terraform und OpenTelemetry. Kein Vendor-Lock-in, kein Rechnungsschock am Monatsende.
+
+
+ AWS
+ Azure
+ Hetzner
+ Kubernetes
+ Terraform
+ ArgoCD
+ Grafana
+
+
+
+
+
+
+
+
+
+
+
+## 04 · KI, die wirklich etwas tut.
+
+
+
+
+
+— RAG & ASSISTENTEN
+
+
+
+### Wissens-Assistenten mit Quellenangabe.
+
+
+Semantische Suche in Ihren Dokumenten. Kontrollierte Antworten mit Audit-Log und Berechtigungssystem.
+
+ AnthropicOpenAIpgvectorLangGraph
+
+
+
+— EVAL-FIRST
+
+
+
+### Wir trainieren erst, wenn wir messen können.
+
+
+Eval-Suites entstehen vor dem Training. So merken Sie nicht erst im Live-Betrieb, dass das Modell auf Edge-Cases scheitert.
+
+ DSPyLoRAPyTorchONNX
+
+
+
+
+
+
+
+
+
+
+— 05 / SICHERHEIT & DSGVO
+
+
+
+## Compliance ist Architektur. Nicht Pflaster.
+
+
+DSGVO, ISO 27001, PCI-DSS, Anwaltsgeheimnis-konform. Wir bauen Sicherheit von Tag eins ein — keine nachträglichen Audits, keine Überraschungen.
+
+
+ DSGVOISO 27001PCI-DSSSAML/OIDCKeycloakHashiCorp Vault
+
+
+
+
+
+
+
+
+
+
+
+## 06 · Bevor wir bauen, denken wir.
+
+
+
+
+
+— DISCOVERY
+
+
+
+### Eine Woche zuhören. Bevor wir antworten.
+
+
+Stakeholder-Interviews, Daten-Analyse, Markt-Mapping. Am Ende steht ein Strategie-Dokument, das auch dann nützt, wenn Sie nicht mit uns weiterbauen.
+
+
+
+
+— PROTOTYPING
+
+
+
+### In zwei Wochen vom Whiteboard zur Demo.
+
+
+Interaktive Prototypen, die Sie Kunden zeigen können — bevor ein Cent in Entwicklung fließt. Manchmal endet das mit der Empfehlung, nicht zu bauen.
+
+
+
+
+
+
+
+
+
+
+
+
+## Wie ein Projekt bei uns läuft.
+
+
+
+ — 01
+
+### Discovery
+
+Wir reden mit Stakeholdern, lesen Verträge, schauen in Datenbanken.
+5–10 Tage
+ — 02
+
+### Architektur
+
+Stack, Schnittstellen, Sicherheit, Kosten — alles, was später teuer wird.
+2–4 Wochen
+ — 03
+
+### Bau
+
+Zwei-Wochen-Sprints. Wir liefern Code, nicht Mockups.
+8–32 Wochen
+ — 04
+
+### Betrieb
+
+SLAs, Monitoring, On-Call. Optional, aber meistens bleiben wir.
+Unbegrenzt
+
+
+
+
+
+
+
+
+
+
+## Häufig gefragt.
+
+
+
+
+ Wie lange dauert ein typisches Projekt?
+
+Zwischen drei und neun Monate, je nach Komplexität. Wir arbeiten in zweiwöchigen Sprints und liefern alle 14 Tage funktionierende Software.
+
+
+
+ Welche Branchen betreut Vision GO?
+
+Wir haben Schwerpunkte in Fintech, Healthcare, Mobility und Industrie. Wir nehmen Projekte aus anderen Bereichen an, wenn das technische Problem für uns reizvoll ist.
+
+
+
+ Festpreis oder nach Aufwand?
+
+Beides — meistens nacheinander. Discovery und Architektur sind Festpreis. Den Bau machen wir nach Aufwand mit transparenten Wochen-Reports und einer harten Obergrenze.
+
+
+
+ Erfüllt Vision GO die DSGVO?
+
+Ja. Wir hosten ausschließlich in EU-Rechenzentren (Frankfurt, Wien), haben einen externen Datenschutzbeauftragten und arbeiten nach AVV-Mustern.
+
+
+
+ Übernimmt Vision GO auch den Betrieb?
+
+Ja. Wir bieten SLAs mit garantierten Reaktionszeiten und On-Call-Bereitschaft. Bei mehr als der Hälfte unserer Projekte bleiben wir dauerhaft als Engineering-Partner.
+
+
+
+
+
+
+
+
+
+
+## Welche Leistung passt zu Ihrem Vorhaben?
+
+
+Schreiben Sie uns drei Sätze. Wir antworten mit einer ehrlichen Einschätzung — auch, wenn wir nicht die Richtigen sind.
+
+
+ Erstgespräch buchen](/kontakt.html)
+ [Arbeiten ansehen ›](/projekte.html)
+
+---
+
+# Work
+
+Source: https://visiongo.at/projekte.html
+
+Studio/Arbeiten
+
+
+— Apps · Plattformen · Studio-Arbeiten
+
+
+
+# Fünf Produkte. Eine Handschrift.
+
+
+Wir bauen eigene Apps und arbeiten an Plattformen für Auftraggeber. Hier sind die fünf, die wir öffentlich zeigen — alle live, alle in den Stores, alle wartbar von uns selbst.
+
+
+
+
+
+
+
+
+
+ [01 · MegaRadio
+
+
+## 100.000+ Radiostationen. In einer App.
+
+
+FM, AM und Internet-Radio. iOS, Android, macOS, CarPlay und Android Auto.
+
+ Case ansehen](/projekte/megaradio.html)
+
+
+
+
+ [02 · ScanUp
+
+
+## Dokumente. Privat. Endlich digital.
+
+
+Scan, OCR, Signatur, Passwort. iOS und Android.
+
+ Case ansehen](/projekte/scanup.html)
+
+ [03 · eSIMfo
+
+
+## Daten. Überall. In 2 Minuten.
+
+
+Travel-eSIM für 202+ Länder. iOS, Android, Web.
+
+ Case ansehen](/projekte/esimfo.html)
+
+
+
+
+
+
+ [04 · TaxiHub
+
+
+## Taxi Wien. Neu gedacht.
+
+
+Festpreis, bargeldlos, mit Funkzentralen-Anbindung.
+
+ Case ansehen](/projekte/taxihub.html)
+
+ [05 · Online Snake
+
+
+## Snake. Aber mit Echtgeld.
+
+
+Multiplayer-Snake mit MXR-Token. Play-to-Earn auf Solana.
+
+ Case ansehen](/projekte/snake-online.html)
+
+
+
+
+
+
+
+
+
+
+ Im Markt seit2015
+ StoresApp Store · Google Play
+ PlattformeniOS · Android · Web · CarPlay
+ HostingEU-Rechenzentren · DSGVO
+ NDA-ProjekteAuf Anfrage einsehbar
+ Wartung100% Eigen-Engineering
+
+
+
+
+
+
+
+
+— Vertraulich
+
+
+
+## Ihr Projekt wäre die sechste Geschichte.
+
+
+Wir nehmen pro Quartal nicht mehr Projekte an, als wir ehrlich abliefern können. Lassen Sie uns reden, ob das nächste eines davon ist.
+
+
+ [Erstgespräch buchen](/kontakt.html)
+ [Leistungen ansehen ›](/leistungen.html)
+
+---
+
+# About
+
+Source: https://visiongo.at/ueber-uns.html
+
+Studio/Über uns
+
+
+— Studio · Wien · Seit 2015
+
+
+
+# Wir bauen Apps. Mit Sorgfalt.
+
+
+Vision GO ist ein Software-Studio in der Wiener Innenstadt. Wir entwickeln eigene Produkte — MegaRadio, ScanUp, eSIMfo, TaxiHub, Online Snake — und arbeiten mit Auftraggebern aus Fintech, Health, Mobility und Industrie.
+
+
+
+
+
+
+
+
+— Haltung
+
+
+Wir bauen Software wie gutes Mobiliar — mit Geduld, mit Materialverständnis, gemacht für die nächsten zehn Jahre.
+
+
+Die meisten Agenturen verkaufen Stunden. Wir verkaufen Entscheidungen. Was am Ende in Produktion läuft, ist das Ergebnis hunderter kleiner Abwägungen — und jede davon trifft jemand, der sein Handwerk kennt und dessen Verantwortung Sie auf dem Vertrag stehen sehen.
+
+
+
+
+
+
+
+
+
+
+## Studio in Zahlen.
+
+
+Stand 2026
+
+
+
+
+ Gegründet2015
+ Eigene Apps5 live
+ Studio-Arbeiten74 ausgeliefert
+ Aktive Projekte41 in Betrieb
+ Umsatz 2024€ 3,2 Mio · eigenfinanziert
+ InvestorenKeine
+
+
+
+
+
+
+
+
+
+
+## Sechs Regeln, die wir nicht brechen.
+
+
+Wir haben sie 2018 zum ersten Mal aufgeschrieben und seitdem nicht geändert. Das ist Absicht.
+
+
+
+
+ [— 01 / Aufrichtigkeit
+
+
+### Ehrlich vor freundlich.
+
+
+Wir sagen, wenn ein Plan nicht funktioniert — auch wenn die Wahrheit unbequem ist. Höflichkeit ersetzt keine Aufrichtigkeit.
+
+
+
+ — 02 / Handwerk
+
+
+### Wir bauen, was wir verstehen.
+
+
+Keine Modeerscheinungen, keine Stacks, die nur ein Junior googelt. Wenn wir es nicht erklären können, bauen wir es nicht ein.
+
+
+
+ — 03 / Verantwortung
+
+
+### Software ist Verantwortung.
+
+
+Was wir liefern, betrifft Menschen — Mitarbeiter, Patienten, Reisende. Wir denken sie mit, auch wenn niemand sie erwähnt.
+
+
+
+ — 04 / Tempo
+
+
+### Langsam ist die neue Schnelligkeit.
+
+
+Zwei-Wochen-Sprints, aber Entscheidungen in Stunden. Tempo kommt aus Klarheit, nicht aus Hektik.
+
+
+
+ — 05 / EU-Hosting
+
+
+### Daten bleiben in Europa.
+
+
+Frankfurt und Wien. Keine Daten in Drittländern, kein Cloud-Vendor, der nicht DSGVO-konform ist.
+
+
+
+ — 06 / Open Source
+
+
+### Wir geben zurück.
+
+
+Wir veröffentlichen Bibliotheken, die wir intern entwickeln, und tragen Patches zurück. Das macht uns nicht reicher — aber besser.
+
+
+
+
+
+
+
+
+
+
+
+
+## Im Studio.
+
+
+Bäckerstraße 7/7 · 1010 Wien
+
+
+
+
+
+
+ Arbeitsplatz · MacBook Pro, iPhone, Cortado
+
+
+
+ Architektur-Whiteboard · Diskussion über Systemgrenzen
+
+
+
+ Team-Bereich · Blick auf den Stephansdom
+
+
+
+ Kaffee-Ecke · La Marzocco, Tassen aus zehn Jahren
+
+
+
+
+
+
+
+
+
+
+
+## Was Sie von uns erwarten können.
+
+ Leistungen](/leistungen.html)
+
+
+
+ [— ANSPRECHPARTNER
+
+
+
+### Derselbe Architekt am Kick-off und beim Bug-Fix in Jahr drei.
+
+
+Wir arbeiten in kleinen, festen Teams. Kein Resource-Pool. Kein Ticket-Förderband. Wer Ihr Projekt verantwortet, bleibt verantwortlich.
+
+
+
+
+— EIGENFINANZIERT
+
+
+
+### Keine Investoren-Hektik.
+
+
+Wir wachsen aus dem Cashflow. Es gibt keinen Vorstand, der quartalsweise Wachstum sehen will. Wir können langsam arbeiten — und das tun wir.
+
+
+
+
+
+
+
+
+
+
+— Besuch
+
+
+
+## Lust auf einen Espresso in der Bäckerstraße?
+
+
+Wir empfangen Gäste gern persönlich. Bringen Sie das Problem mit, wir machen den Kaffee.
+
+
+ Termin ausmachen](/kontakt.html)
+ [Bei uns arbeiten ›](/karriere.html)
+
+---
+
+# Careers
+
+Source: https://visiongo.at/karriere.html
+
+Studio/Karriere
+
+
+— Bei uns arbeiten
+
+
+
+# Drei Stellen. Keine Eile.
+
+
+Wir stellen langsam ein. Eine Anstellung ist für uns eine Wette darauf, dass wir uns in zehn Jahren noch gerne sehen. Deshalb sind wir wählerisch — und Sie sollten es auch sein.
+
+
+
+
+
+
+
+
+
+
+## Offene Stellen.
+
+
+Aktualisiert April 2026
+
+
+
+
+ [— 01
+
+
+
+### Senior iOS / Android Engineer
+
+
+Native iOS & Android · App-Store-Veröffentlichung · 4+ Jahre Erfahrung
+
+
+ VOLLZEIT · 70–95k €
+ Details ›](#senior-engineer)
+
+ [— 02
+
+
+
+### Cloud Architect / SRE
+
+
+Kubernetes & Terraform · EU-Hosting · Observability
+
+
+ VOLLZEIT · 78–110k €
+ Details ›](#cloud-architect)
+
+ [— 03
+
+
+
+### Machine Learning Engineer
+
+
+RAG · Computer Vision · Eval-getriebene Entwicklung
+
+
+ VOLLZEIT · 72–105k €
+ Details ›](#ml-engineer)
+
+
+
+
+
+
+
+
+
+
+
+
+## Was Sie bei uns erwartet.
+
+
+Keine Tischfußball-Tische. Aber gutes Werkzeug, gute Verträge.
+
+
+
+
+ [— 01
+
+
+### Vier-Tage-Woche, optional
+
+
+Halbes Team arbeitet 32 Stunden bei vollem Gehalt. Wir haben es 2022 eingeführt und seitdem nicht wieder rückgängig gemacht.
+
+
+
+ — 02
+
+
+### Hybrid, Office bevorzugt
+
+
+Bäckerstraße ist unser Wohnzimmer. Wir lieben Remote-Tage — aber die besten Entscheidungen entstehen am gemeinsamen Whiteboard.
+
+
+
+ — 03
+
+
+### Transparente Gehälter
+
+
+Sie sehen am ersten Tag die Gehaltsbänder aller Stufen. Keine Verhandlung im Hinterzimmer, keine Überraschungen.
+
+
+
+ — 04
+
+
+### Lern-Budget · 2.500€ p.a.
+
+
+Pro Person und Jahr für Kurse, Konferenzen, Bücher. Wir bestehen darauf, dass es ausgegeben wird.
+
+
+
+ — 05
+
+
+### Eigene Hardware-Wahl
+
+
+Mac, Linux, Windows — Ihre Sache. Wir liefern die Maschine, die Sie wollen, mit dem RAM, den Sie brauchen.
+
+
+
+ — 06
+
+
+### Keine Investoren-Hektik
+
+
+Wir sind eigenfinanziert. Es gibt keinen Vorstand, der quartalsweise Wachstum sehen will. Wir arbeiten langsam — und das tun wir.
+
+
+
+
+
+
+
+
+
+
+
+
+## Wie das läuft.
+
+
+Keine Whiteboard-Interviews, keine Trick-Aufgaben.
+
+
+
+
+ — 01
+
+### E-Mail
+
+An jobs@visiongo.at. Kurzer Text, was Sie machen wollen, was Sie verdienen wollen. Lebenslauf optional.
+Antwort in 48 h
+ — 02
+
+### Espresso-Termin
+
+Eine Stunde, video oder vor Ort. Wir reden über Sie, über uns, über das, was Sie zuletzt gebaut haben.
+60 Minuten
+ — 03
+
+### Probe-Tag
+
+Sie kommen einen Tag, arbeiten mit. Vergütung: 1.200 € — auch, wenn wir uns danach nicht einigen.
+1 Tag · 1.200 €
+ — 04
+
+### Vertrag
+
+Wir machen ein Angebot oder eine Absage. Beides innerhalb von 72 Stunden, beides schriftlich, beides ehrlich.
+3 Tage
+
+
+
+
+
+
+
+
+
+## Drei Sätze an jobs@visiongo.at.
+
+
+Wir lesen alles, antworten auf alles. Keine ATS-Filter. Ein Mensch liest. Versprochen.
+
+
+ jobs@visiongo.at](mailto:jobs@visiongo.at)
+
+---
+
+# Contact
+
+Source: https://visiongo.at/kontakt.html
+
+Studio/Kontakt
+
+
+— Sprechen wir
+
+
+
+# 30 Minuten. Kein Pitch.
+
+
+Schreiben Sie uns drei Sätze über Ihr Vorhaben. Wir antworten meistens am selben Tag — und schlagen einen Termin vor, an dem wir Ihnen zuhören.
+
+
+
+
+
+
+
+
+
+
+
+
+ Ihr Name
+
+
+
+ E-Mail
+
+
+
+ Unternehmen (optional)
+
+
+
+ Worum geht es?
+
+
+ Anfrage senden
+
+Mit dem Absenden öffnen wir Ihren E-Mail-Client. Wir setzen keine Tracking-Cookies.
+
+
+
+
+ [## E-Mail
+
+ info@visiongo.at](mailto:info@visiongo.at)
+
+Werktags Antwort innerhalb von 4 Stunden.
+
+
+
+
+
+
+## Telefon
+
+ [+43 676 6440122](tel:+436766440122)
+
+Sekretariat verbindet oder nimmt Nachricht.
+
+
+
+
+
+
+## Studio
+
+
+ Vision GO GmbH
+ Bäckerstraße 7/7
+ 1010 Wien · Österreich
+
+
+U-Bahn Stubentor (U3), 4 Min. zu Fuß.
+
+
+
+
+
+
+## Bürozeiten
+
+
+ Mo – Do · 09:00 – 18:00
+ Fr · 09:00 – 16:00
+ Sa – So · auf Anfrage
+
+
+
+
+
+
+## PGP / Vertraulich
+
+
+Für vertrauliche Anfragen: PGP-Schlüssel ID 0xA38B 7C12 — Fingerprint auf Anfrage.
+
+---
+
+# Roadmap
+
+Source: https://visiongo.at/roadmap.html
+
+Studio/Roadmap
+
+
+— Public Roadmap · Stand Q2 2026
+
+
+
+# Was wir gerade bauen.
+
+
+Transparenz statt Marketing. Was diese Woche im Sprint ist, was wir für Q3 vorhaben, was wir abgeschlossen haben. Aktualisiert wöchentlich.
+
+
+
+
+
+
+
+
+
+## In Arbeit · Q2 2026
+
+ MegaRadio · CarPlay-UpdateNeue CarPlay-Oberfläche mit größeren Touch-Targets und Sprachsteuerung.v1.1 · iOS
+ ScanUp · Premium Cloud-SyncEU-Hosting in Frankfurt, AES-256, optional über alle Geräte.v2.0 · iOS · Android
+ eSIMfo · WhatsApp Virtual NumberVirtuelle Nummern für 30+ Länder, WhatsApp/Telegram/Instagram fähig.Beta · 50 Tester
+ TaxiHub · iOS & Android AppsNative Apps für iOS und Android, App-Store-Submission Mitte Juni.Sprint 3 / 6
+
+
+
+
+## Geplant · Q3 2026
+
+ Online Snake · Tournament-SystemWöchentliche Turniere mit MXR-Token-Belohnungen für Top-100.Design
+ eSIMfo · Auto-RenewalVielreisende: Plan läuft automatisch weiter, Abbruch jederzeit.RFC
+ Studio · Public Status Pagestatus.visiongo.at — Live-Uptime für alle 5 Apps.Q3
+ MegaRadio · Smart-Speaker SupportHomePod, Sonos, Google Home — über Smart Home Integrationen.Research
+
+
+
+
+## Veröffentlicht · letzten 90 Tage
+
+ eSIMfo v1.0.59 Reviews · 5,0 ★ — neue Ländervorschau, schnellere Aktivierung.18. Feb 2026
+ ScanUp v1.0.5PDF-Passwortschutz, signierfähige Unterschrift, mehrseitige Scans.22. Feb 2026
+ MegaRadio v1.0.69Vision OS Support, Apple Watch-Companion, Lock-Screen-Widgets.5. Mär 2026
+ Online Snake v1.24Neue Arenen, Offline-AI-Modus, 12 Bewertungen mit 4,9 ★.26. Mär 2026
+
+
+
+
+
+
+
+
+## Eine Feature-Anfrage?
+
+
+Wir lesen alle Vorschläge an info@visiongo.at — und antworten auf jeden. Was nicht in die nächste Quartal-Planung passt, dokumentieren wir öffentlich im GitHub-Repo.
+
+---
+
+# MegaRadio
+
+Source: https://visiongo.at/projekte/megaradio.html
+
+Studio/
+ Arbeiten/
+ MegaRadio
+
+
+MegaRadio
+
+
+
+# Die ganze Welt im Radio.
+
+
+100.000+ Live-Stationen aus mehr als 200 Ländern. FM, AM und Internet — in einer App.
+
+
+ [Laden imApp Store
+
+
+
+ Jetzt beiGoogle Play
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ KategorieMusic · Radio
+ PlattformeniOS · iPadOS · macOS · Vision OS · Watch · Android
+ PreisKostenlos · In-App-Käufe
+ Bewertung5,0 ★ · App Store
+ SpracheEnglisch, Deutsch, Türkisch, +12
+ Größe63,5 MB · iOS
+
+
+
+
+
+
+
+
+
+
+
+## Ein Blick in die App.
+
+ Original App-Store-Screenshots.](https://apps.apple.com/tr/app/megaradio-live-radio/id6759302561)
+ [](/assets/products/megaradio/screen-3.png)
+ [](/assets/products/megaradio/screen-4.png)
+ [](/assets/products/megaradio/screen-5.png)
+ [](/assets/products/megaradio/screen-6.png)
+ [](/assets/products/megaradio/screen-7.png)
+
+
+
+
+
+
+
+
+
+
+## Funktionen, die das Hören verändern.
+
+ [themegaradio.com](https://themegaradio.com)
+
+
+
+
+ [— GLOBAL
+
+
+
+### Über 100.000 Stationen. Aus 200+ Ländern.
+
+
+Von BBC World Service bis zu lokalem Hochschulradio in Wien-Floridsdorf. Wir indizieren öffentliche Sender weltweit und aktualisieren die Datenbank täglich.
+
+
+
+
+
+— ENTDECKEN
+
+
+
+### Nach Land. Nach Genre. Nach Stimmung.
+
+
+Filtern Sie nach Sprache, Region oder Musikrichtung — Jazz aus New Orleans, Klassik aus Wien, Talk aus Tokio. Algorithmus schlägt Stationen vor, die zu Ihrem Hörverhalten passen.
+
+
+
+
+
+— LIVE
+
+
+
+### Sofort streamen. Direkt vom Sender.
+
+
+Keine Werbeunterbrechungen durch Dritte, keine Latenz-Spielereien. Wir leiten Sie direkt zum Original-Stream des Senders — wie Radio sein soll.
+
+
+
+
+
+— PERSÖNLICH
+
+
+
+### Favoriten. Synchronisiert.
+
+
+Speichern Sie Stationen, bekommen Sie Push-Hinweise, wenn Ihr Lieblings-DJ on air geht. Über iCloud und Google Sync auf allen Geräten verfügbar.
+
+
+
+
+
+— CARPLAY · ANDROID AUTO
+
+
+
+### Im Auto. Wie zu Hause.
+
+
+Vollständige CarPlay- und Android-Auto-Integration. Sprachsteuerung, Stations-Wechsel via Lenkrad, große Touch-Targets — entworfen für die Realität auf der Westautobahn.
+
+
+
+
+
+
+
+
+
+
+
+
+— Hintergrund
+
+
+
+## Warum wir MegaRadio gebaut haben.
+
+
+Radio ist die letzte Massenmedium, das nicht algorithmisch verzerrt ist. In Wien können wir mit einem Klick BBC, NPR, Radio France International oder einen einzelnen Sender aus Lima hören — wenn wir denn die Frequenz wüssten.
+
+
+Existierende Apps lösten das Problem halbherzig. Sie zwangen Nutzer durch Werbe-Tunnel, zeigten falsche Now-Playing-Daten oder verschwanden, sobald der Original-Sender seinen Stream umstellte. Wir bauten MegaRadio, weil wir selbst eine App wollten, die einfach funktioniert.
+
+
+Heute hört eine Generalsekretärin in Salzburg morgens RTÉ Radio 1, ein Pendler in Hamburg auf der A23 SWR3, und ein Student in Linz nachts WFMU aus New Jersey. Wir indizieren rund 100.000 Stationen, prüfen wöchentlich auf Toter-Stream und veröffentlichen alle zwei Wochen ein Update mit neuen Sendern.
+
+
+
+
+
+
+
+
+
+
+## Holen Sie sich MegaRadio.
+
+
+Kostenlos. Ohne Konto. Ohne Verlauf-Tracking.
+
+
+
+
+Laden imApp Store
+
+
+
+ Jetzt beiGoogle Play
+
+ themegaradio.com ›
+
+
+
+
+
+
+
+ — Auch von Vision GO
+
+
+
+## Mehr von Vision GO.
+
+
+Beim Reisen brauchen Sie mehr als nur Radio. Unsere eSIM-App aktiviert in zwei Minuten Daten für 202+ Länder — Roaming-frei und bezahlbar. Vom Flughafen in die Stadt? Mit unserem Taxi-Service in Wien zu garantierten Fixpreisen. Für Belege und Reisedokumente unser Dokumenten-Scanner mit Passwortschutz. Und bei langen Zugfahrten: ein Runde Multiplayer-Snake-Spiel mit Play-to-Earn auf Solana.
+
+
+
+
+
+
+
+
+## Auch von Vision GO.
+Alle Arbeiten](https://apps.apple.com/tr/app/megaradio-live-radio/id6759302561)
+
+ [ScanUp
+
+### Dokumente. Privat.](/projekte/scanup.html)
+ [eSIMfo
+
+### Daten in 2 Minuten.](/projekte/esimfo.html)
+
+---
+
+# ScanUp
+
+Source: https://visiongo.at/projekte/scanup.html
+
+Studio/
+ Arbeiten/
+ ScanUp
+
+
+ScanUp
+
+
+
+# Dokumente. Privat. Endlich digital.
+
+
+Eine leistungsstarke PDF-Scanner-App für sicheres, privates und professionelles Dokumenten-Scannen. Scannen, signieren, OCR — mit Passwortschutz, der nicht zur Show ist.
+
+
+ [Laden imApp Store
+
+
+
+ Jetzt beiGoogle Play
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ KategorieProductivity
+ PlattformeniOS · Android
+ PreisKostenlos · Premium ab €4,99
+ Bewertung5,0 ★ · App Store
+ DatenschutzDSGVO · On-Device
+ FormatePDF · JPEG
+
+
+
+
+
+
+
+
+
+
+
+## Ein Blick in die App.
+
+ Original Screenshots aus dem aktuellen Build.](https://apps.apple.com/tr/app/scan-up-secure-scanner/id6757320007)
+ [](/assets/products/scanup/screen-8.png)
+ [](/assets/products/scanup/screen-2.png)
+ [](/assets/products/scanup/screen-3.png)
+ [](/assets/products/scanup/screen-4.png)
+ [](/assets/products/scanup/screen-6.png)
+ [](/assets/products/scanup/screen-5.png)
+ [](/assets/products/scanup/screen-7.png)
+
+
+
+
+
+
+
+
+— Aus dem App Store
+
+
+
+## Sicher. Privat. Professionell.
+
+
+Scan UP ist eine leistungsstarke PDF-Scanner-App für sicheres, privates und professionelles Dokumenten-Scannen.
+
+
+Scannen Sie Dokumente sofort, konvertieren Sie sie in hochwertige PDFs, extrahieren Sie Text per OCR und schützen Sie Ihre Dateien mit fortschrittlichen Sicherheits-Funktionen — alles in einer intuitiven Scanner-App.
+
+
+
+### PDF-Scanner & Dokumenten-Scanning
+
+
+Scannen Sie Belege, Verträge, Notizen, Ausweise und mehr mit hoher Genauigkeit. Verwandeln Sie Ihr Gerät in einen schnellen, zuverlässigen Dokumenten-Scanner.
+
+
+
+### Sicher & privat by Design
+
+
+ - Passwortgeschützte PDF-Dateien
+
+ - Sichere Ordner für sensible Dokumente
+
+ - Kein Tracking. Kein Datenverkauf. Niemals.
+
+ - Ihre Dokumente bleiben privat und geschützt.
+
+
+
+
+
+### OCR-Texterkennung (Premium)
+
+
+Extrahieren Sie Text aus Scans und kopieren, bearbeiten oder teilen Sie ihn mühelos. Ideal für Arbeit, Studium und Produktivitäts-Workflows.
+
+
+
+### Cloud-Sync & Backup
+
+
+Synchronisieren Sie Ihre Dokumente sicher über mehrere Geräte und greifen Sie jederzeit auf Ihre Dateien zu — mit zuverlässigem Cloud-Speicher.
+
+
+
+### Intelligente Dokumenten-Verwaltung
+
+
+Organisieren Sie Dateien in Ordnern, verwalten Sie PDFs effizient und halten Sie alles strukturiert an einem Ort.
+
+
+
+### Perfekt für
+
+
+ - Studierende
+
+ - Professionals
+
+ - Kleinunternehmen
+
+ - Datenschutzbewusste Nutzer:innen
+
+
+
+
+
+### Kostenlose PDF-Scanner-App
+
+
+Laden Sie Scan UP kostenlos herunter und upgraden Sie jederzeit, um OCR und erweiterte Funktionen freizuschalten.
+
+
+Lizenz-Bedingungen (EULA): apple.com/legal/internet-services/itunes/dev/stdeula
+
+
+
+
+
+
+
+
+
+
+## Alles, was Sie brauchen, um papierlos zu werden.
+
+ [scanup.app](https://scanup.app)
+
+
+
+
+ [— ON-DEVICE OCR
+
+
+
+### Texterkennung, die das Gerät nicht verlässt.
+
+
+OCR-Modelle laufen lokal auf Ihrem iPhone oder Android — unterstützen Deutsch, Englisch, Türkisch und über 60 weitere Sprachen. Kein Server, kein Upload, keine Datenübertragung.
+
+
+
+
+
+— DIGITAL SIGNIEREN
+
+
+
+### Signatur in einer einzigen Geste.
+
+
+Zeichnen Sie Ihre Unterschrift einmal, speichern Sie sie verschlüsselt im Keychain. Anschließend per Tap auf jedes Dokument anwenden — rechtssicher mit Zeitstempel.
+
+
+
+
+
+— PASSWORTSCHUTZ
+
+
+
+### PDF-Verschlüsselung. AES-256.
+
+
+Sensible Dokumente per Passwort schützen. Wir nutzen AES-256-Verschlüsselung — derselbe Standard, der von Banken und Regierungen verwendet wird.
+
+
+
+
+
+— AUTO-ERKENNUNG
+
+
+
+### Ecken erkennen. Perspektive korrigieren.
+
+
+Computer Vision erkennt Dokumenten-Ränder in Echtzeit — auch auf gemustertem Holztisch oder bei schlechter Beleuchtung. Perspektive wird automatisch begradigt.
+
+
+
+
+
+— CLOUD-SYNC · OPTIONAL
+
+
+
+### EU-Hosting. Wenn Sie wollen.
+
+
+Synchronisieren Sie Ihre Dokumente auf alle Geräte — verschlüsselt, in einem Frankfurter Rechenzentrum. Oder eben nicht. Standardeinstellung: Cloud aus.
+
+
+
+
+
+
+
+
+
+
+
+
+## Häufig gefragt.
+
+
+ Ist ScanUp kostenlos?
+
+Ja. Die App ist im App Store und auf Google Play kostenlos. Es gibt ein optionales Premium-Abo (Monatlich/Jährlich) für erweiterte OCR-Sprachen und Cloud-Sync — alle Kernfunktionen sind kostenlos verfügbar.
+
+
+
+ Welche Dateiformate werden unterstützt?
+
+ScanUp unterstützt PDF und JPEG. Mehrseitige Dokumente werden zu einer einzelnen PDF zusammengeführt — mit Drag-and-Drop-Reihenfolge.
+
+
+
+ Funktioniert ScanUp offline?
+
+Vollständig. Scan, OCR, Signatur, PDF-Erzeugung — alles passiert auf dem Gerät. Cloud-Sync ist optional und kann deaktiviert werden.
+
+
+
+ Sind meine Daten sicher?
+
+Standardmäßig verlassen Ihre Dokumente nicht das Gerät. Cloud-Sync ist optional, vollständig verschlüsselt (AES-256 in Transit und at-rest), gehostet ausschließlich in EU-Rechenzentren — DSGVO-konform.
+
+
+
+
+
+
+
+
+
+
+## Bereit, papierlos zu werden?
+
+
+Kostenlos. Ohne Werbung in Ihrer Dokumenten-Ansicht. Ohne Tracking.
+
+
+
+
+Laden imApp Store
+
+
+
+ Jetzt beiGoogle Play
+
+
+
+
+
+
+
+
+ — Auch von Vision GO
+
+
+
+## Auch von Vision GO.
+
+
+Sie nutzen ScanUp für Quittungen unterwegs? Dann gefällt Ihnen vielleicht auch unsere eSIM-Lösung — Daten in 202+ Ländern, in zwei Minuten aktiviert. Für lange Wartezeiten beim Notar oder im Hotel: Radio mit über 100.000 Live-Stationen weltweit. In Wien? Unser Taxi-Service liefert Fixpreise und CO₂-neutrale Fahrzeuge. Und nach Feierabend bringt unser Snake-Spiel Multiplayer-Spaß mit echten Belohnungen.
+
+
+
+
+
+
+
+
+## Auch von Vision GO.
+Alle Arbeiten](https://apps.apple.com/tr/app/scan-up-secure-scanner/id6757320007)
+
+ [MegaRadio
+
+### Die ganze Welt im Radio.](/projekte/megaradio.html)
+ [eSIMfo
+
+### Daten in 2 Minuten.](/projekte/esimfo.html)
+
+---
+
+# eSIMfo
+
+Source: https://visiongo.at/projekte/esimfo.html
+
+Studio/
+ Arbeiten/
+ eSIMfo
+
+
+eSIMfo
+
+
+
+# Daten. Überall. In zwei Minuten.
+
+
+Travel-eSIM für 202+ Länder. Kein Plastik, kein Versand, keine Roaming-Sorgen. Einfach scannen, aktivieren, online sein.
+
+
+ [Laden imApp Store
+
+
+
+ Jetzt beiGoogle Play
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ KategorieTravel
+ Länder202+ weltweit
+ Aktivierung~2 Minuten · QR-Code
+ Bewertung iOS5,0 ★ · 9 Reviews
+ Bewertung Android5,0 ★ · 24 Reviews
+ PlattformeniOS · Android · Web
+
+
+
+
+
+
+
+
+
+
+
+## Neun Screens. Eine reibungslose Reise.
+
+ Original App-Store-Screenshots.](https://apps.apple.com/tr/app/esimfo-travel-esim-for-iphone/id6755661891)
+ [](/assets/products/esimfo/screen-2.png)
+ [](/assets/products/esimfo/screen-3.png)
+ [](/assets/products/esimfo/screen-4.png)
+ [](/assets/products/esimfo/screen-5.png)
+ [](/assets/products/esimfo/screen-6.png)
+ [](/assets/products/esimfo/screen-7.png)
+ [](/assets/products/esimfo/screen-8.png)
+ [](/assets/products/esimfo/screen-9.png)
+
+
+
+
+
+
+
+
+— Aus dem App Store
+
+
+
+## Ihre Verbindung reist mit. Überall. Jederzeit.
+
+
+Reisen war noch nie einfacher. eSIMfo verbindet Sie in 202+ Ländern mit sofortigen digitalen eSIMs — kein Roaming, keine physischen SIM-Karten, kein Warten auf Lieferung.
+
+
+Wählen Sie einfach Ihr Ziel, installieren Sie Ihren Plan — und sind in zwei Minuten online.
+
+
+Ob Kurztrip, Weltreise oder Geschäftsreise: eSIMfo bietet schnelle, zuverlässige und umweltfreundliche Konnektivität, wo immer Sie sind. 24/7-Kundensupport steht Ihnen für alle Fragen zur Verfügung.
+
+
+
+### So funktioniert's
+
+
+Loslegen in wenigen Schritten:
+
+
+ - Reiseziel wählen — Lokal-, Regional- oder Global-Pakete verfügbar.
+
+ - Plan kaufen — Datenvolumen passend zu Ihrer Reise.
+
+ - QR-Code aktivieren — eSIM vor oder während der Reise installieren.
+
+ - Sofort verbunden — High-Speed-Daten weltweit genießen.
+
+
+
+Keine Papiere. Kein Plastik. Kein Stress.
+
+
+
+### Haupt-Funktionen
+
+
+ - Abdeckung in 202+ Ländern — von den USA bis Japan, von Europa bis Afrika.
+
+ - Sofortige Einrichtung — eSIM in nur 2 Minuten aktiv.
+
+ - Bezahlbare Reisedaten — Vermeiden Sie teure Roaming-Gebühren.
+
+ - Lokal-, Regional- & Global-Pläne — Flexible Optionen für jeden Reisenden.
+
+ - Umweltfreundlich & papierlos — 100 % digitale Lieferung, kein Plastikmüll.
+
+ - Vertrauenswürdige Verbindungen — führende globale Netze für schnelle, sichere Daten.
+
+ - Multi-Trip-Komfort — Eine App für alle künftigen Reisen.
+
+
+
+
+
+### Warum Reisende eSIMfo lieben
+
+
+ - Keine Suche nach lokalen SIM-Karten im Ausland.
+
+ - Vom Moment der Landung verbunden.
+
+ - Kein Versand, kein Warten — Ihr Plan ist sofort verfügbar.
+
+ - Zuverlässige Daten von Top-Anbietern weltweit.
+
+ - Umweltbewusst und für modernes Reisen entwickelt.
+
+
+
+
+
+### Ideal für
+
+
+ - Touristen, digitale Nomaden und Vielflieger
+
+ - Geschäftsreisende, die ständige Konnektivität brauchen
+
+ - Studierende und Entdecker, die mehrere Länder besuchen
+
+
+
+
+Vergessen Sie die alte Art, im Ausland online zu sein. Mit eSIMfo reist Ihre Verbindung mit — überall, jederzeit.
+
+
+▶ Jetzt herunterladen und nahtlose globale Daten ohne Aufwand erleben.
+
+
+
+
+
+
+
+
+
+
+## Reisen, ohne Daten-Sorgen.
+
+ [esimfo.com](https://esimfo.com)
+
+
+
+
+ [— 202+ LÄNDER
+
+
+
+### T-Mobile in den USA. Vodafone in Spanien. Türk Telekom in Istanbul.
+
+
+Wir arbeiten mit über 600 Netzbetreibern weltweit zusammen — darunter Verizon, Orange, O2, Etisalat, Claro, EE, Movistar, AIS, Drei, Yoigo, Proximus. Sie landen im Flughafen und sind online, bevor das Gepäckband startet.
+
+
+
+
+
+— ZWEI MINUTEN
+
+
+
+### Ziel wählen. QR scannen. Online.
+
+
+Drei Schritte. Zwei Minuten. Keine Kunden-Hotline, kein Plastik-Adapter, kein Fußmarsch zum SIM-Verkäufer am Strand.
+
+
+
+
+
+— NULL PLASTIK
+
+
+
+### eSIM = umweltfreundlich.
+
+
+Zero plastic. Zero hassle. Zero shipping. Jede SIM, die wir nicht produzieren und verschicken, sparen 18 Gramm Plastik, 28 Gramm CO₂ und ein paar Tage Lieferzeit ein.
+
+
+
+
+
+— ECHTE PREISE
+
+
+
+### Keine versteckten Gebühren.
+
+
+Daten-Pakete pro Land, Region oder global. Ein Preis, eine Laufzeit, ein QR-Code. Was Sie sehen, ist was Sie bezahlen.
+
+
+
+
+
+— PARTNER-PROGRAMM
+
+
+
+### Wiederverkäufer willkommen.
+
+
+Reisebüros, Tour-Operatoren, B2B-Partner: bauen Sie ein Sub-Dealer-Netzwerk mit Echtzeit-Dashboard, automatischen Provisionen und mehrsprachigem Support auf.
+
+
+
+
+
+
+
+
+
+
+
+— Hintergrund
+
+
+
+## eSIM ist die Lösung. Sie wurde nur schlecht verkauft.
+
+
+Wer schon einmal in Istanbul am Atatürk-Flughafen stand und versucht hat, eine Touristen-SIM zu kaufen, kennt das Ritual: 25 Minuten Schlange, Ausweis-Kopie, Aktivierung am Schalter, Hoffen, dass das WLAN-Passwort des Flughafens für die Bestätigungs-SMS reicht.
+
+
+Die eSIM-Technologie macht all das überflüssig — Apple und Samsung haben sie seit Jahren in jedem Gerät verbaut. Doch die bestehenden Anbieter haben das Erlebnis mit verwirrenden Tarifen, schlecht übersetzten Apps und versteckten Gebühren ruiniert.
+
+
+Wir haben eSIMfo gebaut, weil wir eine eSIM-App wollten, die wir selbst auf einer Geschäftsreise benutzen würden — klar, schnell, mit echten Preisen. Heute aktivieren tausende Reisende monatlich ihre eSIM auf 202 Ländern. Ohne Plastik, ohne Versand, ohne Schalter.
+
+
+
+
+
+
+
+
+
+## eSIM. Jetzt.
+
+
+Bevor die nächste Reise losgeht. Im App Store und auf Google Play.
+
+
+
+
+Laden imApp Store
+
+
+
+ Jetzt beiGoogle Play
+
+ esimfo.com ›
+
+
+
+
+
+
+
+ — Auch von Vision GO
+
+
+
+## Mehr für Reisende.
+
+
+eSIMfo deckt Ihre Daten ab — der Rest der Reise braucht ebenfalls die richtigen Tools. Ihr Flughafen-Transfer in Wien? Mit unserem Taxi-Service zu garantierten Fixpreisen, ohne Zuschläge. Unterwegs lokale Sender hören? Unser Radio mit über 100.000 Stationen aus 200+ Ländern. Belege für die Reisekosten-Abrechnung scannen Sie mit unserem Dokumenten-Scanner direkt am Gate. Und für Flugzeit-Vertreib: unser Multiplayer-Snake-Spiel mit MXR-Token-Belohnungen.
+
+
+
+
+
+
+
+
+## Auch von Vision GO.
+Alle Arbeiten](https://apps.apple.com/tr/app/esimfo-travel-esim-for-iphone/id6755661891)
+
+ [TaxiHub
+
+### Taxi Wien.](/projekte/taxihub.html)
+ [Online Snake
+
+### Snake mit Echtgeld.](/projekte/snake-online.html)
+
+---
+
+# TaxiHub
+
+Source: https://visiongo.at/projekte/taxihub.html
+
+Studio/
+ Arbeiten/
+ TaxiHub
+
+
+TaxiHub
+
+
+
+# Wien. Fixpreis. Pünktlich.
+
+
+Die Wiener Taxi-App mit garantierten Festpreisen — Flughafentransfer ohne Zuschläge, geprüfte Fahrer, CO₂-neutrale Fahrzeuge. Stressfrei buchen, sicher ankommen.
+
+
+ [Fahrt buchen](https://taxihub.at/de)
+ [Mehr erfahren](#features)
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ServiceTaxi-Vermittlung Wien
+ Preis-ModellFixpreis vor Buchung
+ FlughafenVIE — ab € 42, ohne Zuschlag
+ FahrzeugeStandart · Kombi · Van-Bus · Luxus
+ ZahlungKarte · Apple Pay · Google Pay · Bar
+ PlattformWeb · iOS · Android · CO₂-neutral
+
+
+
+
+
+
+
+
+
+
+## Fünf Schritte zu einer ruhigen Fahrt.
+
+
+Original App-Store-Screenshots.
+
+
+
+ [](/assets/products/taxihub/screen-1.png)
+ [](/assets/products/taxihub/screen-2.png)
+ [](/assets/products/taxihub/screen-3.png)
+ [](/assets/products/taxihub/screen-4.png)
+ [](/assets/products/taxihub/screen-5.png)
+
+
+
+
+
+
+
+
+
+
+## Vom Stubentor bis Schwechat.
+
+ [taxihub.at/de](https://taxihub.at/de)
+
+
+
+ [— FLUGHAFEN-TRANSFER
+
+
+
+### Der Preis steht. Bevor Sie einsteigen.
+
+
+Geben Sie Pickup und Ziel ein — Sie sehen den Fixpreis, bevor das Taxi losfährt. Keine Diskussion am Flughafen Wien-Schwechat, keine Tarifänderung im Stau, keine versteckten Kosten. Ein Preis, eine Fahrt.
+
+
+
+
+
+— FAHRZEUGE
+
+
+
+### Standart bis Luxus. Für jede Gelegenheit.
+
+
+Vier Fahrzeug-Klassen: Standart für die alltägliche Fahrt, Kombi für Familien-Gepäck, Van-Bus für Gruppen, Luxus für Business und Repräsentanz. Kindersitze und Sitzerhöhungen jederzeit verfügbar.
+
+
+
+
+
+— ZAHLUNG
+
+
+
+### Apple Pay. Karte. Bar.
+
+
+Bezahlen Sie in der App per Kreditkarte, Apple Pay oder Google Pay — oder direkt beim Fahrer mit Bargeld. Kein Wechseln, kein „Sie haben es nicht kleiner?", kein verkratztes Kreditkarten-Terminal.
+
+
+
+
+
+— FÜR FAHRER
+
+
+
+### Werden Sie TaxiHub-Fahrer.
+
+
+Taxifahrer können sich innerhalb der App oder auf taxihub.at/de als Fahrer registrieren. Echtzeit-Dashboard, transparenter Auszahlungsfluss, lokaler Kundensupport für jede Frage.
+
+
+
+
+
+— UMWELT
+
+
+
+### CO₂-neutral. Seriös bewertet.
+
+
+Saubere, moderne Fahrzeuge mit CO₂-neutralen Motoren. Geprüfte und vertrauenswürdige Fahrer mit lokaler Konzession. Wir verdrängen Wiener Funkzentralen nicht — wir verbinden sie digital.
+
+
+
+
+
+
+
+
+
+
+— App Store · Google Play
+
+
+
+## Ein Taxi. Sicher, günstig, komfortabel.
+
+
+Brauchen Sie ein Taxi in Wien? Soll es günstig, sicher und komfortabel sein? Ob Sie lieber über eine benutzerfreundliche App oder einen kurzen Anruf buchen — TaxiHub macht es Ihnen einfach.
+
+
+Mit wenigen Klicks sichern Sie sich eine zuverlässige und erschwingliche Fahrt zu Ihrem Ziel — stressfrei. Jetzt herunterladen, um ein Taxi in Wien online zu Fixpreisen und ohne Zuschläge für Flughafentransfers zu buchen.
+
+
+
+### Wien-Flughafen-Taxi: Fixpreis vom und zum Flughafen
+
+
+Genießen Sie einen stressfreien Flughafentransfer mit unserem Fixpreis-Service. Keine versteckten Kosten, keine Überraschungen — nur eine angenehme Fahrt zum oder vom Flughafen Wien-Schwechat. Ob Sie einen Flug erwischen oder in der Stadt ankommen — unsere professionellen Fahrer sorgen für eine komfortable und pünktliche Reise.
+
+
+
+### Taxi in Wien und Umgebung
+
+
+TaxiHub ist nicht nur auf das Stadtzentrum beschränkt. Wir bieten Fahrten in ganz Wien und den umliegenden Regionen an und sorgen dafür, dass Sie Ihr Ziel sicher und bequem erreichen — ob Geschäftsreise, Sightseeing oder ein Abendausflug.
+
+
+
+### Einfacher & sicherer Prozess
+
+
+Ein Taxi zu buchen war noch nie so einfach. Unsere App bietet einen nahtlosen und sicheren Prozess: Abhol- und Zielort eingeben, Fahrzeug-Klasse wählen, Fahrt in Sekundenschnelle bestätigen. Bezahlen Sie sicher über die App oder direkt beim Fahrer — wie es Ihnen lieber ist.
+
+
+
+### Kompetenter Kundensupport
+
+
+Haben Sie eine Frage oder benötigen Sie Hilfe? Unser lokales Kundensupport-Team ist immer bereit. Ob Buchungsanfrage, verlorener Gegenstand oder Sonderwunsch — wir sorgen für eine prompte und effiziente Betreuung.
+
+
+
+### TaxiHub im Überblick
+
+
+ - Online-Taxi-Service für Wien, Österreich
+
+ - Flughafentransfers mit Fixpreis ohne Zuschläge
+
+ - Taxi für Wien und Umgebung
+
+ - Saubere, moderne Fahrzeuge mit CO₂-neutralen Motoren
+
+ - Geprüfte und vertrauenswürdige Fahrer
+
+ - Fixpreis und Vorabpreis — kein Trinkgeld-Stress
+
+ - Bewerbung als Fahrer in der App oder online möglich
+
+
+
+
+Reduzieren Sie die Sorgen über hohe Transportkosten oder andere Unsicherheiten bei Reisen in Wien und Österreich.
+
+
+▶ Laden Sie die TaxiHub-App noch heute herunter — und erleben Sie eine zuverlässige, bequeme und erschwingliche Art, durch Wien zu reisen.
+
+
+Mehr Infos: taxihub.at/de · Taxifahrer können sich innerhalb der App oder auf der Website für Jobs und Mitfahrdienste bewerben.
+
+
+
+
+
+
+
+
+— Auch von Vision GO
+
+
+
+## Vor der Fahrt & danach.
+
+
+Brauchen Sie nach der Landung in Schwechat eine günstige Datenverbindung? Unsere eSIM-Lösung aktiviert in zwei Minuten Daten für 202+ Länder. Auf der Fahrt zur Stadt hören Sie über unsere Radio-App über 100.000 Live-Stationen weltweit. Quittungen vom Hotel oder dem Geschäftsmeeting scannen Sie mit unserem Dokumenten-Scanner direkt im Taxi. Und für lange Wartezeiten zwischen Terminen bringt unser Snake-Spiel Ablenkung mit Play-to-Earn auf Solana.
+
+
+
+
+
+
+
+
+
+## Nächste Fahrt mit TaxiHub.
+
+
+Direkt im Browser auf taxihub.at/de. App-Versionen für iOS und Android in Vorbereitung.
+
+
+ taxihub.at öffnen](https://taxihub.at/de)
+ [Funkzentrale werden? ›](/kontakt.html)
+
+
+
+
+
+
+
+
+
+## Auch von Vision GO.
+[Alle Arbeiten](/projekte.html)
+
+ [eSIMfo
+
+### Daten in 2 Minuten.](/projekte/esimfo.html)
+ [MegaRadio
+
+### Die ganze Welt im Radio.](/projekte/megaradio.html)
+
+---
+
+# Online Snake
+
+Source: https://visiongo.at/projekte/snake-online.html
+
+Studio/
+ Arbeiten/
+ Online Snake
+
+
+Online Snake
+
+
+
+# Snake. Multiplayer. Mit Echtgeld.
+
+
+Echtzeit-Multiplayer-Snake gegen Spieler weltweit. Verdienen Sie MXR Token bei jedem Spiel — auf der Solana-Blockchain.
+
+
+ [Laden imApp Store
+
+
+
+ Jetzt beiGoogle Play
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ GenreMultiplayer · Arcade · Play-to-Earn
+ SpielmodiOnline · Offline AI
+ Bewertung4,9 ★ · 12 Reviews
+ TokenMXR · Solana SPL
+ PlattformeniOS · Android · macOS · visionOS · tvOS
+ Größe343 MB · iOS
+
+
+
+
+
+
+
+
+
+
+
+## Fünf Arenen. Fünf Geschichten.
+
+ Original Gameplay-Screenshots.](https://apps.apple.com/tr/app/online-snake-io-worm-clash/id6749900178)
+ [](/assets/products/snake/screen-2.png)
+ [](/assets/products/snake/screen-3.png)
+ [](/assets/products/snake/screen-4.png)
+ [](/assets/products/snake/screen-5.png)
+
+
+
+
+
+
+
+
+
+
+## Der klassische Reiz. Mit neuer Mechanik.
+
+ [mxrtoken.com](https://mxrtoken.com)
+
+
+
+
+ [— ECHTZEIT-MULTIPLAYER
+
+
+
+### Bis zu 50 Schlangen. Eine Arena. Eine Wahrheit.
+
+
+Server in Frankfurt, New York und Singapur. Sub-50-ms-Latenz. Wer als Erster gegen die Wand fährt, verliert — und wer überlebt, kassiert die MXR der anderen.
+
+
+
+
+
+— PLAY-TO-EARN
+
+
+
+### MXR Token verdienen.
+
+
+Solana SPL Utility Token, MiCA-konform. Total Supply: 1 Milliarde. Verdienen Sie pro Match, in Turnieren, durch Achievements — und nutzen Sie die Tokens für Skins und Tournament-Entries.
+
+
+
+
+
+— OFFLINE AI
+
+
+
+### Kein Netz. Trotzdem spielen.
+
+
+Offline-Modus mit drei KI-Schwierigkeitsstufen. Üben Sie unterwegs, ohne Daten, ohne MXR-Risiko, ohne dass das eigene Wallet leer wird.
+
+
+
+
+
+— RANGLISTE
+
+
+
+### Global · Regional · Friends.
+
+
+Tägliche, wöchentliche und Saison-Leaderboards. Top-1000 erhält zusätzliche Belohnungen, Top-10 wird in der Hall of Fame verewigt.
+
+
+
+
+
+— SKINS & KOSMETIK
+
+
+
+### Individualität. Auf Solana.
+
+
+Über 150 Schlangen-Skins, Power-Up-Kosmetik, Arena-Effekte. Mit MXR oder Fiat erwerbbar — alles transparent on-chain.
+
+
+
+
+
+
+
+
+
+
+
+— Hintergrund
+
+
+
+## Warum Snake? Warum jetzt?
+
+
+Snake ist das wahrscheinlich am häufigsten programmierte Spiel der Computer-Geschichte. Jeder Informatik-Student baut eine Version, jedes Handy hatte mal eine vorinstalliert. Genau diese Vertrautheit macht es so gut für Multiplayer — die Regeln muss niemand lernen.
+
+
+Was wir hinzugefügt haben: ein echtes Wirtschaftssystem. MXR ist ein MiCA-konformer Utility-Token auf Solana, mit transparenter Tokenomics und einem klaren Verbrennungs-Mechanismus über Turniere. Spieler können verdienen, ohne investieren zu müssen — und das Spiel ist auch ohne Wallet vollständig spielbar.
+
+
+Wir bauen Snake nicht, weil wir an Krypto-Versprechen glauben. Wir bauen es, weil es ein gutes Spiel ist — und weil wir testen wollten, ob ein faires, transparentes Token-Modell überhaupt funktioniert. Nach acht Monaten Produktion und 4,9 Sternen bei 12 Reviews scheint es das zu tun.
+
+
+
+
+
+
+
+
+
+## Treten Sie der Arena bei.
+
+
+Kostenlos. Ohne Vorab-Investition. MXR-Wallet entsteht beim ersten Spiel.
+
+
+
+
+Laden imApp Store
+
+
+
+ Jetzt beiGoogle Play
+
+
+
+
+
+
+
+
+ — Auch von Vision GO
+
+
+
+## Auch von Vision GO.
+
+
+Spielen ist nur ein Teil unseres Portfolios. Auf Reisen brauchen Sie zuverlässige Daten — unsere eSIM-App liefert sie in 202+ Ländern in zwei Minuten. Wenn das Spiel zur Pause kommt, hören Sie über unsere Radio-App über 100.000 Live-Stationen aus aller Welt. In Wien kommt unser Taxi-Service zu Fixpreisen ohne Zuschläge. Und für die Buchhaltung der MXR-Gewinne: unser Dokumenten-Scanner mit AES-256-Verschlüsselung.
+
+
+
+
+
+
+
+
+## Auch von Vision GO.
+Alle Arbeiten](https://apps.apple.com/tr/app/online-snake-io-worm-clash/id6749900178)
+
+ [ScanUp
+
+### Dokumente. Privat.](/projekte/scanup.html)
+ [TaxiHub
+
+### Taxi Wien.](/projekte/taxihub.html)
+
+---
+
+# Blog index
+
+Source: https://visiongo.at/blog/index.html
+
+— Vision GO Blog
+
+
+
+# Was wir in der Werkstatt lernen.
+
+
+Täglich ein neuer Artikel — zu KI, App-Entwicklung, Cloud, Sicherheit und allem dazwischen. Aus zehn Jahren Studio-Erfahrung in Wien, ohne Marketing-Lack.
+
+
+[KI & Machine Learning](/blog/kategorie/ki-machine-learning.html)[App-Entwicklung](/blog/kategorie/app-entwicklung.html)[Web-Entwicklung](/blog/kategorie/web-entwicklung.html)[Cloud & DevOps](/blog/kategorie/cloud-devops.html)[IT-Sicherheit & Datenschutz](/blog/kategorie/it-sicherheit.html)[Open Source](/blog/kategorie/open-source.html)[Startup & Produkt](/blog/kategorie/startup-produkt.html)[Industrie & IoT](/blog/kategorie/industrie-iot.html)[Fintech & Krypto](/blog/kategorie/fintech-krypto.html)[Design & UX](/blog/kategorie/design-ux.html)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Aktuelle Artikel.
+
+ [RSS abonnieren](/blog/feed.xml)
+
+
+
+ [KI & Machine Learning
+ ·
+ 13. Mai 2026
+ ·
+ 7 Min
+
+
+
+## Claude Sonnet 4.6 im produktiven Einsatz: Was sich gegenüber 4.5 wirklich geändert hat
+
+
+Wir haben die neue Version drei Wochen lang in unseren RAG-Pipelines getestet. Hier sind die Ergebnisse — ohne Marketing-Lack.](/blog/claude-sonnet-46-im-produktiven-einsatz.html)
+
+ [App-Entwicklung
+ ·
+ 13. Mai 2026
+ ·
+ 9 Min
+
+
+
+## SwiftUI vs. Jetpack Compose 2026: Was wir nach 12 produktiven Apps gelernt haben
+
+
+Beide Frameworks sind erwachsen geworden. Hier ist, was sie immer noch schlecht können — und warum wir trotzdem fast nie React Native empfehlen.](/blog/swiftui-vs-jetpack-compose-2026.html)
+ [Web-Entwicklung
+ ·
+ 13. Mai 2026
+ ·
+ 8 Min
+
+
+
+## Warum wir 2026 vermehrt Astro statt Next.js wählen
+
+
+Wir haben drei Marketing-Sites von Next.js zu Astro migriert. Performance, DX, Build-Times — und wo Astro noch ein Problem hat.](/blog/warum-wir-astro-statt-nextjs-fuer-2026.html)
+
+
+
+ Keine Artikel gefunden.
+
+ [Cloud & DevOps
+ ·
+ 13. Mai 2026
+ ·
+ 8 Min
+
+
+
+## EU-Cloud in der Praxis: Hetzner vs. AWS Frankfurt für unsere Apps
+
+
+Wir betreiben Produktiv-Workloads auf beiden Plattformen. Hier ist die ehrliche Kostenrechnung — und wo Hetzner uns noch nicht reicht.](/blog/eu-cloud-hetzner-vs-aws-frankfurt.html)
+ [IT-Sicherheit & Datenschutz
+ ·
+ 13. Mai 2026
+ ·
+ 6 Min
+
+
+
+## DSGVO-Protokollierung 2026: Was wir aus zwei Audits gelernt haben
+
+
+Die meisten Apps protokollieren zu wenig — oder das Falsche. Hier sind die acht Felder, die jedes Logging-System haben muss.](/blog/dsgvo-protokollierung-best-practices-2026.html)
+ [Open Source
+ ·
+ 13. Mai 2026
+ ·
+ 7 Min
+
+
+
+## Warum wir HTMX statt React für interne Tools verwenden
+
+
+Drei interne Tools letztes Jahr, kein einziges Webpack-Update, kein einziges Bundle größer als 30 KB. Hier ist, warum HTMX in der Werkstatt funktioniert.](/blog/warum-wir-htmx-statt-react-fuer-interne-tools.html)
+ [Startup & Produkt
+ ·
+ 13. Mai 2026
+ ·
+ 7 Min
+
+
+
+## SaaS-MVP in 8 Wochen: Was die Pitches verschweigen
+
+
+Wir haben 2025 vier MVPs für Gründer:innen gebaut. Die Wahrheit über Discovery-Schmerzen, Auth-Setup und warum „Logo + Login + Landing” nie das eigentliche MVP ist.](/blog/saas-mvp-acht-wochen-realitaet.html)
+ [Industrie & IoT
+ ·
+ 13. Mai 2026
+ ·
+ 8 Min
+
+
+
+## OPC UA Edge Gateway für alte Maschinen: Praxisbericht aus drei Werken
+
+
+Wir verbinden 30 Jahre alte Drehmaschinen mit modernen MES-Systemen. Hier ist die Hardware, das Protokoll und der häufigste Fehler.](/blog/opc-ua-edge-gateway-fuer-alte-maschinen.html)
+ [Fintech & Krypto
+ ·
+ 13. Mai 2026
+ ·
+ 8 Min
+
+
+
+## MiCA-Stablecoins 2026: Was deutsche und österreichische Fintechs jetzt entscheiden müssen
+
+
+Die MiCA-Verordnung ist seit Mitte 2024 in Kraft. Hier ist, was wir aus zwei Stablecoin-Projekten gelernt haben — und welche Fragen die Compliance-Abteilung jetzt stellen muss.](/blog/mica-stablecoin-regulierung-2026.html)
+ [Design & UX
+ ·
+ 13. Mai 2026
+ ·
+ 6 Min
+
+
+
+## Apple HIG 2026: Was sich für iOS-Apps wirklich geändert hat
+
+
+Wir haben unsere Apps gegen die neuen Human Interface Guidelines geprüft. Hier sind die fünf Stellen, an denen wir nachbessern mussten — und zwei, an denen wir Apple nicht folgen.](/blog/apple-hig-2026-was-sich-aendert.html)
+
+---
+
+# Privacy (DE)
+
+Source: https://visiongo.at/datenschutz.html
+
+Studio/Datenschutz
+
+
+— Stand: 13. Mai 2026
+
+
+
+# Datenschutz­erklärung.
+
+
+Der Schutz Ihrer personen­bezogenen Daten ist uns ein wichtiges Anliegen. Hier finden Sie, welche Daten wir auf visiongo.at erheben, wie wir sie verwenden — und welche Rechte Ihnen zustehen.
+
+
+
+
+
+
+
+## 1. Einleitung
+
+
+Der Schutz Ihrer personenbezogenen Daten ist uns ein wichtiges Anliegen. In dieser Datenschutzerklärung informieren wir Sie darüber, welche personenbezogenen Daten wir auf unserer Website https://visiongo.at/ erheben, wie wir diese verwenden und welche Rechte Ihnen zustehen.
+
+
+
+## 2. Verantwortlicher
+
+
+Vision GO GmbH
+
+ [Bäckerstraße 7/7
+ 1010 Wien · Österreich
+ Telefon: +43 676 6440122](tel:+436766440122)
+ E-Mail: [info@visiongo.at](mailto:info@visiongo.at)
+
+
+Falls Sie Fragen zu dieser Datenschutzerklärung oder zum Umgang mit Ihren Daten haben, können Sie sich jederzeit an uns wenden.
+
+
+
+## 3. Erhebung und Speicherung personenbezogener Daten
+
+
+
+### 3.1 Automatische Datenerhebung bei Besuch der Website
+
+
+Bei jedem Zugriff auf unsere Website werden automatisch folgende Daten erfasst:
+
+
+ - IP-Adresse des anfragenden Geräts
+
+ - Datum und Uhrzeit des Zugriffs
+
+ - URL der abgerufenen Seite
+
+ - Verwendeter Browser und Betriebssystem
+
+ - Referrer-URL (die zuvor besuchte Seite)
+
+
+
+Diese Daten werden ausschließlich zur Sicherstellung des Betriebs und der Sicherheit der Website verwendet und nicht mit anderen Datenquellen zusammengeführt. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an einem sicheren Betrieb). Speicherdauer: 14 Tage, IP-Adresse nach 24 Stunden anonymisiert.
+
+
+
+### 3.2 Kontaktformular oder E-Mail
+
+
+Wenn Sie uns über ein Kontaktformular oder per E-Mail kontaktieren, speichern wir folgende Informationen:
+
+
+ - Ihren Namen
+
+ - Ihre E-Mail-Adresse
+
+ - Optional: Unternehmen
+
+ - Den Inhalt Ihrer Nachricht
+
+
+
+Diese Daten verwenden wir ausschließlich, um Ihre Anfrage zu bearbeiten. Rechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (Vertragsanbahnung). Speicherdauer: bis zum Abschluss des Anliegens, längstens 24 Monate.
+
+
+
+## 4. Verwendung von Cookies und Analyse-Tools
+
+
+
+### 4.1 Cookies
+
+
+Unsere Website verwendet Cookies, um die Benutzerfreundlichkeit zu verbessern. Cookies sind kleine Textdateien, die auf Ihrem Endgerät gespeichert werden. Sie können die Verwendung von Cookies in den Einstellungen Ihres Browsers deaktivieren. Beachten Sie jedoch, dass bestimmte Funktionen der Website möglicherweise eingeschränkt sind.
+
+
+Konkret setzen wir derzeit ausschließlich eine technisch notwendige Einstellung im Local-Storage Ihres Browsers ein, damit der Cookie-Hinweis nach Bestätigung nicht erneut erscheint. Diese Information wird nicht an unsere Server übermittelt.
+
+
+
+### 4.2 Analyse-Tools
+
+
+Wir verzichten bewusst auf Marketing-Cookies, Drittanbieter-Analyse und Werbe-Pixel. Sollten wir in Zukunft Analyse-Tools einsetzen, werden folgende Daten erfasst:
+
+
+ - Welche Seiten Sie besuchen
+
+ - Wie lange Sie auf den Seiten verweilen
+
+ - Ihr geografischer Standort (ungefähr)
+
+ - Technische Informationen wie Gerätetyp und Bildschirmauflösung
+
+
+
+In diesem Fall stellen wir IP-Anonymisierung sicher und informieren Sie über etwaige Änderungen an dieser Stelle transparent.
+
+
+
+## 5. Fonts & externe Ressourcen
+
+
+Unsere Website verwendet Schriftarten von Google Fonts (Inter, Fraunces, JetBrains Mono). Beim Aufruf der Seite kann Ihre IP-Adresse an einen Google-Server in den USA übermittelt werden. Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO. Wir prüfen aktiv den Wechsel auf selbst-gehostete Fonts.
+
+
+
+## 6. Hosting
+
+
+Diese Website wird in einem Rechenzentrum innerhalb der Europäischen Union betrieben (Frankfurt am Main, Deutschland). Es besteht ein Auftragsverarbeitungsvertrag (AVV) gemäß Art. 28 DSGVO mit dem Hosting-Anbieter.
+
+
+
+## 7. Weitergabe Ihrer Daten
+
+
+Wir geben Ihre personenbezogenen Daten nur dann an Dritte weiter, wenn:
+
+
+ - Sie ausdrücklich zugestimmt haben,
+
+ - es zur Erfüllung eines Vertrags erforderlich ist,
+
+ - wir gesetzlich dazu verpflichtet sind oder
+
+ - dies zur Wahrung berechtigter Interessen erforderlich ist (z. B. bei der Verteidigung rechtlicher Ansprüche).
+
+
+
+
+
+## 8. Ihre Rechte
+
+
+Sie haben das Recht:
+
+
+ - Auskunft über Ihre gespeicherten personenbezogenen Daten zu erhalten (Art. 15 DSGVO).
+
+ - Die Berichtigung unrichtiger Daten zu verlangen (Art. 16 DSGVO).
+
+ - Die Löschung Ihrer Daten zu verlangen, sofern diese nicht mehr erforderlich sind oder eine gesetzliche Grundlage zur Speicherung entfällt (Art. 17 DSGVO).
+
+ - Die Einschränkung der Verarbeitung Ihrer Daten zu verlangen (Art. 18 DSGVO).
+
+ - Der Verarbeitung Ihrer Daten zu widersprechen, wenn sich diese auf berechtigte Interessen stützt (Art. 21 DSGVO).
+
+ - Ihre Daten in einem gängigen, maschinenlesbaren Format zu erhalten (Datenübertragbarkeit, Art. 20 DSGVO).
+
+ - Beschwerde bei der Aufsichtsbehörde einzulegen (Art. 77 DSGVO).
+
+
+
+Um eines dieser Rechte auszuüben, kontaktieren Sie uns bitte unter den oben angegebenen Kontaktdaten oder schreiben Sie an info@visiongo.at.
+
+
+Aufsichtsbehörde in Österreich: Österreichische Datenschutzbehörde, Barichgasse 40-42, 1030 Wien — www.dsb.gv.at.
+
+
+
+## 9. Datensicherheit
+
+
+Wir setzen technische und organisatorische Maßnahmen ein, um Ihre Daten vor Verlust, Manipulation und unberechtigtem Zugriff zu schützen. Unsere Sicherheitsmaßnahmen werden regelmäßig überprüft und an den aktuellen Stand der Technik angepasst. Die Übertragung erfolgt ausschließlich verschlüsselt via TLS 1.3.
+
+
+
+## 10. Auftragsverarbeitung für Kunden
+
+
+Wenn wir im Rahmen eines Projekts personenbezogene Daten unserer Kunden verarbeiten, geschieht dies auf Basis eines Auftragsverarbeitungsvertrags gemäß Art. 28 DSGVO. Mustervertrag auf Anfrage unter info@visiongo.at.
+
+
+
+## 11. Apps von Vision GO
+
+
+Für die Datenschutzbestimmungen unserer Apps (MegaRadio, ScanUp, eSIMfo, TaxiHub, Online Snake) gelten zusätzlich die jeweiligen App-spezifischen Datenschutzerklärungen, die in der App selbst und in den entsprechenden App-Store-Listings (Apple App Store, Google Play Store) einsehbar sind.
+
+
+
+## 12. Änderungen der Datenschutzerklärung
+
+
+Wir behalten uns das Recht vor, diese Datenschutzerklärung bei Bedarf anzupassen. Änderungen werden auf dieser Seite veröffentlicht. Wir empfehlen, die Erklärung regelmäßig zu überprüfen.
+
+
+
+
+Stand: 13. Mai 2026 · Vision GO GmbH · Bäckerstraße 7/7, 1010 Wien
+
+---
+
+# AGB / Terms (DE)
+
+Source: https://visiongo.at/agb.html
+
+Studio/AGB
+
+
+— Stand: 13. Mai 2026
+
+
+
+# Allgemeine Geschäfts­bedingungen.
+
+
+Diese AGB gelten für alle Software- und Dienstleistungs-Verträge zwischen der Vision GO GmbH und Auftraggebern. Lesbar gehalten, ohne unnötigen Juristen-Lack.
+
+
+
+
+
+
+
+## 1. Geltungsbereich
+
+
+Diese Allgemeinen Geschäftsbedingungen („AGB") gelten für sämtliche Verträge zwischen der Vision GO GmbH (im Folgenden „Vision GO" oder „wir") und unseren Auftraggebern (im Folgenden „Auftraggeber" oder „Sie") über die Erbringung von Software-Entwicklungs-, Beratungs- und Betriebsleistungen.
+
+
+Abweichende oder ergänzende Bedingungen des Auftraggebers werden nur dann Vertragsbestandteil, wenn Vision GO ihnen schriftlich zustimmt.
+
+
+
+## 2. Vertragsschluss
+
+
+Der Vertrag kommt durch unsere schriftliche Auftragsbestätigung oder durch Unterzeichnung eines Angebots / Statement of Work (SoW) durch beide Parteien zustande. Angebote sind ohne ausdrückliche andere Bestimmung 30 Kalendertage gültig.
+
+
+
+## 3. Leistungsumfang
+
+
+Der konkrete Leistungsumfang ergibt sich aus dem jeweiligen Angebot oder Statement of Work. Mündliche Nebenabreden bedürfen zu ihrer Wirksamkeit der schriftlichen Bestätigung. Änderungen am Leistungsumfang werden über ein Change-Request-Verfahren dokumentiert.
+
+
+
+### 3.1 Discovery & Architektur
+
+
+Discovery-Phasen und Architektur-Workshops werden zu Festpreisen angeboten. Das Ergebnis ist eine schriftliche Architektur-Dokumentation, die unabhängig von einem Folgeauftrag beim Auftraggeber verbleibt.
+
+
+
+### 3.2 Entwicklung
+
+
+Entwicklungsleistungen werden nach Aufwand abgerechnet, sofern nicht anders vereinbart. Wir liefern wöchentliche Sprint-Reports mit Stundennachweis. Eine schriftlich vereinbarte Obergrenze („Cap") darf ohne ausdrückliche Zustimmung des Auftraggebers nicht überschritten werden.
+
+
+
+### 3.3 Betrieb & SLAs
+
+
+Betriebsleistungen, SLAs und Bereitschaftsdienst werden in separaten Service-Level-Agreements geregelt. Standard-Reaktionszeiten: P1 (Komplettausfall) innerhalb 1 Stunde, P2 (eingeschränkte Funktion) innerhalb 4 Stunden während Geschäftszeiten.
+
+
+
+## 4. Mitwirkungspflichten des Auftraggebers
+
+
+Der Auftraggeber verpflichtet sich:
+
+
+ - uns rechtzeitig die für die Leistungserbringung erforderlichen Informationen, Zugänge und Materialien zur Verfügung zu stellen,
+
+ - einen Ansprechpartner zu benennen, der zeitnah Rückfragen beantworten kann,
+
+ - Test- und Abnahme-Meilensteine binnen zehn Werktagen zu prüfen,
+
+ - Vision GO über Änderungen an Dritt-Systemen, die unsere Leistung berühren, vorab zu informieren.
+
+
+
+
+
+## 5. Vergütung & Zahlungsbedingungen
+
+
+Die Vergütung ergibt sich aus dem Angebot. Alle Preise verstehen sich zuzüglich der gesetzlichen Umsatzsteuer.
+
+
+ - Discovery / Architektur: 50 % bei Auftragsbestätigung, 50 % bei Abnahme — innerhalb 14 Kalendertagen ab Rechnungsdatum.
+
+ - Entwicklung nach Aufwand: monatliche Abrechnung auf Basis Sprint-Report, fällig binnen 14 Kalendertagen.
+
+ - Betrieb: monatlich im Voraus, fällig zum 1. des Leistungsmonats.
+
+ - Spesen & Reisekosten nach Aufwand gegen Beleg, sofern vorher schriftlich vereinbart.
+
+
+
+Bei Zahlungsverzug behält sich Vision GO das Recht vor, weitere Leistungen bis zum Zahlungseingang einzustellen. Verzugszinsen entsprechen den gesetzlichen Sätzen nach §456 UGB.
+
+
+
+## 6. Abnahme
+
+
+Lieferungen gelten als abgenommen, sobald der Auftraggeber sie schriftlich oder per E-Mail bestätigt — oder innerhalb von zehn Werktagen nach Lieferung keine begründeten Mängel meldet. Unwesentliche Mängel berechtigen nicht zur Abnahmeverweigerung.
+
+
+
+## 7. Nutzungsrechte & Urheberrecht
+
+
+Nach vollständiger Bezahlung erhält der Auftraggeber ein nicht-ausschließliches, zeitlich unbeschränktes, übertragbares Nutzungsrecht an der speziell für ihn entwickelten Software für die im Vertrag definierten Zwecke.
+
+
+Allgemeine, wiederverwendbare Komponenten (Frameworks, Bibliotheken, interne Tools), die wir vor oder unabhängig vom Projekt entwickelt haben, bleiben in unserem Eigentum. Wir gewähren Ihnen für deren Nutzung im Projekt eine einfache, unbefristete Lizenz.
+
+
+Open-Source-Komponenten werden gemäß ihrer Original-Lizenzen weitergegeben.
+
+
+
+## 8. Gewährleistung & Haftung
+
+
+Vision GO leistet Gewähr für die ordnungsgemäße Erbringung der vereinbarten Leistungen nach den allgemein anerkannten Regeln der Technik. Die Gewährleistungsfrist beträgt sechs Monate ab Abnahme.
+
+
+Die Haftung für leichte Fahrlässigkeit ist ausgeschlossen, soweit gesetzlich zulässig. Für vorsätzliches und grob fahrlässiges Verhalten haften wir unbeschränkt nach den gesetzlichen Bestimmungen.
+
+
+Die Haftung für Folgeschäden, entgangenen Gewinn oder mittelbare Schäden ist insgesamt auf den im Vertragsjahr fakturierten Auftragswert begrenzt — höchstens jedoch € 500.000.
+
+
+
+## 9. Datenschutz & Vertraulichkeit
+
+
+Beide Parteien verpflichten sich zur Geheimhaltung aller im Rahmen der Zusammenarbeit erlangten vertraulichen Informationen — auch über das Vertragsende hinaus. Die Verarbeitung personenbezogener Daten erfolgt auf Basis eines separaten Auftragsverarbeitungsvertrags (AVV) nach Art. 28 DSGVO.
+
+
+Vision GO verpflichtet sich, sämtliche Auftraggeber-Daten ausschließlich in EU-Rechenzentren (Frankfurt, Wien) zu verarbeiten, sofern nichts anderes vereinbart wurde.
+
+
+
+## 10. Referenz & Marketing
+
+
+Vision GO darf den Auftraggeber als Referenz nennen (Name, Logo, kurze Projekt-Beschreibung), sofern dies nicht im Vertrag explizit ausgeschlossen wurde. Eine detaillierte Case-Study wird stets vor Veröffentlichung mit dem Auftraggeber abgestimmt.
+
+
+
+## 11. Vertragsbeendigung
+
+
+Verträge können von beiden Parteien mit einer Kündigungsfrist von drei Monaten zum Monatsende ordentlich gekündigt werden, sofern nichts anderes vereinbart wurde. Das Recht zur außerordentlichen Kündigung aus wichtigem Grund bleibt unberührt.
+
+
+Bei Kündigung werden alle bis dahin erbrachten Leistungen abgerechnet. Bei Festpreis-Phasen ist der zum Zeitpunkt der Kündigung anteilig erbrachte Wert geschuldet.
+
+
+
+## 12. Schlussbestimmungen
+
+
+Gerichtsstand für sämtliche Streitigkeiten aus oder im Zusammenhang mit diesen AGB ist Wien (Österreich). Es gilt österreichisches Recht unter Ausschluss der Verweisungsnormen und des UN-Kaufrechts.
+
+
+Sollte eine Bestimmung dieser AGB ganz oder teilweise unwirksam sein oder werden, berührt dies die Wirksamkeit der übrigen Bestimmungen nicht. An die Stelle der unwirksamen Bestimmung tritt die gesetzlich zulässige Regelung, die der wirtschaftlich gewollten am nächsten kommt.
+
+
+
+
+Stand: 13. Mai 2026 · Vision GO GmbH · FN 644224p · Handelsgericht Wien · Bäckerstraße 7/7, 1010 Wien · info@visiongo.at
+
+---
+
+# Privacy (EN)
+
+Source: https://visiongo.at/en/privacy.html
+
+Studio/Privacy
+
+
+— Legal
+
+
+
+# Privacy Policy.
+
+
+Last updated: 14 May 2026. This notice explains what personal data Vision GO GmbH processes when you visit our website, contact us, or use our apps — and how you can exercise your rights under the EU General Data Protection Regulation (GDPR).
+
+
+
+
+
+
+
+## 1. Introduction
+
+
+We take the protection of your personal data seriously. We process personal data only in accordance with the GDPR (Regulation (EU) 2016/679) and the Austrian Data Protection Act (DSG). The German-language version of this notice is the legally binding one — see Datenschutzerklärung.
+
+
+
+## 2. Data controller
+
+
+Vision GO GmbH
+ Bäckerstraße 7/7
+ 1010 Vienna · Austria
+ Phone: +43 676 6440122
+ E-mail: info@visiongo.at
+ Commercial register: FN 644224p, Commercial Court Vienna
+ VAT-ID: ATU79520014
+
+
+Vision GO has not appointed an external Data Protection Officer (none required under Art. 37 GDPR). For any privacy matter please contact info@visiongo.at.
+
+
+
+## 3. Collection and storage of personal data
+
+
+
+### 3.1 Automatic data collection when visiting the website
+
+
+When you visit visiongo.at, our hosting provider automatically collects the following data, which is technically required to deliver the page:
+
+
+ - IP address (anonymized after 7 days)
+
+ - Date and time of the request
+
+ - Page requested (URL)
+
+ - Browser type and version, operating system
+
+ - Referrer URL (if available)
+
+
+
+Legal basis: Art. 6 (1) (f) GDPR — legitimate interest in operating a secure, functional website. Storage period: 30 days in server log files, then automatic deletion.
+
+
+
+### 3.2 Contact form or e-mail
+
+
+If you contact us via our contact form or by e-mail, we process the data you provide voluntarily (name, e-mail address, company, message) for the purpose of responding to your inquiry.
+
+
+Legal basis: Art. 6 (1) (b) GDPR (steps prior to entering into a contract) or Art. 6 (1) (f) GDPR (legitimate interest in responding to inquiries). Storage period: until the inquiry has been handled, then deletion within 6 months unless a contract follows.
+
+
+
+## 4. Cookies and analytics tools
+
+
+
+### 4.1 Cookies
+
+
+We only use one technically necessary local storage entry (vg_consent_v2) to remember whether you have already seen the cookie notice. This is not transmitted to any third party. No marketing or tracking cookies are set.
+
+
+
+### 4.2 Analytics tools
+
+
+We do not use Google Analytics, Facebook Pixel, Hotjar or comparable third-party analytics tools. We do not build user profiles, do not perform cross-site tracking, and do not run retargeting. We may aggregate anonymized server-log metrics (e.g. page views, error rates) for capacity planning.
+
+
+
+## 5. Fonts & external resources
+
+
+This website loads Inter, JetBrains Mono and Fraunces from Google Fonts. Your browser briefly contacts fonts.googleapis.com and fonts.gstatic.com. We are evaluating self-hosting these fonts in a future update to avoid the connection altogether. Legal basis: Art. 6 (1) (f) GDPR — legitimate interest in visually consistent presentation.
+
+
+
+## 6. Hosting
+
+
+This website is hosted on infrastructure operated by Hetzner Online GmbH (Industriestr. 25, 91710 Gunzenhausen, Germany) and Cloudflare, Inc. (CDN, EU edge nodes). Data is processed exclusively in the EU. Order processing agreements (Art. 28 GDPR) are in place with both providers.
+
+
+
+## 7. Disclosure of your data
+
+
+Your data will not be sold or rented to third parties. We disclose data only:
+
+
+ - To processors (hosting, e-mail provider) bound by Art. 28 GDPR contracts.
+
+ - To authorities, where a statutory obligation exists (e.g. tax records, criminal investigations).
+
+ - With your explicit prior consent.
+
+
+
+
+
+## 8. Your rights
+
+
+Under the GDPR you have the following rights regarding your personal data:
+
+
+ - Right of access (Art. 15) — to know which data we process.
+
+ - Right to rectification (Art. 16) — to correct inaccurate data.
+
+ - Right to erasure (Art. 17) — to have your data deleted.
+
+ - Right to restriction (Art. 18) — to limit processing.
+
+ - Right to data portability (Art. 20) — to receive your data in a machine-readable format.
+
+ - Right to object (Art. 21) — to processing based on legitimate interest.
+
+ - Right to lodge a complaint with the Austrian Data Protection Authority (dsb.gv.at).
+
+
+
+To exercise any of these rights, e-mail info@visiongo.at. We respond within 30 days at the latest.
+
+
+
+## 9. Data security
+
+
+We use HTTPS (TLS 1.3) for all data transmission. Access to internal systems is protected by strong passwords, two-factor authentication, and least-privilege access controls. Backups are encrypted with AES-256 and stored on EU servers.
+
+
+
+## 10. Data processing for clients
+
+
+When we develop software on behalf of a client and that software processes personal data (e.g. end-user logins, payment data), Vision GO acts as a processor under Art. 28 GDPR. Our standard order-processing agreement is available on request to info@visiongo.at.
+
+
+
+## 11. Vision GO apps
+
+
+Our apps — MegaRadio, ScanUp, eSIMfo, TaxiHub, Online Snake — each ship with their own privacy policy in the app stores. The general principles described here apply (no third-party tracking SDKs, EU-only storage, GDPR-compliant deletion on request).
+
+
+
+## 12. Changes to this Privacy Policy
+
+
+We may amend this notice to reflect changed legal requirements or changes to our services. The current version is always available at visiongo.at/en/privacy.html and was last updated on 14 May 2026.
+
+---
+
+# Terms (EN)
+
+Source: https://visiongo.at/en/terms.html
+
+Studio/Terms
+
+
+— Legal
+
+
+
+# Terms & Conditions.
+
+
+Last updated: 14 May 2026. These General Terms and Conditions (GTC) govern all software development, consulting, and operational service contracts between Vision GO GmbH and our business clients. The German-language version (AGB) is legally binding.
+
+
+
+
+
+
+
+## 1. Scope of application
+
+
+These GTC apply to all contracts concluded between Vision GO GmbH (hereinafter "Vision GO") and entrepreneurs within the meaning of §1 KSchG (B2B only). Deviating terms of the client require our written consent. Consumer transactions (B2C) are not within the scope of these GTC.
+
+
+
+## 2. Conclusion of contract
+
+
+Our offers are non-binding until acceptance. A contract is concluded when Vision GO confirms a signed offer or statement of work (SoW) in writing. E-mail confirmation suffices for written form.
+
+
+
+## 3. Scope of services
+
+
+
+### 3.1 Discovery & architecture
+
+
+Initial phase: requirement analysis, technical architecture, risk assessment, and a written estimate. Discovery is typically billed time-and-material at the daily rate stated in the SoW.
+
+
+
+### 3.2 Development
+
+
+Implementation phase: agile sprints of two weeks, weekly status calls, fortnightly demos. Source code is delivered via a Git repository hosted by Vision GO or, at the client's option, by the client themselves.
+
+
+
+### 3.3 Operations & SLAs
+
+
+Optional post-launch operations: hosting, monitoring, incident response, on-call. Service levels (response times, uptime targets) are governed by a separate SLA appendix to the main contract.
+
+
+
+## 4. Client obligations to cooperate
+
+
+The client undertakes to:
+
+
+ - Provide all information, materials and access (credentials, design files, third-party APIs) required for performance in a timely manner.
+
+ - Nominate one decision-making contact person and one technical contact person.
+
+ - Respond to feedback requests, design reviews and approval requests within five business days. Delays in response shift agreed deadlines accordingly.
+
+ - Provide test data and a testing environment for acceptance tests.
+
+
+
+
+
+## 5. Fees & payment terms
+
+
+Unless otherwise stipulated in the SoW:
+
+
+ - Time-and-material engagements are billed monthly in arrears at the agreed daily rate (currently € 1,100 – 1,400 net depending on seniority).
+
+ - Fixed-price engagements are billed in three milestones: 30% on contract signing, 40% on first demo, 30% on acceptance.
+
+ - Travel and accommodation outside Vienna are invoiced separately at cost.
+
+ - All prices are net of VAT. Vision GO's VAT-ID is ATU79520014.
+
+ - Invoices are due 14 days net. Default interest of 9.2 percentage points above the EU base rate applies (§456 UGB).
+
+
+
+
+
+## 6. Acceptance
+
+
+Deliverables are deemed accepted when the client signs an acceptance protocol or uses the deliverable in production for more than 14 days without written objection. Minor defects do not entitle the client to refuse acceptance.
+
+
+
+## 7. Rights of use & intellectual property
+
+
+Upon full payment, the client receives an exclusive, perpetual, worldwide right to use the software developed specifically for them (work-for-hire). Vision GO retains the right to use generic libraries, frameworks, and patterns we developed before or independently of the engagement. Open-source components remain governed by their respective licenses.
+
+
+
+## 8. Warranty & liability
+
+
+Warranty period is 24 months from acceptance. During this period, Vision GO will remedy defects free of charge that are not caused by improper use, third-party intervention, or environmental changes outside our control.
+
+
+Liability is limited to typical, foreseeable damages and capped at the total fee paid by the client in the last 12 months prior to the damaging event. Liability for slight negligence is excluded. Liability for personal injury and damages caused by intent or gross negligence remains unaffected.
+
+
+
+## 9. Data protection & confidentiality
+
+
+Vision GO and the client mutually undertake to maintain confidentiality regarding business and trade secrets disclosed during the engagement, also after termination of the contract. Where Vision GO processes personal data on behalf of the client, the parties shall conclude a separate data processing agreement (DPA) pursuant to Art. 28 GDPR.
+
+
+
+## 10. References & marketing
+
+
+Vision GO is entitled to name the client by name and logo on its website, in pitch decks and on social media, and to describe the project in general terms. The client may object to this in writing at any time. Confidential details (financials, technical internals) are never disclosed.
+
+
+
+## 11. Termination
+
+
+Open-ended retainer agreements may be terminated by either party with three months' notice to the end of a calendar month. Fixed-term contracts can be terminated by either party for good cause without notice (e.g. material breach, insolvency). Services rendered up to termination are invoiced in full.
+
+
+
+## 12. Final provisions
+
+
+Place of performance is Vienna. The law of the Republic of Austria applies, excluding the UN Convention on Contracts for the International Sale of Goods (CISG) and the conflict-of-law rules. The competent court for all disputes arising from the contract is the court with subject-matter jurisdiction for the 1st district of Vienna. Should individual provisions of these GTC be or become invalid, the validity of the remaining provisions remains unaffected.
+
+---
+
+# Impressum
+
+Source: https://visiongo.at/impressum.html
+
+Studio/Impressum
+
+
+— Rechtliche Information
+
+
+
+# Impressum.
+
+
+Offenlegung gemäß §5 ECG, §14 UGB und §25 Mediengesetz.
+
+
+
+
+
+
+
+## Medieninhaber & Diensteanbieter
+
+
+Vision GO GmbH
+
+ [Bäckerstraße 7/7
+ 1010 Wien
+ Österreich
+ Telefon: +43 676 6440122](tel:+436766440122)
+ E-Mail: [info@visiongo.at](mailto:info@visiongo.at)
+ Web: [https://visiongo.at](https://visiongo.at)
+
+
+
+
+## Firmenbuchdaten
+
+
+Firmenbuchnummer: FN 644224p
+ Firmenbuchgericht: Handelsgericht Wien
+ UID-Nummer: ATU79124567
+
+
+
+## Kammer / Gewerbe
+
+
+Mitglied der Wirtschaftskammer Wien
+ Fachgruppe: Unternehmensberatung, Buchhaltung und Informationstechnologie
+ Gewerbeordnung: www.ris.bka.gv.at
+ Aufsichtsbehörde: Magistratisches Bezirksamt für den 1. Bezirk
+
+
+
+## Unternehmensgegenstand
+
+
+Entwicklung, Vertrieb und Betrieb von Softwarelösungen sowie damit verbundene Beratungs- und Schulungsleistungen.
+
+
+
+## Online-Streitbeilegung
+
+
+Die Europäische Kommission stellt eine Plattform zur außergerichtlichen Online-Streitbeilegung (OS-Plattform) bereit, abrufbar unter ec.europa.eu/consumers/odr. Wir sind weder verpflichtet noch bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+
+
+
+## Haftung & Urheberrecht
+
+
+Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte übernehmen wir jedoch keine Gewähr. Inhalte und Werke auf diesen Seiten unterliegen dem österreichischen Urheberrecht. Vervielfältigung, Bearbeitung und Verbreitung bedürfen der schriftlichen Zustimmung der Vision GO GmbH.
+
+
+
+## Bildnachweis
+
+
+Alle Markenzeichen und Logos sind Eigentum der jeweiligen Inhaber. Die auf dieser Website gezeigten Grafiken, Illustrationen und Produkt-Mockups wurden ausschließlich von Vision GO GmbH gestaltet.
+
+---

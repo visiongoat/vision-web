@@ -1,0 +1,69 @@
+# Vision GO
+
+> Vision GO is a software studio in Vienna, Austria. We design and build apps and platforms for iOS, Android and the web. Founded 2015. Self-funded, ten employees, five live consumer apps with millions of downloads. We work with clients in fintech, health, mobility and industry.
+
+The Vision GO website (https://visiongo.at) presents the studio's services, portfolio of apps, technical blog, and contact information. It is published in German (de-AT, primary) with an English mirror at /en/. The site uses no analytics, no marketing trackers, and no third-party JavaScript. All hosting is in the EU.
+
+## Core pages
+
+- [Studio (Homepage)](https://visiongo.at/): Studio overview, app portfolio (MegaRadio, ScanUp, eSIMfo, TaxiHub, Online Snake), services and testimonials.
+- [Services](https://visiongo.at/leistungen.html): Six disciplines — iOS & Android, Web & SaaS, Cloud & DevOps, AI & ML, Security & GDPR, Product & UX.
+- [Work / Projects](https://visiongo.at/projekte.html): Portfolio of in-house apps and client studio work since 2015.
+- [About](https://visiongo.at/ueber-uns.html): Studio history, six operating principles, transparent numbers (revenue, project count, headcount), studio photos.
+- [Careers](https://visiongo.at/karriere.html): Three open positions, hiring process, salary transparency, four-day-week option.
+- [Contact](https://visiongo.at/kontakt.html): Studio address Bäckerstraße 7/7, 1010 Vienna · +43 676 6440122 · info@visiongo.at.
+- [Roadmap](https://visiongo.at/roadmap.html): Public product roadmap, kanban-style (In Progress / Planned / Shipped).
+
+## Products
+
+- [MegaRadio](https://visiongo.at/projekte/megaradio.html): 100,000+ live radio stations in one app — FM, AM and Internet. iOS + Android. Website: https://themegaradio.com
+- [ScanUp](https://visiongo.at/projekte/scanup.html): Secure document scanner with on-device OCR (Apple Vision). iOS. Website: https://scanup.app
+- [eSIMfo](https://visiongo.at/projekte/esimfo.html): Travel eSIM for 200+ countries. iOS + Android. Website: https://esimfo.com
+- [TaxiHub](https://visiongo.at/projekte/taxihub.html): Multi-tenant taxi dispatch platform for Vienna. iOS + Android + web console. Website: https://taxihub.at
+- [Online Snake](https://visiongo.at/projekte/snake-online.html): Multiplayer snake game with real-money tournaments. iOS + Android + web. Website: https://snakeonline.io
+
+## Release notes (changelogs)
+
+- [MegaRadio releases](https://visiongo.at/releases/megaradio.html)
+- [ScanUp releases](https://visiongo.at/releases/scanup.html)
+- [eSIMfo releases](https://visiongo.at/releases/esimfo.html)
+- [TaxiHub releases](https://visiongo.at/releases/taxihub.html)
+- [Online Snake releases](https://visiongo.at/releases/snake-online.html)
+
+## Engineering blog
+
+- [Blog index](https://visiongo.at/blog/): Engineering posts across 10 categories with RSS feed at /blog/feed.xml.
+- [Claude Sonnet 4.6 in production](https://visiongo.at/blog/claude-sonnet-46-im-produktiven-einsatz.html)
+- [Astro vs Next.js (2026)](https://visiongo.at/blog/warum-wir-astro-statt-nextjs-fuer-2026.html)
+- [HTMX instead of React for internal tools](https://visiongo.at/blog/warum-wir-htmx-statt-react-fuer-interne-tools.html)
+- [SwiftUI vs Jetpack Compose (2026)](https://visiongo.at/blog/swiftui-vs-jetpack-compose-2026.html)
+- [Apple HIG 2026 — what changed](https://visiongo.at/blog/apple-hig-2026-was-sich-aendert.html)
+- [EU cloud: Hetzner vs AWS Frankfurt](https://visiongo.at/blog/eu-cloud-hetzner-vs-aws-frankfurt.html)
+- [GDPR audit-logging best practices](https://visiongo.at/blog/dsgvo-protokollierung-best-practices-2026.html)
+- [OPC-UA edge gateway for legacy machines](https://visiongo.at/blog/opc-ua-edge-gateway-fuer-alte-maschinen.html)
+- [MiCA stablecoin regulation (2026)](https://visiongo.at/blog/mica-stablecoin-regulierung-2026.html)
+- [SaaS MVP in 8 weeks — reality check](https://visiongo.at/blog/saas-mvp-acht-wochen-realitaet.html)
+
+## English mirror
+
+- [Home (EN)](https://visiongo.at/en/)
+- [Services (EN)](https://visiongo.at/en/services.html)
+- [Work (EN)](https://visiongo.at/en/work.html)
+- [About (EN)](https://visiongo.at/en/about.html)
+- [Contact (EN)](https://visiongo.at/en/contact.html)
+- [Privacy Policy (EN)](https://visiongo.at/en/privacy.html)
+- [Terms & Conditions (EN)](https://visiongo.at/en/terms.html)
+
+## Legal
+
+- [Impressum](https://visiongo.at/impressum.html): Austrian legal disclosure (FN 644224p, Handelsgericht Wien, VAT ATU79520014).
+- [Datenschutz / Privacy (DE)](https://visiongo.at/datenschutz.html): GDPR privacy policy.
+- [AGB / Terms (DE)](https://visiongo.at/agb.html): B2B contract terms.
+- [security.txt](https://visiongo.at/.well-known/security.txt): Responsible-disclosure contact (RFC 9116).
+- [humans.txt](https://visiongo.at/humans.txt): Team and stack credits.
+
+## Optional
+
+- [Sitemap (XML)](https://visiongo.at/sitemap.xml): Full URL list with hreflang annotations.
+- [RSS feed](https://visiongo.at/blog/feed.xml): Blog updates feed.
+- [robots.txt](https://visiongo.at/robots.txt): Crawl directives. AI-training crawlers are disallowed.

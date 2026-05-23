@@ -48,7 +48,21 @@
   "url": "https://visiongo.at/",
   "logo": "https://visiongo.at/assets/logo.svg",
   "address": { "@type": "PostalAddress", "streetAddress": "Bäckerstraße 7/7", "addressLocality": "Wien", "postalCode": "1010", "addressCountry": "AT" },
-  "employee": [ { "@type": "Person", "name": "Muhammed Fatih Geyik", "jobTitle": "Head of IT" } ]
+  "employee": [
+    {
+      "@type": "Person",
+      "@id": "https://visiongo.at/#mfg-person",
+      "name": "Muhammed Fatih Geyik",
+      "givenName": "Muhammed Fatih",
+      "familyName": "Geyik",
+      "jobTitle": "Founder, Head of IT & Lead Developer",
+      "description": "Founder, Head of IT and lead software architect at Vision GO. Designs and builds the products MegaRadio, ScanUp, eSIMfo, TaxiHub and Online Snake.",
+      "worksFor": { "@id": "https://visiongo.at/#organization" },
+      "knowsAbout": ["iOS", "Android", "Swift", "Kotlin", "TypeScript", "Cloud Architecture", "GDPR", "Mobile App Development", "Software Engineering"],
+      "knowsLanguage": ["de", "en", "tr"],
+      "nationality": { "@type": "Country", "name": "AT" }
+    }
+  ]
 }
 </script>
 
@@ -115,7 +129,7 @@
   "description": "Mobile Multiplayer-Snake mit MXR-Token-Belohnungen auf Solana. Von Vision GO.",
   "datePublished": "2025-03-26",
   "dateModified": "2026-04-18",
-  "author": { "@id": "https://visiongo.at/#organization" },
+  "author": [ { "@id": "https://visiongo.at/#mfg-person" }, { "@id": "https://visiongo.at/#organization" } ],
   "publisher": { "@id": "https://visiongo.at/#organization" },
   "mainEntityOfPage": "https://visiongo.at/projekte/snake-online.html",
   "image": "https://visiongo.at/assets/og-image.svg",

@@ -71,8 +71,15 @@ Disallow: /
 
 Sitemap: https://visiongo.at/sitemap.xml
 
+# LLM-readable summary (llmstxt.org standard)
+# https://visiongo.at/llms.txt           — concise directory of important pages
+# https://visiongo.at/llms-full.txt      — full markdown extraction of all pages
+
 # Blog RSS feed
 # https://visiongo.at/blog/feed.xml
 
-# Security disclosure
+# Security disclosure (RFC 9116)
 # https://visiongo.at/.well-known/security.txt
+
+# Team & stack credits
+# https://visiongo.at/humans.txt
